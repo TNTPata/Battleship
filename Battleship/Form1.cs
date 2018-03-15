@@ -14,15 +14,15 @@ namespace Battleship
 	{
 
 		//Init two gameboards that will hold the positions of the battleships
-		public static bool[,] playerOneGameboard = new bool[9, 9];
-		public static bool[,] playerTwoGameboard = new bool[9, 9];
+		public static bool[,] playerOneGameboard = new bool[10, 10];
+		public static bool[,] playerTwoGameboard = new bool[10, 10];
 
 		//Goes through both boards and sets all indexes to false.
 		static void ResetBoards()
 		{
 			for (int i = 0; i < 10; i++)
 			{
-				for (int j = 0; i < 10; j++)
+				for (int j = 0; j < 10; j++)
 				{
 					playerOneGameboard[i, j] = false;
 					playerTwoGameboard[i, j] = false;
