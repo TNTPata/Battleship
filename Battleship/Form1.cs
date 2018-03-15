@@ -8,21 +8,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Battleship
-{
-	public partial class Battleship1 : Form
-	{
+namespace Battleship {
+	public partial class Battleship : Form {
 		bool[,] playerOneGameboard = new bool[9,9];
 		bool[,] playerTwoGameboard = new bool[9,9];
 
-		public Battleship1()
+		static void ResetBoards()
 		{
+			for (int i = 0; i < 10; i++)
+			{
+				for (int j = 0; i < 10; j++)
+				{
+
+				}
+			}
+		}
+		public Battleship() {
 			InitializeComponent();
 		}
 
-		private void Form1_Load(object sender, EventArgs e)
+		private void Battleship_Load(object sender, EventArgs e)
 		{
-
+			
 		}
 	}
 }

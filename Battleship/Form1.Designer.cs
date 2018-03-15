@@ -1,6 +1,6 @@
 ﻿namespace Battleship
 {
-	partial class Battleship1
+	partial class Battleship
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -2062,7 +2062,7 @@
 			this.btn2Pos00.TabIndex = 0;
 			this.btn2Pos00.UseVisualStyleBackColor = true;
 			// 
-			// Battleship1
+			// Battleship
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2070,9 +2070,9 @@
 			this.Controls.Add(this.groupBox2);
 			this.Controls.Add(this.groupBox3);
 			this.Controls.Add(this.groupBox1);
-			this.Name = "Battleship1";
+			this.Name = "Battleship";
 			this.Text = "Battleship";
-			this.Load += new System.EventHandler(this.Form1_Load);
+			this.Load += new System.EventHandler(this.Battleship_Load);
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox2.ResumeLayout(false);
 			this.ResumeLayout(false);
