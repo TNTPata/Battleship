@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-	class ShipPlacer
+	public class Methods
 	{
 		///Some notes, please ignore...
 		///2x 3
@@ -15,6 +15,16 @@ namespace Battleship
 		///1x 4
 
 		Random rnd = new Random();
-
+		public static void ResetBoards()
+		{
+			for (int i = 0; i < 10; i++)
+			{
+				for (int j = 0; j < 10; j++)
+				{
+					Battleship.playerOneGameboard[i, j] = false;
+					Battleship.playerTwoGameboard[i, j] = false;
+				}
+			}
+		}
 	}
 }
