@@ -12,6 +12,9 @@ namespace Battleship
 {
 	public partial class Battleship1 : Form
 	{
+		bool[,] playerOneGameboard = new bool[9,9];
+		bool[,] playerTwoGameboard = new bool[9,9];
+
 		public Battleship1()
 		{
 			InitializeComponent();
