@@ -345,7 +345,7 @@
 			this.groupBox1.Controls.Add(this.btn1Pos20);
 			this.groupBox1.Controls.Add(this.btn1Pos10);
 			this.groupBox1.Controls.Add(this.btn1Pos00);
-			this.groupBox1.Location = new System.Drawing.Point(12, 12);
+			this.groupBox1.Location = new System.Drawing.Point(12, 13);
 			this.groupBox1.Name = "groupBox1";
 			this.groupBox1.Size = new System.Drawing.Size(419, 436);
 			this.groupBox1.TabIndex = 1;
@@ -1148,7 +1148,7 @@
 			// 
 			this.groupBox3.Location = new System.Drawing.Point(437, 13);
 			this.groupBox3.Name = "groupBox3";
-			this.groupBox3.Size = new System.Drawing.Size(241, 435);
+			this.groupBox3.Size = new System.Drawing.Size(241, 436);
 			this.groupBox3.TabIndex = 101;
 			this.groupBox3.TabStop = false;
 			this.groupBox3.Text = "Stats";
