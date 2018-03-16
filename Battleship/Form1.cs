@@ -17,8 +17,6 @@ namespace Battleship
 		public static bool[,] playerOneGameboard = new bool[10, 10];
 		public static bool[,] playerTwoGameboard = new bool[10, 10];
 
-		//Goes through both boards and sets all indexes to false.
-		
 		public Battleship()
 		{
 			InitializeComponent();
