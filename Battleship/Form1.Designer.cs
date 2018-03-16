@@ -237,6 +237,7 @@
 			// 
 			// btn1Pos00
 			// 
+			this.btn1Pos00.Enabled = false;
 			this.btn1Pos00.Location = new System.Drawing.Point(6, 21);
 			this.btn1Pos00.Name = "btn1Pos00";
 			this.btn1Pos00.Size = new System.Drawing.Size(35, 35);
@@ -354,6 +355,7 @@
 			// 
 			// btn1Pos99
 			// 
+			this.btn1Pos99.Enabled = false;
 			this.btn1Pos99.Location = new System.Drawing.Point(375, 390);
 			this.btn1Pos99.Name = "btn1Pos99";
 			this.btn1Pos99.Size = new System.Drawing.Size(35, 35);
@@ -362,6 +364,7 @@
 			// 
 			// btn1Pos89
 			// 
+			this.btn1Pos89.Enabled = false;
 			this.btn1Pos89.Location = new System.Drawing.Point(334, 390);
 			this.btn1Pos89.Name = "btn1Pos89";
 			this.btn1Pos89.Size = new System.Drawing.Size(35, 35);
@@ -370,6 +373,7 @@
 			// 
 			// btn1Pos79
 			// 
+			this.btn1Pos79.Enabled = false;
 			this.btn1Pos79.Location = new System.Drawing.Point(293, 390);
 			this.btn1Pos79.Name = "btn1Pos79";
 			this.btn1Pos79.Size = new System.Drawing.Size(35, 35);
@@ -378,6 +382,7 @@
 			// 
 			// btn1Pos69
 			// 
+			this.btn1Pos69.Enabled = false;
 			this.btn1Pos69.Location = new System.Drawing.Point(252, 390);
 			this.btn1Pos69.Name = "btn1Pos69";
 			this.btn1Pos69.Size = new System.Drawing.Size(35, 35);
@@ -386,6 +391,7 @@
 			// 
 			// btn1Pos59
 			// 
+			this.btn1Pos59.Enabled = false;
 			this.btn1Pos59.Location = new System.Drawing.Point(211, 390);
 			this.btn1Pos59.Name = "btn1Pos59";
 			this.btn1Pos59.Size = new System.Drawing.Size(35, 35);
@@ -394,6 +400,7 @@
 			// 
 			// btn1Pos49
 			// 
+			this.btn1Pos49.Enabled = false;
 			this.btn1Pos49.Location = new System.Drawing.Point(170, 390);
 			this.btn1Pos49.Name = "btn1Pos49";
 			this.btn1Pos49.Size = new System.Drawing.Size(35, 35);
@@ -402,6 +409,7 @@
 			// 
 			// btn1Pos39
 			// 
+			this.btn1Pos39.Enabled = false;
 			this.btn1Pos39.Location = new System.Drawing.Point(129, 390);
 			this.btn1Pos39.Name = "btn1Pos39";
 			this.btn1Pos39.Size = new System.Drawing.Size(35, 35);
@@ -410,6 +418,7 @@
 			// 
 			// btn1Pos29
 			// 
+			this.btn1Pos29.Enabled = false;
 			this.btn1Pos29.Location = new System.Drawing.Point(88, 390);
 			this.btn1Pos29.Name = "btn1Pos29";
 			this.btn1Pos29.Size = new System.Drawing.Size(35, 35);
@@ -418,6 +427,7 @@
 			// 
 			// btn1Pos19
 			// 
+			this.btn1Pos19.Enabled = false;
 			this.btn1Pos19.Location = new System.Drawing.Point(47, 390);
 			this.btn1Pos19.Name = "btn1Pos19";
 			this.btn1Pos19.Size = new System.Drawing.Size(35, 35);
@@ -426,6 +436,7 @@
 			// 
 			// btn1Pos09
 			// 
+			this.btn1Pos09.Enabled = false;
 			this.btn1Pos09.Location = new System.Drawing.Point(6, 390);
 			this.btn1Pos09.Name = "btn1Pos09";
 			this.btn1Pos09.Size = new System.Drawing.Size(35, 35);
@@ -434,6 +445,7 @@
 			// 
 			// btn1Pos98
 			// 
+			this.btn1Pos98.Enabled = false;
 			this.btn1Pos98.Location = new System.Drawing.Point(375, 349);
 			this.btn1Pos98.Name = "btn1Pos98";
 			this.btn1Pos98.Size = new System.Drawing.Size(35, 35);
@@ -442,6 +454,7 @@
 			// 
 			// btn1Pos88
 			// 
+			this.btn1Pos88.Enabled = false;
 			this.btn1Pos88.Location = new System.Drawing.Point(334, 349);
 			this.btn1Pos88.Name = "btn1Pos88";
 			this.btn1Pos88.Size = new System.Drawing.Size(35, 35);
@@ -450,6 +463,7 @@
 			// 
 			// btn1Pos78
 			// 
+			this.btn1Pos78.Enabled = false;
 			this.btn1Pos78.Location = new System.Drawing.Point(293, 349);
 			this.btn1Pos78.Name = "btn1Pos78";
 			this.btn1Pos78.Size = new System.Drawing.Size(35, 35);
@@ -458,6 +472,7 @@
 			// 
 			// btn1Pos68
 			// 
+			this.btn1Pos68.Enabled = false;
 			this.btn1Pos68.Location = new System.Drawing.Point(252, 349);
 			this.btn1Pos68.Name = "btn1Pos68";
 			this.btn1Pos68.Size = new System.Drawing.Size(35, 35);
@@ -466,6 +481,7 @@
 			// 
 			// btn1Pos58
 			// 
+			this.btn1Pos58.Enabled = false;
 			this.btn1Pos58.Location = new System.Drawing.Point(211, 349);
 			this.btn1Pos58.Name = "btn1Pos58";
 			this.btn1Pos58.Size = new System.Drawing.Size(35, 35);
@@ -474,6 +490,7 @@
 			// 
 			// btn1Pos48
 			// 
+			this.btn1Pos48.Enabled = false;
 			this.btn1Pos48.Location = new System.Drawing.Point(170, 349);
 			this.btn1Pos48.Name = "btn1Pos48";
 			this.btn1Pos48.Size = new System.Drawing.Size(35, 35);
@@ -482,6 +499,7 @@
 			// 
 			// btn1Pos38
 			// 
+			this.btn1Pos38.Enabled = false;
 			this.btn1Pos38.Location = new System.Drawing.Point(129, 349);
 			this.btn1Pos38.Name = "btn1Pos38";
 			this.btn1Pos38.Size = new System.Drawing.Size(35, 35);
@@ -490,6 +508,7 @@
 			// 
 			// btn1Pos28
 			// 
+			this.btn1Pos28.Enabled = false;
 			this.btn1Pos28.Location = new System.Drawing.Point(88, 349);
 			this.btn1Pos28.Name = "btn1Pos28";
 			this.btn1Pos28.Size = new System.Drawing.Size(35, 35);
@@ -498,6 +517,7 @@
 			// 
 			// btn1Pos18
 			// 
+			this.btn1Pos18.Enabled = false;
 			this.btn1Pos18.Location = new System.Drawing.Point(47, 349);
 			this.btn1Pos18.Name = "btn1Pos18";
 			this.btn1Pos18.Size = new System.Drawing.Size(35, 35);
@@ -506,6 +526,7 @@
 			// 
 			// btn1Pos08
 			// 
+			this.btn1Pos08.Enabled = false;
 			this.btn1Pos08.Location = new System.Drawing.Point(6, 349);
 			this.btn1Pos08.Name = "btn1Pos08";
 			this.btn1Pos08.Size = new System.Drawing.Size(35, 35);
@@ -514,6 +535,7 @@
 			// 
 			// btn1Pos97
 			// 
+			this.btn1Pos97.Enabled = false;
 			this.btn1Pos97.Location = new System.Drawing.Point(375, 308);
 			this.btn1Pos97.Name = "btn1Pos97";
 			this.btn1Pos97.Size = new System.Drawing.Size(35, 35);
@@ -522,6 +544,7 @@
 			// 
 			// btn1Pos87
 			// 
+			this.btn1Pos87.Enabled = false;
 			this.btn1Pos87.Location = new System.Drawing.Point(334, 308);
 			this.btn1Pos87.Name = "btn1Pos87";
 			this.btn1Pos87.Size = new System.Drawing.Size(35, 35);
@@ -530,6 +553,7 @@
 			// 
 			// btn1Pos77
 			// 
+			this.btn1Pos77.Enabled = false;
 			this.btn1Pos77.Location = new System.Drawing.Point(293, 308);
 			this.btn1Pos77.Name = "btn1Pos77";
 			this.btn1Pos77.Size = new System.Drawing.Size(35, 35);
@@ -538,6 +562,7 @@
 			// 
 			// btn1Pos67
 			// 
+			this.btn1Pos67.Enabled = false;
 			this.btn1Pos67.Location = new System.Drawing.Point(252, 308);
 			this.btn1Pos67.Name = "btn1Pos67";
 			this.btn1Pos67.Size = new System.Drawing.Size(35, 35);
@@ -546,6 +571,7 @@
 			// 
 			// btn1Pos57
 			// 
+			this.btn1Pos57.Enabled = false;
 			this.btn1Pos57.Location = new System.Drawing.Point(211, 308);
 			this.btn1Pos57.Name = "btn1Pos57";
 			this.btn1Pos57.Size = new System.Drawing.Size(35, 35);
@@ -554,6 +580,7 @@
 			// 
 			// btn1Pos47
 			// 
+			this.btn1Pos47.Enabled = false;
 			this.btn1Pos47.Location = new System.Drawing.Point(170, 308);
 			this.btn1Pos47.Name = "btn1Pos47";
 			this.btn1Pos47.Size = new System.Drawing.Size(35, 35);
@@ -562,6 +589,7 @@
 			// 
 			// btn1Pos37
 			// 
+			this.btn1Pos37.Enabled = false;
 			this.btn1Pos37.Location = new System.Drawing.Point(129, 308);
 			this.btn1Pos37.Name = "btn1Pos37";
 			this.btn1Pos37.Size = new System.Drawing.Size(35, 35);
@@ -570,6 +598,7 @@
 			// 
 			// btn1Pos27
 			// 
+			this.btn1Pos27.Enabled = false;
 			this.btn1Pos27.Location = new System.Drawing.Point(88, 308);
 			this.btn1Pos27.Name = "btn1Pos27";
 			this.btn1Pos27.Size = new System.Drawing.Size(35, 35);
@@ -578,6 +607,7 @@
 			// 
 			// btn1Pos17
 			// 
+			this.btn1Pos17.Enabled = false;
 			this.btn1Pos17.Location = new System.Drawing.Point(47, 308);
 			this.btn1Pos17.Name = "btn1Pos17";
 			this.btn1Pos17.Size = new System.Drawing.Size(35, 35);
@@ -586,6 +616,7 @@
 			// 
 			// btn1Pos07
 			// 
+			this.btn1Pos07.Enabled = false;
 			this.btn1Pos07.Location = new System.Drawing.Point(6, 308);
 			this.btn1Pos07.Name = "btn1Pos07";
 			this.btn1Pos07.Size = new System.Drawing.Size(35, 35);
@@ -594,6 +625,7 @@
 			// 
 			// btn1Pos96
 			// 
+			this.btn1Pos96.Enabled = false;
 			this.btn1Pos96.Location = new System.Drawing.Point(375, 267);
 			this.btn1Pos96.Name = "btn1Pos96";
 			this.btn1Pos96.Size = new System.Drawing.Size(35, 35);
@@ -602,6 +634,7 @@
 			// 
 			// btn1Pos86
 			// 
+			this.btn1Pos86.Enabled = false;
 			this.btn1Pos86.Location = new System.Drawing.Point(334, 267);
 			this.btn1Pos86.Name = "btn1Pos86";
 			this.btn1Pos86.Size = new System.Drawing.Size(35, 35);
@@ -610,6 +643,7 @@
 			// 
 			// btn1Pos76
 			// 
+			this.btn1Pos76.Enabled = false;
 			this.btn1Pos76.Location = new System.Drawing.Point(293, 267);
 			this.btn1Pos76.Name = "btn1Pos76";
 			this.btn1Pos76.Size = new System.Drawing.Size(35, 35);
@@ -618,6 +652,7 @@
 			// 
 			// btn1Pos66
 			// 
+			this.btn1Pos66.Enabled = false;
 			this.btn1Pos66.Location = new System.Drawing.Point(252, 267);
 			this.btn1Pos66.Name = "btn1Pos66";
 			this.btn1Pos66.Size = new System.Drawing.Size(35, 35);
@@ -626,6 +661,7 @@
 			// 
 			// btn1Pos56
 			// 
+			this.btn1Pos56.Enabled = false;
 			this.btn1Pos56.Location = new System.Drawing.Point(211, 267);
 			this.btn1Pos56.Name = "btn1Pos56";
 			this.btn1Pos56.Size = new System.Drawing.Size(35, 35);
@@ -634,6 +670,7 @@
 			// 
 			// btn1Pos46
 			// 
+			this.btn1Pos46.Enabled = false;
 			this.btn1Pos46.Location = new System.Drawing.Point(170, 267);
 			this.btn1Pos46.Name = "btn1Pos46";
 			this.btn1Pos46.Size = new System.Drawing.Size(35, 35);
@@ -642,6 +679,7 @@
 			// 
 			// btn1Pos36
 			// 
+			this.btn1Pos36.Enabled = false;
 			this.btn1Pos36.Location = new System.Drawing.Point(129, 267);
 			this.btn1Pos36.Name = "btn1Pos36";
 			this.btn1Pos36.Size = new System.Drawing.Size(35, 35);
@@ -650,6 +688,7 @@
 			// 
 			// btn1Pos26
 			// 
+			this.btn1Pos26.Enabled = false;
 			this.btn1Pos26.Location = new System.Drawing.Point(88, 267);
 			this.btn1Pos26.Name = "btn1Pos26";
 			this.btn1Pos26.Size = new System.Drawing.Size(35, 35);
@@ -658,6 +697,7 @@
 			// 
 			// btn1Pos16
 			// 
+			this.btn1Pos16.Enabled = false;
 			this.btn1Pos16.Location = new System.Drawing.Point(47, 267);
 			this.btn1Pos16.Name = "btn1Pos16";
 			this.btn1Pos16.Size = new System.Drawing.Size(35, 35);
@@ -666,6 +706,7 @@
 			// 
 			// btn1Pos06
 			// 
+			this.btn1Pos06.Enabled = false;
 			this.btn1Pos06.Location = new System.Drawing.Point(6, 267);
 			this.btn1Pos06.Name = "btn1Pos06";
 			this.btn1Pos06.Size = new System.Drawing.Size(35, 35);
@@ -674,6 +715,7 @@
 			// 
 			// btn1Pos95
 			// 
+			this.btn1Pos95.Enabled = false;
 			this.btn1Pos95.Location = new System.Drawing.Point(375, 226);
 			this.btn1Pos95.Name = "btn1Pos95";
 			this.btn1Pos95.Size = new System.Drawing.Size(35, 35);
@@ -682,6 +724,7 @@
 			// 
 			// btn1Pos85
 			// 
+			this.btn1Pos85.Enabled = false;
 			this.btn1Pos85.Location = new System.Drawing.Point(334, 226);
 			this.btn1Pos85.Name = "btn1Pos85";
 			this.btn1Pos85.Size = new System.Drawing.Size(35, 35);
@@ -690,6 +733,7 @@
 			// 
 			// btn1Pos75
 			// 
+			this.btn1Pos75.Enabled = false;
 			this.btn1Pos75.Location = new System.Drawing.Point(293, 226);
 			this.btn1Pos75.Name = "btn1Pos75";
 			this.btn1Pos75.Size = new System.Drawing.Size(35, 35);
@@ -698,6 +742,7 @@
 			// 
 			// btn1Pos65
 			// 
+			this.btn1Pos65.Enabled = false;
 			this.btn1Pos65.Location = new System.Drawing.Point(252, 226);
 			this.btn1Pos65.Name = "btn1Pos65";
 			this.btn1Pos65.Size = new System.Drawing.Size(35, 35);
@@ -706,6 +751,7 @@
 			// 
 			// btn1Pos55
 			// 
+			this.btn1Pos55.Enabled = false;
 			this.btn1Pos55.Location = new System.Drawing.Point(211, 226);
 			this.btn1Pos55.Name = "btn1Pos55";
 			this.btn1Pos55.Size = new System.Drawing.Size(35, 35);
@@ -714,6 +760,7 @@
 			// 
 			// btn1Pos45
 			// 
+			this.btn1Pos45.Enabled = false;
 			this.btn1Pos45.Location = new System.Drawing.Point(170, 226);
 			this.btn1Pos45.Name = "btn1Pos45";
 			this.btn1Pos45.Size = new System.Drawing.Size(35, 35);
@@ -722,6 +769,7 @@
 			// 
 			// btn1Pos35
 			// 
+			this.btn1Pos35.Enabled = false;
 			this.btn1Pos35.Location = new System.Drawing.Point(129, 226);
 			this.btn1Pos35.Name = "btn1Pos35";
 			this.btn1Pos35.Size = new System.Drawing.Size(35, 35);
@@ -730,6 +778,7 @@
 			// 
 			// btn1Pos25
 			// 
+			this.btn1Pos25.Enabled = false;
 			this.btn1Pos25.Location = new System.Drawing.Point(88, 226);
 			this.btn1Pos25.Name = "btn1Pos25";
 			this.btn1Pos25.Size = new System.Drawing.Size(35, 35);
@@ -738,6 +787,7 @@
 			// 
 			// btn1Pos15
 			// 
+			this.btn1Pos15.Enabled = false;
 			this.btn1Pos15.Location = new System.Drawing.Point(47, 226);
 			this.btn1Pos15.Name = "btn1Pos15";
 			this.btn1Pos15.Size = new System.Drawing.Size(35, 35);
@@ -746,6 +796,7 @@
 			// 
 			// btn1Pos05
 			// 
+			this.btn1Pos05.Enabled = false;
 			this.btn1Pos05.Location = new System.Drawing.Point(6, 226);
 			this.btn1Pos05.Name = "btn1Pos05";
 			this.btn1Pos05.Size = new System.Drawing.Size(35, 35);
@@ -754,6 +805,7 @@
 			// 
 			// btn1Pos94
 			// 
+			this.btn1Pos94.Enabled = false;
 			this.btn1Pos94.Location = new System.Drawing.Point(375, 185);
 			this.btn1Pos94.Name = "btn1Pos94";
 			this.btn1Pos94.Size = new System.Drawing.Size(35, 35);
@@ -762,6 +814,7 @@
 			// 
 			// btn1Pos84
 			// 
+			this.btn1Pos84.Enabled = false;
 			this.btn1Pos84.Location = new System.Drawing.Point(334, 185);
 			this.btn1Pos84.Name = "btn1Pos84";
 			this.btn1Pos84.Size = new System.Drawing.Size(35, 35);
@@ -770,6 +823,7 @@
 			// 
 			// btn1Pos74
 			// 
+			this.btn1Pos74.Enabled = false;
 			this.btn1Pos74.Location = new System.Drawing.Point(293, 185);
 			this.btn1Pos74.Name = "btn1Pos74";
 			this.btn1Pos74.Size = new System.Drawing.Size(35, 35);
@@ -778,6 +832,7 @@
 			// 
 			// btn1Pos64
 			// 
+			this.btn1Pos64.Enabled = false;
 			this.btn1Pos64.Location = new System.Drawing.Point(252, 185);
 			this.btn1Pos64.Name = "btn1Pos64";
 			this.btn1Pos64.Size = new System.Drawing.Size(35, 35);
@@ -786,6 +841,7 @@
 			// 
 			// btn1Pos54
 			// 
+			this.btn1Pos54.Enabled = false;
 			this.btn1Pos54.Location = new System.Drawing.Point(211, 185);
 			this.btn1Pos54.Name = "btn1Pos54";
 			this.btn1Pos54.Size = new System.Drawing.Size(35, 35);
@@ -794,6 +850,7 @@
 			// 
 			// btn1Pos44
 			// 
+			this.btn1Pos44.Enabled = false;
 			this.btn1Pos44.Location = new System.Drawing.Point(170, 185);
 			this.btn1Pos44.Name = "btn1Pos44";
 			this.btn1Pos44.Size = new System.Drawing.Size(35, 35);
@@ -802,6 +859,7 @@
 			// 
 			// btn1Pos34
 			// 
+			this.btn1Pos34.Enabled = false;
 			this.btn1Pos34.Location = new System.Drawing.Point(129, 185);
 			this.btn1Pos34.Name = "btn1Pos34";
 			this.btn1Pos34.Size = new System.Drawing.Size(35, 35);
@@ -810,6 +868,7 @@
 			// 
 			// btn1Pos24
 			// 
+			this.btn1Pos24.Enabled = false;
 			this.btn1Pos24.Location = new System.Drawing.Point(88, 185);
 			this.btn1Pos24.Name = "btn1Pos24";
 			this.btn1Pos24.Size = new System.Drawing.Size(35, 35);
@@ -818,6 +877,7 @@
 			// 
 			// btn1Pos14
 			// 
+			this.btn1Pos14.Enabled = false;
 			this.btn1Pos14.Location = new System.Drawing.Point(47, 185);
 			this.btn1Pos14.Name = "btn1Pos14";
 			this.btn1Pos14.Size = new System.Drawing.Size(35, 35);
@@ -826,6 +886,7 @@
 			// 
 			// btn1Pos04
 			// 
+			this.btn1Pos04.Enabled = false;
 			this.btn1Pos04.Location = new System.Drawing.Point(6, 185);
 			this.btn1Pos04.Name = "btn1Pos04";
 			this.btn1Pos04.Size = new System.Drawing.Size(35, 35);
@@ -834,6 +895,7 @@
 			// 
 			// btn1Pos93
 			// 
+			this.btn1Pos93.Enabled = false;
 			this.btn1Pos93.Location = new System.Drawing.Point(375, 144);
 			this.btn1Pos93.Name = "btn1Pos93";
 			this.btn1Pos93.Size = new System.Drawing.Size(35, 35);
@@ -842,6 +904,7 @@
 			// 
 			// btn1Pos83
 			// 
+			this.btn1Pos83.Enabled = false;
 			this.btn1Pos83.Location = new System.Drawing.Point(334, 144);
 			this.btn1Pos83.Name = "btn1Pos83";
 			this.btn1Pos83.Size = new System.Drawing.Size(35, 35);
@@ -850,6 +913,7 @@
 			// 
 			// btn1Pos73
 			// 
+			this.btn1Pos73.Enabled = false;
 			this.btn1Pos73.Location = new System.Drawing.Point(293, 144);
 			this.btn1Pos73.Name = "btn1Pos73";
 			this.btn1Pos73.Size = new System.Drawing.Size(35, 35);
@@ -858,6 +922,7 @@
 			// 
 			// btn1Pos63
 			// 
+			this.btn1Pos63.Enabled = false;
 			this.btn1Pos63.Location = new System.Drawing.Point(252, 144);
 			this.btn1Pos63.Name = "btn1Pos63";
 			this.btn1Pos63.Size = new System.Drawing.Size(35, 35);
@@ -866,6 +931,7 @@
 			// 
 			// btn1Pos53
 			// 
+			this.btn1Pos53.Enabled = false;
 			this.btn1Pos53.Location = new System.Drawing.Point(211, 144);
 			this.btn1Pos53.Name = "btn1Pos53";
 			this.btn1Pos53.Size = new System.Drawing.Size(35, 35);
@@ -874,6 +940,7 @@
 			// 
 			// btn1Pos43
 			// 
+			this.btn1Pos43.Enabled = false;
 			this.btn1Pos43.Location = new System.Drawing.Point(170, 144);
 			this.btn1Pos43.Name = "btn1Pos43";
 			this.btn1Pos43.Size = new System.Drawing.Size(35, 35);
@@ -882,6 +949,7 @@
 			// 
 			// btn1Pos33
 			// 
+			this.btn1Pos33.Enabled = false;
 			this.btn1Pos33.Location = new System.Drawing.Point(129, 144);
 			this.btn1Pos33.Name = "btn1Pos33";
 			this.btn1Pos33.Size = new System.Drawing.Size(35, 35);
@@ -890,6 +958,7 @@
 			// 
 			// btn1Pos23
 			// 
+			this.btn1Pos23.Enabled = false;
 			this.btn1Pos23.Location = new System.Drawing.Point(88, 144);
 			this.btn1Pos23.Name = "btn1Pos23";
 			this.btn1Pos23.Size = new System.Drawing.Size(35, 35);
@@ -898,6 +967,7 @@
 			// 
 			// btn1Pos13
 			// 
+			this.btn1Pos13.Enabled = false;
 			this.btn1Pos13.Location = new System.Drawing.Point(47, 144);
 			this.btn1Pos13.Name = "btn1Pos13";
 			this.btn1Pos13.Size = new System.Drawing.Size(35, 35);
@@ -906,6 +976,7 @@
 			// 
 			// btn1Pos03
 			// 
+			this.btn1Pos03.Enabled = false;
 			this.btn1Pos03.Location = new System.Drawing.Point(6, 144);
 			this.btn1Pos03.Name = "btn1Pos03";
 			this.btn1Pos03.Size = new System.Drawing.Size(35, 35);
@@ -914,6 +985,7 @@
 			// 
 			// btn1Pos92
 			// 
+			this.btn1Pos92.Enabled = false;
 			this.btn1Pos92.Location = new System.Drawing.Point(375, 103);
 			this.btn1Pos92.Name = "btn1Pos92";
 			this.btn1Pos92.Size = new System.Drawing.Size(35, 35);
@@ -922,6 +994,7 @@
 			// 
 			// btn1Pos82
 			// 
+			this.btn1Pos82.Enabled = false;
 			this.btn1Pos82.Location = new System.Drawing.Point(334, 103);
 			this.btn1Pos82.Name = "btn1Pos82";
 			this.btn1Pos82.Size = new System.Drawing.Size(35, 35);
@@ -930,6 +1003,7 @@
 			// 
 			// btn1Pos72
 			// 
+			this.btn1Pos72.Enabled = false;
 			this.btn1Pos72.Location = new System.Drawing.Point(293, 103);
 			this.btn1Pos72.Name = "btn1Pos72";
 			this.btn1Pos72.Size = new System.Drawing.Size(35, 35);
@@ -938,6 +1012,7 @@
 			// 
 			// btn1Pos62
 			// 
+			this.btn1Pos62.Enabled = false;
 			this.btn1Pos62.Location = new System.Drawing.Point(252, 103);
 			this.btn1Pos62.Name = "btn1Pos62";
 			this.btn1Pos62.Size = new System.Drawing.Size(35, 35);
@@ -946,6 +1021,7 @@
 			// 
 			// btn1Pos52
 			// 
+			this.btn1Pos52.Enabled = false;
 			this.btn1Pos52.Location = new System.Drawing.Point(211, 103);
 			this.btn1Pos52.Name = "btn1Pos52";
 			this.btn1Pos52.Size = new System.Drawing.Size(35, 35);
@@ -954,6 +1030,7 @@
 			// 
 			// btn1Pos42
 			// 
+			this.btn1Pos42.Enabled = false;
 			this.btn1Pos42.Location = new System.Drawing.Point(170, 103);
 			this.btn1Pos42.Name = "btn1Pos42";
 			this.btn1Pos42.Size = new System.Drawing.Size(35, 35);
@@ -962,6 +1039,7 @@
 			// 
 			// btn1Pos32
 			// 
+			this.btn1Pos32.Enabled = false;
 			this.btn1Pos32.Location = new System.Drawing.Point(129, 103);
 			this.btn1Pos32.Name = "btn1Pos32";
 			this.btn1Pos32.Size = new System.Drawing.Size(35, 35);
@@ -970,6 +1048,7 @@
 			// 
 			// btn1Pos22
 			// 
+			this.btn1Pos22.Enabled = false;
 			this.btn1Pos22.Location = new System.Drawing.Point(88, 103);
 			this.btn1Pos22.Name = "btn1Pos22";
 			this.btn1Pos22.Size = new System.Drawing.Size(35, 35);
@@ -978,6 +1057,7 @@
 			// 
 			// btn1Pos12
 			// 
+			this.btn1Pos12.Enabled = false;
 			this.btn1Pos12.Location = new System.Drawing.Point(47, 103);
 			this.btn1Pos12.Name = "btn1Pos12";
 			this.btn1Pos12.Size = new System.Drawing.Size(35, 35);
@@ -986,6 +1066,7 @@
 			// 
 			// btn1Pos02
 			// 
+			this.btn1Pos02.Enabled = false;
 			this.btn1Pos02.Location = new System.Drawing.Point(6, 103);
 			this.btn1Pos02.Name = "btn1Pos02";
 			this.btn1Pos02.Size = new System.Drawing.Size(35, 35);
@@ -994,6 +1075,7 @@
 			// 
 			// btn1Pos91
 			// 
+			this.btn1Pos91.Enabled = false;
 			this.btn1Pos91.Location = new System.Drawing.Point(375, 62);
 			this.btn1Pos91.Name = "btn1Pos91";
 			this.btn1Pos91.Size = new System.Drawing.Size(35, 35);
@@ -1002,6 +1084,7 @@
 			// 
 			// btn1Pos81
 			// 
+			this.btn1Pos81.Enabled = false;
 			this.btn1Pos81.Location = new System.Drawing.Point(334, 62);
 			this.btn1Pos81.Name = "btn1Pos81";
 			this.btn1Pos81.Size = new System.Drawing.Size(35, 35);
@@ -1010,6 +1093,7 @@
 			// 
 			// btn1Pos71
 			// 
+			this.btn1Pos71.Enabled = false;
 			this.btn1Pos71.Location = new System.Drawing.Point(293, 62);
 			this.btn1Pos71.Name = "btn1Pos71";
 			this.btn1Pos71.Size = new System.Drawing.Size(35, 35);
@@ -1018,6 +1102,7 @@
 			// 
 			// btn1Pos61
 			// 
+			this.btn1Pos61.Enabled = false;
 			this.btn1Pos61.Location = new System.Drawing.Point(252, 62);
 			this.btn1Pos61.Name = "btn1Pos61";
 			this.btn1Pos61.Size = new System.Drawing.Size(35, 35);
@@ -1026,6 +1111,7 @@
 			// 
 			// btn1Pos51
 			// 
+			this.btn1Pos51.Enabled = false;
 			this.btn1Pos51.Location = new System.Drawing.Point(211, 62);
 			this.btn1Pos51.Name = "btn1Pos51";
 			this.btn1Pos51.Size = new System.Drawing.Size(35, 35);
@@ -1034,6 +1120,7 @@
 			// 
 			// btn1Pos41
 			// 
+			this.btn1Pos41.Enabled = false;
 			this.btn1Pos41.Location = new System.Drawing.Point(170, 62);
 			this.btn1Pos41.Name = "btn1Pos41";
 			this.btn1Pos41.Size = new System.Drawing.Size(35, 35);
@@ -1042,6 +1129,7 @@
 			// 
 			// btn1Pos31
 			// 
+			this.btn1Pos31.Enabled = false;
 			this.btn1Pos31.Location = new System.Drawing.Point(129, 62);
 			this.btn1Pos31.Name = "btn1Pos31";
 			this.btn1Pos31.Size = new System.Drawing.Size(35, 35);
@@ -1050,6 +1138,7 @@
 			// 
 			// btn1Pos21
 			// 
+			this.btn1Pos21.Enabled = false;
 			this.btn1Pos21.Location = new System.Drawing.Point(88, 62);
 			this.btn1Pos21.Name = "btn1Pos21";
 			this.btn1Pos21.Size = new System.Drawing.Size(35, 35);
@@ -1058,6 +1147,7 @@
 			// 
 			// btn1Pos11
 			// 
+			this.btn1Pos11.Enabled = false;
 			this.btn1Pos11.Location = new System.Drawing.Point(47, 62);
 			this.btn1Pos11.Name = "btn1Pos11";
 			this.btn1Pos11.Size = new System.Drawing.Size(35, 35);
@@ -1066,6 +1156,7 @@
 			// 
 			// btn1Pos01
 			// 
+			this.btn1Pos01.Enabled = false;
 			this.btn1Pos01.Location = new System.Drawing.Point(6, 62);
 			this.btn1Pos01.Name = "btn1Pos01";
 			this.btn1Pos01.Size = new System.Drawing.Size(35, 35);
@@ -1074,6 +1165,7 @@
 			// 
 			// btn1Pos90
 			// 
+			this.btn1Pos90.Enabled = false;
 			this.btn1Pos90.Location = new System.Drawing.Point(375, 21);
 			this.btn1Pos90.Name = "btn1Pos90";
 			this.btn1Pos90.Size = new System.Drawing.Size(35, 35);
@@ -1082,6 +1174,7 @@
 			// 
 			// btn1Pos80
 			// 
+			this.btn1Pos80.Enabled = false;
 			this.btn1Pos80.Location = new System.Drawing.Point(334, 21);
 			this.btn1Pos80.Name = "btn1Pos80";
 			this.btn1Pos80.Size = new System.Drawing.Size(35, 35);
@@ -1090,6 +1183,7 @@
 			// 
 			// btn1Pos70
 			// 
+			this.btn1Pos70.Enabled = false;
 			this.btn1Pos70.Location = new System.Drawing.Point(293, 21);
 			this.btn1Pos70.Name = "btn1Pos70";
 			this.btn1Pos70.Size = new System.Drawing.Size(35, 35);
@@ -1098,6 +1192,7 @@
 			// 
 			// btn1Pos60
 			// 
+			this.btn1Pos60.Enabled = false;
 			this.btn1Pos60.Location = new System.Drawing.Point(252, 21);
 			this.btn1Pos60.Name = "btn1Pos60";
 			this.btn1Pos60.Size = new System.Drawing.Size(35, 35);
@@ -1106,6 +1201,7 @@
 			// 
 			// btn1Pos50
 			// 
+			this.btn1Pos50.Enabled = false;
 			this.btn1Pos50.Location = new System.Drawing.Point(211, 21);
 			this.btn1Pos50.Name = "btn1Pos50";
 			this.btn1Pos50.Size = new System.Drawing.Size(35, 35);
@@ -1114,6 +1210,7 @@
 			// 
 			// btn1Pos40
 			// 
+			this.btn1Pos40.Enabled = false;
 			this.btn1Pos40.Location = new System.Drawing.Point(170, 21);
 			this.btn1Pos40.Name = "btn1Pos40";
 			this.btn1Pos40.Size = new System.Drawing.Size(35, 35);
@@ -1122,6 +1219,7 @@
 			// 
 			// btn1Pos30
 			// 
+			this.btn1Pos30.Enabled = false;
 			this.btn1Pos30.Location = new System.Drawing.Point(129, 21);
 			this.btn1Pos30.Name = "btn1Pos30";
 			this.btn1Pos30.Size = new System.Drawing.Size(35, 35);
@@ -1130,6 +1228,7 @@
 			// 
 			// btn1Pos20
 			// 
+			this.btn1Pos20.Enabled = false;
 			this.btn1Pos20.Location = new System.Drawing.Point(88, 21);
 			this.btn1Pos20.Name = "btn1Pos20";
 			this.btn1Pos20.Size = new System.Drawing.Size(35, 35);
@@ -1138,6 +1237,7 @@
 			// 
 			// btn1Pos10
 			// 
+			this.btn1Pos10.Enabled = false;
 			this.btn1Pos10.Location = new System.Drawing.Point(47, 21);
 			this.btn1Pos10.Name = "btn1Pos10";
 			this.btn1Pos10.Size = new System.Drawing.Size(35, 35);
@@ -1269,6 +1369,7 @@
 			this.btn2Pos99.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos99.TabIndex = 99;
 			this.btn2Pos99.UseVisualStyleBackColor = true;
+			this.btn2Pos99.Click += new System.EventHandler(this.btn2Pos99_Click);
 			// 
 			// btn2Pos89
 			// 
@@ -1277,6 +1378,7 @@
 			this.btn2Pos89.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos89.TabIndex = 98;
 			this.btn2Pos89.UseVisualStyleBackColor = true;
+			this.btn2Pos89.Click += new System.EventHandler(this.btn2Pos89_Click);
 			// 
 			// btn2Pos79
 			// 
@@ -1285,6 +1387,7 @@
 			this.btn2Pos79.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos79.TabIndex = 97;
 			this.btn2Pos79.UseVisualStyleBackColor = true;
+			this.btn2Pos79.Click += new System.EventHandler(this.btn2Pos79_Click);
 			// 
 			// btn2Pos69
 			// 
@@ -1293,6 +1396,7 @@
 			this.btn2Pos69.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos69.TabIndex = 96;
 			this.btn2Pos69.UseVisualStyleBackColor = true;
+			this.btn2Pos69.Click += new System.EventHandler(this.btn2Pos69_Click);
 			// 
 			// btn2Pos59
 			// 
@@ -1301,6 +1405,7 @@
 			this.btn2Pos59.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos59.TabIndex = 95;
 			this.btn2Pos59.UseVisualStyleBackColor = true;
+			this.btn2Pos59.Click += new System.EventHandler(this.btn2Pos59_Click);
 			// 
 			// btn2Pos49
 			// 
@@ -1309,6 +1414,7 @@
 			this.btn2Pos49.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos49.TabIndex = 94;
 			this.btn2Pos49.UseVisualStyleBackColor = true;
+			this.btn2Pos49.Click += new System.EventHandler(this.btn2Pos49_Click);
 			// 
 			// btn2Pos39
 			// 
@@ -1317,6 +1423,7 @@
 			this.btn2Pos39.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos39.TabIndex = 93;
 			this.btn2Pos39.UseVisualStyleBackColor = true;
+			this.btn2Pos39.Click += new System.EventHandler(this.btn2Pos39_Click);
 			// 
 			// btn2Pos29
 			// 
@@ -1325,6 +1432,7 @@
 			this.btn2Pos29.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos29.TabIndex = 92;
 			this.btn2Pos29.UseVisualStyleBackColor = true;
+			this.btn2Pos29.Click += new System.EventHandler(this.btn2Pos29_Click);
 			// 
 			// btn2Pos19
 			// 
@@ -1333,6 +1441,7 @@
 			this.btn2Pos19.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos19.TabIndex = 91;
 			this.btn2Pos19.UseVisualStyleBackColor = true;
+			this.btn2Pos19.Click += new System.EventHandler(this.btn2Pos19_Click);
 			// 
 			// btn2Pos09
 			// 
@@ -1341,6 +1450,7 @@
 			this.btn2Pos09.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos09.TabIndex = 90;
 			this.btn2Pos09.UseVisualStyleBackColor = true;
+			this.btn2Pos09.Click += new System.EventHandler(this.btn2Pos09_Click);
 			// 
 			// btn2Pos98
 			// 
@@ -1349,6 +1459,7 @@
 			this.btn2Pos98.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos98.TabIndex = 89;
 			this.btn2Pos98.UseVisualStyleBackColor = true;
+			this.btn2Pos98.Click += new System.EventHandler(this.btn2Pos98_Click);
 			// 
 			// btn2Pos88
 			// 
@@ -1357,6 +1468,7 @@
 			this.btn2Pos88.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos88.TabIndex = 88;
 			this.btn2Pos88.UseVisualStyleBackColor = true;
+			this.btn2Pos88.Click += new System.EventHandler(this.btn2Pos88_Click);
 			// 
 			// btn2Pos78
 			// 
@@ -1365,6 +1477,7 @@
 			this.btn2Pos78.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos78.TabIndex = 87;
 			this.btn2Pos78.UseVisualStyleBackColor = true;
+			this.btn2Pos78.Click += new System.EventHandler(this.btn2Pos78_Click);
 			// 
 			// btn2Pos68
 			// 
@@ -1373,6 +1486,7 @@
 			this.btn2Pos68.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos68.TabIndex = 86;
 			this.btn2Pos68.UseVisualStyleBackColor = true;
+			this.btn2Pos68.Click += new System.EventHandler(this.btn2Pos68_Click);
 			// 
 			// btn2Pos58
 			// 
@@ -1381,6 +1495,7 @@
 			this.btn2Pos58.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos58.TabIndex = 85;
 			this.btn2Pos58.UseVisualStyleBackColor = true;
+			this.btn2Pos58.Click += new System.EventHandler(this.btn2Pos58_Click);
 			// 
 			// btn2Pos48
 			// 
@@ -1389,6 +1504,7 @@
 			this.btn2Pos48.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos48.TabIndex = 84;
 			this.btn2Pos48.UseVisualStyleBackColor = true;
+			this.btn2Pos48.Click += new System.EventHandler(this.btn2Pos48_Click);
 			// 
 			// btn2Pos38
 			// 
@@ -1397,6 +1513,7 @@
 			this.btn2Pos38.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos38.TabIndex = 83;
 			this.btn2Pos38.UseVisualStyleBackColor = true;
+			this.btn2Pos38.Click += new System.EventHandler(this.btn2Pos38_Click);
 			// 
 			// btn2Pos28
 			// 
@@ -1405,6 +1522,7 @@
 			this.btn2Pos28.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos28.TabIndex = 82;
 			this.btn2Pos28.UseVisualStyleBackColor = true;
+			this.btn2Pos28.Click += new System.EventHandler(this.btn2Pos28_Click);
 			// 
 			// btn2Pos18
 			// 
@@ -1413,6 +1531,7 @@
 			this.btn2Pos18.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos18.TabIndex = 81;
 			this.btn2Pos18.UseVisualStyleBackColor = true;
+			this.btn2Pos18.Click += new System.EventHandler(this.btn2Pos18_Click);
 			// 
 			// btn2Pos08
 			// 
@@ -1421,6 +1540,7 @@
 			this.btn2Pos08.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos08.TabIndex = 80;
 			this.btn2Pos08.UseVisualStyleBackColor = true;
+			this.btn2Pos08.Click += new System.EventHandler(this.btn2Pos08_Click);
 			// 
 			// btn2Pos97
 			// 
@@ -1429,6 +1549,7 @@
 			this.btn2Pos97.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos97.TabIndex = 79;
 			this.btn2Pos97.UseVisualStyleBackColor = true;
+			this.btn2Pos97.Click += new System.EventHandler(this.btn2Pos97_Click);
 			// 
 			// btn2Pos87
 			// 
@@ -1437,6 +1558,7 @@
 			this.btn2Pos87.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos87.TabIndex = 78;
 			this.btn2Pos87.UseVisualStyleBackColor = true;
+			this.btn2Pos87.Click += new System.EventHandler(this.btn2Pos87_Click);
 			// 
 			// btn2Pos77
 			// 
@@ -1445,6 +1567,7 @@
 			this.btn2Pos77.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos77.TabIndex = 77;
 			this.btn2Pos77.UseVisualStyleBackColor = true;
+			this.btn2Pos77.Click += new System.EventHandler(this.btn2Pos77_Click);
 			// 
 			// btn2Pos67
 			// 
@@ -1453,6 +1576,7 @@
 			this.btn2Pos67.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos67.TabIndex = 76;
 			this.btn2Pos67.UseVisualStyleBackColor = true;
+			this.btn2Pos67.Click += new System.EventHandler(this.btn2Pos67_Click);
 			// 
 			// btn2Pos57
 			// 
@@ -1461,6 +1585,7 @@
 			this.btn2Pos57.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos57.TabIndex = 75;
 			this.btn2Pos57.UseVisualStyleBackColor = true;
+			this.btn2Pos57.Click += new System.EventHandler(this.btn2Pos57_Click);
 			// 
 			// btn2Pos47
 			// 
@@ -1469,6 +1594,7 @@
 			this.btn2Pos47.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos47.TabIndex = 74;
 			this.btn2Pos47.UseVisualStyleBackColor = true;
+			this.btn2Pos47.Click += new System.EventHandler(this.btn2Pos47_Click);
 			// 
 			// btn2Pos37
 			// 
@@ -1477,6 +1603,7 @@
 			this.btn2Pos37.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos37.TabIndex = 73;
 			this.btn2Pos37.UseVisualStyleBackColor = true;
+			this.btn2Pos37.Click += new System.EventHandler(this.btn2Pos37_Click);
 			// 
 			// btn2Pos27
 			// 
@@ -1485,6 +1612,7 @@
 			this.btn2Pos27.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos27.TabIndex = 72;
 			this.btn2Pos27.UseVisualStyleBackColor = true;
+			this.btn2Pos27.Click += new System.EventHandler(this.btn2Pos27_Click);
 			// 
 			// btn2Pos17
 			// 
@@ -1493,6 +1621,7 @@
 			this.btn2Pos17.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos17.TabIndex = 71;
 			this.btn2Pos17.UseVisualStyleBackColor = true;
+			this.btn2Pos17.Click += new System.EventHandler(this.btn2Pos17_Click);
 			// 
 			// btn2Pos07
 			// 
@@ -1501,6 +1630,7 @@
 			this.btn2Pos07.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos07.TabIndex = 70;
 			this.btn2Pos07.UseVisualStyleBackColor = true;
+			this.btn2Pos07.Click += new System.EventHandler(this.btn2Pos07_Click);
 			// 
 			// btn2Pos96
 			// 
@@ -1509,6 +1639,7 @@
 			this.btn2Pos96.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos96.TabIndex = 69;
 			this.btn2Pos96.UseVisualStyleBackColor = true;
+			this.btn2Pos96.Click += new System.EventHandler(this.btn2Pos96_Click);
 			// 
 			// btn2Pos86
 			// 
@@ -1517,6 +1648,7 @@
 			this.btn2Pos86.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos86.TabIndex = 68;
 			this.btn2Pos86.UseVisualStyleBackColor = true;
+			this.btn2Pos86.Click += new System.EventHandler(this.btn2Pos86_Click);
 			// 
 			// btn2Pos76
 			// 
@@ -1525,6 +1657,7 @@
 			this.btn2Pos76.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos76.TabIndex = 67;
 			this.btn2Pos76.UseVisualStyleBackColor = true;
+			this.btn2Pos76.Click += new System.EventHandler(this.btn2Pos76_Click);
 			// 
 			// btn2Pos66
 			// 
@@ -1533,6 +1666,7 @@
 			this.btn2Pos66.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos66.TabIndex = 66;
 			this.btn2Pos66.UseVisualStyleBackColor = true;
+			this.btn2Pos66.Click += new System.EventHandler(this.btn2Pos66_Click);
 			// 
 			// btn2Pos56
 			// 
@@ -1541,6 +1675,7 @@
 			this.btn2Pos56.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos56.TabIndex = 65;
 			this.btn2Pos56.UseVisualStyleBackColor = true;
+			this.btn2Pos56.Click += new System.EventHandler(this.btn2Pos56_Click);
 			// 
 			// btn2Pos46
 			// 
@@ -1549,6 +1684,7 @@
 			this.btn2Pos46.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos46.TabIndex = 64;
 			this.btn2Pos46.UseVisualStyleBackColor = true;
+			this.btn2Pos46.Click += new System.EventHandler(this.btn2Pos46_Click);
 			// 
 			// btn2Pos36
 			// 
@@ -1557,6 +1693,7 @@
 			this.btn2Pos36.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos36.TabIndex = 63;
 			this.btn2Pos36.UseVisualStyleBackColor = true;
+			this.btn2Pos36.Click += new System.EventHandler(this.btn2Pos36_Click);
 			// 
 			// btn2Pos26
 			// 
@@ -1565,6 +1702,7 @@
 			this.btn2Pos26.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos26.TabIndex = 62;
 			this.btn2Pos26.UseVisualStyleBackColor = true;
+			this.btn2Pos26.Click += new System.EventHandler(this.btn2Pos26_Click);
 			// 
 			// btn2Pos16
 			// 
@@ -1573,6 +1711,7 @@
 			this.btn2Pos16.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos16.TabIndex = 61;
 			this.btn2Pos16.UseVisualStyleBackColor = true;
+			this.btn2Pos16.Click += new System.EventHandler(this.btn2Pos16_Click);
 			// 
 			// btn2Pos06
 			// 
@@ -1581,6 +1720,7 @@
 			this.btn2Pos06.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos06.TabIndex = 60;
 			this.btn2Pos06.UseVisualStyleBackColor = true;
+			this.btn2Pos06.Click += new System.EventHandler(this.btn2Pos06_Click);
 			// 
 			// btn2Pos95
 			// 
@@ -1589,6 +1729,7 @@
 			this.btn2Pos95.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos95.TabIndex = 59;
 			this.btn2Pos95.UseVisualStyleBackColor = true;
+			this.btn2Pos95.Click += new System.EventHandler(this.btn2Pos95_Click);
 			// 
 			// btn2Pos85
 			// 
@@ -1597,6 +1738,7 @@
 			this.btn2Pos85.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos85.TabIndex = 58;
 			this.btn2Pos85.UseVisualStyleBackColor = true;
+			this.btn2Pos85.Click += new System.EventHandler(this.btn2Pos85_Click);
 			// 
 			// btn2Pos75
 			// 
@@ -1605,6 +1747,7 @@
 			this.btn2Pos75.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos75.TabIndex = 57;
 			this.btn2Pos75.UseVisualStyleBackColor = true;
+			this.btn2Pos75.Click += new System.EventHandler(this.btn2Pos75_Click);
 			// 
 			// btn2Pos65
 			// 
@@ -1613,6 +1756,7 @@
 			this.btn2Pos65.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos65.TabIndex = 56;
 			this.btn2Pos65.UseVisualStyleBackColor = true;
+			this.btn2Pos65.Click += new System.EventHandler(this.btn2Pos65_Click);
 			// 
 			// btn2Pos55
 			// 
@@ -1621,6 +1765,7 @@
 			this.btn2Pos55.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos55.TabIndex = 55;
 			this.btn2Pos55.UseVisualStyleBackColor = true;
+			this.btn2Pos55.Click += new System.EventHandler(this.btn2Pos55_Click);
 			// 
 			// btn2Pos45
 			// 
@@ -1629,6 +1774,7 @@
 			this.btn2Pos45.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos45.TabIndex = 54;
 			this.btn2Pos45.UseVisualStyleBackColor = true;
+			this.btn2Pos45.Click += new System.EventHandler(this.btn2Pos45_Click);
 			// 
 			// btn2Pos35
 			// 
@@ -1637,6 +1783,7 @@
 			this.btn2Pos35.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos35.TabIndex = 53;
 			this.btn2Pos35.UseVisualStyleBackColor = true;
+			this.btn2Pos35.Click += new System.EventHandler(this.btn2Pos35_Click);
 			// 
 			// btn2Pos25
 			// 
@@ -1645,6 +1792,7 @@
 			this.btn2Pos25.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos25.TabIndex = 52;
 			this.btn2Pos25.UseVisualStyleBackColor = true;
+			this.btn2Pos25.Click += new System.EventHandler(this.btn2Pos25_Click);
 			// 
 			// btn2Pos15
 			// 
@@ -1653,6 +1801,7 @@
 			this.btn2Pos15.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos15.TabIndex = 51;
 			this.btn2Pos15.UseVisualStyleBackColor = true;
+			this.btn2Pos15.Click += new System.EventHandler(this.btn2Pos15_Click);
 			// 
 			// btn2Pos05
 			// 
@@ -1661,6 +1810,7 @@
 			this.btn2Pos05.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos05.TabIndex = 50;
 			this.btn2Pos05.UseVisualStyleBackColor = true;
+			this.btn2Pos05.Click += new System.EventHandler(this.btn2Pos05_Click);
 			// 
 			// btn2Pos94
 			// 
@@ -1669,6 +1819,7 @@
 			this.btn2Pos94.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos94.TabIndex = 49;
 			this.btn2Pos94.UseVisualStyleBackColor = true;
+			this.btn2Pos94.Click += new System.EventHandler(this.btn2Pos94_Click);
 			// 
 			// btn2Pos84
 			// 
@@ -1677,6 +1828,7 @@
 			this.btn2Pos84.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos84.TabIndex = 48;
 			this.btn2Pos84.UseVisualStyleBackColor = true;
+			this.btn2Pos84.Click += new System.EventHandler(this.btn2Pos84_Click);
 			// 
 			// btn2Pos74
 			// 
@@ -1685,6 +1837,7 @@
 			this.btn2Pos74.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos74.TabIndex = 47;
 			this.btn2Pos74.UseVisualStyleBackColor = true;
+			this.btn2Pos74.Click += new System.EventHandler(this.btn2Pos74_Click);
 			// 
 			// btn2Pos64
 			// 
@@ -1693,6 +1846,7 @@
 			this.btn2Pos64.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos64.TabIndex = 46;
 			this.btn2Pos64.UseVisualStyleBackColor = true;
+			this.btn2Pos64.Click += new System.EventHandler(this.btn2Pos64_Click);
 			// 
 			// btn2Pos54
 			// 
@@ -1701,6 +1855,7 @@
 			this.btn2Pos54.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos54.TabIndex = 45;
 			this.btn2Pos54.UseVisualStyleBackColor = true;
+			this.btn2Pos54.Click += new System.EventHandler(this.btn2Pos54_Click);
 			// 
 			// btn2Pos44
 			// 
@@ -1709,6 +1864,7 @@
 			this.btn2Pos44.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos44.TabIndex = 44;
 			this.btn2Pos44.UseVisualStyleBackColor = true;
+			this.btn2Pos44.Click += new System.EventHandler(this.btn2Pos44_Click);
 			// 
 			// btn2Pos34
 			// 
@@ -1717,6 +1873,7 @@
 			this.btn2Pos34.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos34.TabIndex = 43;
 			this.btn2Pos34.UseVisualStyleBackColor = true;
+			this.btn2Pos34.Click += new System.EventHandler(this.btn2Pos34_Click);
 			// 
 			// btn2Pos24
 			// 
@@ -1725,6 +1882,7 @@
 			this.btn2Pos24.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos24.TabIndex = 42;
 			this.btn2Pos24.UseVisualStyleBackColor = true;
+			this.btn2Pos24.Click += new System.EventHandler(this.btn2Pos24_Click);
 			// 
 			// btn2Pos14
 			// 
@@ -1733,6 +1891,7 @@
 			this.btn2Pos14.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos14.TabIndex = 41;
 			this.btn2Pos14.UseVisualStyleBackColor = true;
+			this.btn2Pos14.Click += new System.EventHandler(this.btn2Pos14_Click);
 			// 
 			// btn2Pos04
 			// 
@@ -1741,6 +1900,7 @@
 			this.btn2Pos04.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos04.TabIndex = 40;
 			this.btn2Pos04.UseVisualStyleBackColor = true;
+			this.btn2Pos04.Click += new System.EventHandler(this.btn2Pos04_Click);
 			// 
 			// btn2Pos93
 			// 
@@ -1749,6 +1909,7 @@
 			this.btn2Pos93.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos93.TabIndex = 39;
 			this.btn2Pos93.UseVisualStyleBackColor = true;
+			this.btn2Pos93.Click += new System.EventHandler(this.btn2Pos93_Click);
 			// 
 			// btn2Pos83
 			// 
@@ -1757,6 +1918,7 @@
 			this.btn2Pos83.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos83.TabIndex = 38;
 			this.btn2Pos83.UseVisualStyleBackColor = true;
+			this.btn2Pos83.Click += new System.EventHandler(this.btn2Pos83_Click);
 			// 
 			// btn2Pos73
 			// 
@@ -1765,6 +1927,7 @@
 			this.btn2Pos73.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos73.TabIndex = 37;
 			this.btn2Pos73.UseVisualStyleBackColor = true;
+			this.btn2Pos73.Click += new System.EventHandler(this.btn2Pos73_Click);
 			// 
 			// btn2Pos63
 			// 
@@ -1773,6 +1936,7 @@
 			this.btn2Pos63.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos63.TabIndex = 36;
 			this.btn2Pos63.UseVisualStyleBackColor = true;
+			this.btn2Pos63.Click += new System.EventHandler(this.btn2Pos63_Click);
 			// 
 			// btn2Pos53
 			// 
@@ -1781,6 +1945,7 @@
 			this.btn2Pos53.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos53.TabIndex = 35;
 			this.btn2Pos53.UseVisualStyleBackColor = true;
+			this.btn2Pos53.Click += new System.EventHandler(this.btn2Pos53_Click);
 			// 
 			// btn2Pos43
 			// 
@@ -1789,6 +1954,7 @@
 			this.btn2Pos43.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos43.TabIndex = 34;
 			this.btn2Pos43.UseVisualStyleBackColor = true;
+			this.btn2Pos43.Click += new System.EventHandler(this.btn2Pos43_Click);
 			// 
 			// btn2Pos33
 			// 
@@ -1797,6 +1963,7 @@
 			this.btn2Pos33.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos33.TabIndex = 33;
 			this.btn2Pos33.UseVisualStyleBackColor = true;
+			this.btn2Pos33.Click += new System.EventHandler(this.btn2Pos33_Click);
 			// 
 			// btn2Pos23
 			// 
@@ -1805,6 +1972,7 @@
 			this.btn2Pos23.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos23.TabIndex = 32;
 			this.btn2Pos23.UseVisualStyleBackColor = true;
+			this.btn2Pos23.Click += new System.EventHandler(this.btn2Pos23_Click);
 			// 
 			// btn2Pos13
 			// 
@@ -1813,6 +1981,7 @@
 			this.btn2Pos13.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos13.TabIndex = 31;
 			this.btn2Pos13.UseVisualStyleBackColor = true;
+			this.btn2Pos13.Click += new System.EventHandler(this.btn2Pos13_Click);
 			// 
 			// btn2Pos03
 			// 
@@ -1821,6 +1990,7 @@
 			this.btn2Pos03.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos03.TabIndex = 30;
 			this.btn2Pos03.UseVisualStyleBackColor = true;
+			this.btn2Pos03.Click += new System.EventHandler(this.btn2Pos03_Click);
 			// 
 			// btn2Pos92
 			// 
@@ -1829,6 +1999,7 @@
 			this.btn2Pos92.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos92.TabIndex = 29;
 			this.btn2Pos92.UseVisualStyleBackColor = true;
+			this.btn2Pos92.Click += new System.EventHandler(this.btn2Pos92_Click);
 			// 
 			// btn2Pos82
 			// 
@@ -1837,6 +2008,7 @@
 			this.btn2Pos82.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos82.TabIndex = 28;
 			this.btn2Pos82.UseVisualStyleBackColor = true;
+			this.btn2Pos82.Click += new System.EventHandler(this.btn2Pos82_Click);
 			// 
 			// btn2Pos72
 			// 
@@ -1845,6 +2017,7 @@
 			this.btn2Pos72.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos72.TabIndex = 27;
 			this.btn2Pos72.UseVisualStyleBackColor = true;
+			this.btn2Pos72.Click += new System.EventHandler(this.btn2Pos72_Click);
 			// 
 			// btn2Pos62
 			// 
@@ -1853,6 +2026,7 @@
 			this.btn2Pos62.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos62.TabIndex = 26;
 			this.btn2Pos62.UseVisualStyleBackColor = true;
+			this.btn2Pos62.Click += new System.EventHandler(this.btn2Pos62_Click);
 			// 
 			// btn2Pos52
 			// 
@@ -1861,6 +2035,7 @@
 			this.btn2Pos52.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos52.TabIndex = 25;
 			this.btn2Pos52.UseVisualStyleBackColor = true;
+			this.btn2Pos52.Click += new System.EventHandler(this.btn2Pos52_Click);
 			// 
 			// btn2Pos42
 			// 
@@ -1869,6 +2044,7 @@
 			this.btn2Pos42.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos42.TabIndex = 24;
 			this.btn2Pos42.UseVisualStyleBackColor = true;
+			this.btn2Pos42.Click += new System.EventHandler(this.btn2Pos42_Click);
 			// 
 			// btn2Pos32
 			// 
@@ -1877,6 +2053,7 @@
 			this.btn2Pos32.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos32.TabIndex = 23;
 			this.btn2Pos32.UseVisualStyleBackColor = true;
+			this.btn2Pos32.Click += new System.EventHandler(this.btn2Pos32_Click);
 			// 
 			// btn2Pos22
 			// 
@@ -1885,6 +2062,7 @@
 			this.btn2Pos22.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos22.TabIndex = 22;
 			this.btn2Pos22.UseVisualStyleBackColor = true;
+			this.btn2Pos22.Click += new System.EventHandler(this.btn2Pos22_Click);
 			// 
 			// btn2Pos12
 			// 
@@ -1893,6 +2071,7 @@
 			this.btn2Pos12.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos12.TabIndex = 21;
 			this.btn2Pos12.UseVisualStyleBackColor = true;
+			this.btn2Pos12.Click += new System.EventHandler(this.btn2Pos12_Click);
 			// 
 			// btn2Pos02
 			// 
@@ -1901,6 +2080,7 @@
 			this.btn2Pos02.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos02.TabIndex = 20;
 			this.btn2Pos02.UseVisualStyleBackColor = true;
+			this.btn2Pos02.Click += new System.EventHandler(this.btn2Pos02_Click);
 			// 
 			// btn2Pos91
 			// 
@@ -1909,6 +2089,7 @@
 			this.btn2Pos91.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos91.TabIndex = 19;
 			this.btn2Pos91.UseVisualStyleBackColor = true;
+			this.btn2Pos91.Click += new System.EventHandler(this.btn2Pos91_Click);
 			// 
 			// btn2Pos81
 			// 
@@ -1917,6 +2098,7 @@
 			this.btn2Pos81.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos81.TabIndex = 18;
 			this.btn2Pos81.UseVisualStyleBackColor = true;
+			this.btn2Pos81.Click += new System.EventHandler(this.btn2Pos81_Click);
 			// 
 			// btn2Pos71
 			// 
@@ -1925,6 +2107,7 @@
 			this.btn2Pos71.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos71.TabIndex = 17;
 			this.btn2Pos71.UseVisualStyleBackColor = true;
+			this.btn2Pos71.Click += new System.EventHandler(this.btn2Pos71_Click);
 			// 
 			// btn2Pos61
 			// 
@@ -1933,6 +2116,7 @@
 			this.btn2Pos61.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos61.TabIndex = 16;
 			this.btn2Pos61.UseVisualStyleBackColor = true;
+			this.btn2Pos61.Click += new System.EventHandler(this.btn2Pos61_Click);
 			// 
 			// btn2Pos51
 			// 
@@ -1941,6 +2125,7 @@
 			this.btn2Pos51.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos51.TabIndex = 15;
 			this.btn2Pos51.UseVisualStyleBackColor = true;
+			this.btn2Pos51.Click += new System.EventHandler(this.btn2Pos51_Click);
 			// 
 			// btn2Pos41
 			// 
@@ -1949,6 +2134,7 @@
 			this.btn2Pos41.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos41.TabIndex = 14;
 			this.btn2Pos41.UseVisualStyleBackColor = true;
+			this.btn2Pos41.Click += new System.EventHandler(this.btn2Pos41_Click);
 			// 
 			// btn2Pos31
 			// 
@@ -1957,6 +2143,7 @@
 			this.btn2Pos31.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos31.TabIndex = 13;
 			this.btn2Pos31.UseVisualStyleBackColor = true;
+			this.btn2Pos31.Click += new System.EventHandler(this.btn2Pos31_Click);
 			// 
 			// btn2Pos21
 			// 
@@ -1965,6 +2152,7 @@
 			this.btn2Pos21.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos21.TabIndex = 12;
 			this.btn2Pos21.UseVisualStyleBackColor = true;
+			this.btn2Pos21.Click += new System.EventHandler(this.btn2Pos21_Click);
 			// 
 			// btn2Pos11
 			// 
@@ -1973,6 +2161,7 @@
 			this.btn2Pos11.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos11.TabIndex = 11;
 			this.btn2Pos11.UseVisualStyleBackColor = true;
+			this.btn2Pos11.Click += new System.EventHandler(this.btn2Pos11_Click);
 			// 
 			// btn2Pos01
 			// 
@@ -1981,6 +2170,7 @@
 			this.btn2Pos01.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos01.TabIndex = 10;
 			this.btn2Pos01.UseVisualStyleBackColor = true;
+			this.btn2Pos01.Click += new System.EventHandler(this.btn2Pos01_Click);
 			// 
 			// btn2Pos90
 			// 
@@ -1989,6 +2179,7 @@
 			this.btn2Pos90.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos90.TabIndex = 9;
 			this.btn2Pos90.UseVisualStyleBackColor = true;
+			this.btn2Pos90.Click += new System.EventHandler(this.btn2Pos90_Click);
 			// 
 			// btn2Pos80
 			// 
@@ -1997,6 +2188,7 @@
 			this.btn2Pos80.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos80.TabIndex = 8;
 			this.btn2Pos80.UseVisualStyleBackColor = true;
+			this.btn2Pos80.Click += new System.EventHandler(this.btn2Pos80_Click);
 			// 
 			// btn2Pos70
 			// 
@@ -2005,6 +2197,7 @@
 			this.btn2Pos70.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos70.TabIndex = 7;
 			this.btn2Pos70.UseVisualStyleBackColor = true;
+			this.btn2Pos70.Click += new System.EventHandler(this.btn2Pos70_Click);
 			// 
 			// btn2Pos60
 			// 
@@ -2013,6 +2206,7 @@
 			this.btn2Pos60.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos60.TabIndex = 6;
 			this.btn2Pos60.UseVisualStyleBackColor = true;
+			this.btn2Pos60.Click += new System.EventHandler(this.btn2Pos60_Click);
 			// 
 			// btn2Pos50
 			// 
@@ -2021,6 +2215,7 @@
 			this.btn2Pos50.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos50.TabIndex = 5;
 			this.btn2Pos50.UseVisualStyleBackColor = true;
+			this.btn2Pos50.Click += new System.EventHandler(this.btn2Pos50_Click);
 			// 
 			// btn2Pos40
 			// 
@@ -2029,6 +2224,7 @@
 			this.btn2Pos40.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos40.TabIndex = 4;
 			this.btn2Pos40.UseVisualStyleBackColor = true;
+			this.btn2Pos40.Click += new System.EventHandler(this.btn2Pos40_Click);
 			// 
 			// btn2Pos30
 			// 
@@ -2037,6 +2233,7 @@
 			this.btn2Pos30.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos30.TabIndex = 3;
 			this.btn2Pos30.UseVisualStyleBackColor = true;
+			this.btn2Pos30.Click += new System.EventHandler(this.btn2Pos30_Click);
 			// 
 			// btn2Pos20
 			// 
@@ -2045,6 +2242,7 @@
 			this.btn2Pos20.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos20.TabIndex = 2;
 			this.btn2Pos20.UseVisualStyleBackColor = true;
+			this.btn2Pos20.Click += new System.EventHandler(this.btn2Pos20_Click);
 			// 
 			// btn2Pos10
 			// 
@@ -2053,6 +2251,7 @@
 			this.btn2Pos10.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos10.TabIndex = 1;
 			this.btn2Pos10.UseVisualStyleBackColor = true;
+			this.btn2Pos10.Click += new System.EventHandler(this.btn2Pos10_Click);
 			// 
 			// btn2Pos00
 			// 
@@ -2061,6 +2260,7 @@
 			this.btn2Pos00.Size = new System.Drawing.Size(35, 35);
 			this.btn2Pos00.TabIndex = 0;
 			this.btn2Pos00.UseVisualStyleBackColor = true;
+			this.btn2Pos00.Click += new System.EventHandler(this.btn2Pos00_Click);
 			// 
 			// Battleship
 			// 
