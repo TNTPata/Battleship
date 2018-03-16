@@ -227,7 +227,7 @@ namespace Battleship
 						xCheck++;
 					}
 					//All positions clear, set those positions to true
-					minesweeperClear = true;
+					torpedoBoatClear = true;
 					for (int i = 0; i < 2; i++)
 					{
 						Battleship.playerOneGameboard[x, y] = true;
@@ -250,7 +250,7 @@ namespace Battleship
 						}
 						yCheck++;
 					}
-					for (int i = 0; i < 3; i++)
+					for (int i = 0; i < 2; i++)
 					{
 						Battleship.playerOneGameboard[x, y] = true;
 						y++;
