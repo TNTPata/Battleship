@@ -30,41 +30,53 @@ namespace Battleship
 			//Starting coords and placement for 5 length ship
 			if (horisontal == 1)
 			{
-				int x = rnd.Next(0, 5);
+				int x = rnd.Next(0, 6);
 				int y = rnd.Next(0, 10);
-				carrier5[1, 0] = x;
-				carrier5[0, 1] = y;
+				for (int i = 0; i < 5; i++)
+				{
+					Battleship.playerOneGameboard[x, y] = true;
+					x++;
+				}
 			}
 			else 
 			{
 				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 5);
-				carrier5[1, 0] = x;
-				carrier5[0, 1] = y;
+				int y = rnd.Next(0, 6);
+				for (int i = 0; i < 5; i++)
+				{
+					Battleship.playerOneGameboard[x, y] = true;
+					y++;
+				}
 			}
 
 			//Starting coords and placement for 4 length ship
 			horisontal = rnd.Next(0, 2);
 			if (horisontal == 1)
 			{
-				int x = rnd.Next(0, 5);
+				int x = rnd.Next(0, 7);
 				int y = rnd.Next(0, 10);
-				destroyer4[1, 0] = x;
-				destroyer4[0, 1] = y;
+				for (int i = 0; i < 4; i++)
+				{
+					Battleship.playerOneGameboard[x, y] = true;
+					x++;
+				}
 			}
 			else
 			{
 				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 5);
-				destroyer4[1, 0] = x;
-				destroyer4[0, 1] = y;
+				int y = rnd.Next(0, 7);
+				for (int i = 0; i < 4; i++)
+				{
+					Battleship.playerOneGameboard[x, y] = true;
+					y++;
+				}
 			}
 
 			//Starting coords and placement for 3 length ship
 			horisontal = rnd.Next(0, 2);
 			if (horisontal == 1)
 			{
-				int x = rnd.Next(0, 5);
+				int x = rnd.Next(0, 8);
 				int y = rnd.Next(0, 10);
 				cruiser3[1, 0] = x;
 				cruiser3[0, 1] = y;
@@ -72,7 +84,7 @@ namespace Battleship
 			else
 			{
 				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 5);
+				int y = rnd.Next(0, 8);
 				cruiser3[1, 0] = x;
 				cruiser3[0, 1] = y;
 			}
@@ -81,7 +93,7 @@ namespace Battleship
 			horisontal = rnd.Next(0, 2);
 			if (horisontal == 1)
 			{
-				int x = rnd.Next(0, 5);
+				int x = rnd.Next(0, 8);
 				int y = rnd.Next(0, 10);
 				submarine3[1, 0] = x;
 				submarine3[0, 1] = y;
@@ -89,7 +101,7 @@ namespace Battleship
 			else
 			{
 				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 5);
+				int y = rnd.Next(0, 8);
 				submarine3[1, 0] = x;
 				submarine3[0, 1] = y;
 			}
@@ -98,7 +110,7 @@ namespace Battleship
 			horisontal = rnd.Next(0, 2);
 			if (horisontal == 1)
 			{
-				int x = rnd.Next(0, 5);
+				int x = rnd.Next(0, 9);
 				int y = rnd.Next(0, 10);
 				torpedoboat2[1, 0] = x;
 				torpedoboat2[0, 1] = y;
@@ -106,7 +118,7 @@ namespace Battleship
 			else
 			{
 				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 5);
+				int y = rnd.Next(0, 9);
 				torpedoboat2[1, 0] = x;
 				torpedoboat2[0, 1] = y;
 			}
