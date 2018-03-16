@@ -19,23 +19,96 @@ namespace Battleship
 
 		public static void ShipPlacer()
 		{
-			int[,] carrier5 = new int[1, 1];
-			int[,] destroyer4 = new int[1, 1];
-			int[,] cruiser3 = new int[1, 1];
-			int[,] submarine3 = new int[1, 1];
-			int[,] torpedoboat2 = new int[1, 1];
+			int[,] carrier5 = new int[2,2];
+			int[,] destroyer4 = new int[2,2];
+			int[,] cruiser3 = new int[2,2];
+			int[,] submarine3 = new int[2,2];
+			int[,] torpedoboat2 = new int[2,2];
 
 			int horisontal = rnd.Next(0, 2); 
 
+			//Starting coords and placement for 5 length ship
 			if (horisontal == 1)
 			{
 				int x = rnd.Next(0, 5);
 				int y = rnd.Next(0, 10);
-				carrier5[0, 0] = x;
+				carrier5[1, 0] = x;
+				carrier5[0, 1] = y;
 			}
 			else 
 			{
+				int x = rnd.Next(0, 10);
+				int y = rnd.Next(0, 5);
+				carrier5[1, 0] = x;
+				carrier5[0, 1] = y;
+			}
 
+			//Starting coords and placement for 4 length ship
+			horisontal = rnd.Next(0, 2);
+			if (horisontal == 1)
+			{
+				int x = rnd.Next(0, 5);
+				int y = rnd.Next(0, 10);
+				destroyer4[1, 0] = x;
+				destroyer4[0, 1] = y;
+			}
+			else
+			{
+				int x = rnd.Next(0, 10);
+				int y = rnd.Next(0, 5);
+				destroyer4[1, 0] = x;
+				destroyer4[0, 1] = y;
+			}
+
+			//Starting coords and placement for 3 length ship
+			horisontal = rnd.Next(0, 2);
+			if (horisontal == 1)
+			{
+				int x = rnd.Next(0, 5);
+				int y = rnd.Next(0, 10);
+				cruiser3[1, 0] = x;
+				cruiser3[0, 1] = y;
+			}
+			else
+			{
+				int x = rnd.Next(0, 10);
+				int y = rnd.Next(0, 5);
+				cruiser3[1, 0] = x;
+				cruiser3[0, 1] = y;
+			}
+
+			//Starting coords and placement for 3 length ship
+			horisontal = rnd.Next(0, 2);
+			if (horisontal == 1)
+			{
+				int x = rnd.Next(0, 5);
+				int y = rnd.Next(0, 10);
+				submarine3[1, 0] = x;
+				submarine3[0, 1] = y;
+			}
+			else
+			{
+				int x = rnd.Next(0, 10);
+				int y = rnd.Next(0, 5);
+				submarine3[1, 0] = x;
+				submarine3[0, 1] = y;
+			}
+
+			//Starting coords and placement for 2 length ship
+			horisontal = rnd.Next(0, 2);
+			if (horisontal == 1)
+			{
+				int x = rnd.Next(0, 5);
+				int y = rnd.Next(0, 10);
+				torpedoboat2[1, 0] = x;
+				torpedoboat2[0, 1] = y;
+			}
+			else
+			{
+				int x = rnd.Next(0, 10);
+				int y = rnd.Next(0, 5);
+				torpedoboat2[1, 0] = x;
+				torpedoboat2[0, 1] = y;
 			}
 		}
 		//Goes through both boards and sets all indexes to false.
