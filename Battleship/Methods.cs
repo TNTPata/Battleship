@@ -8,28 +8,17 @@ namespace Battleship
 {
 	public class Methods
 	{
-		///Some notes, please ignore...
-		///2x 3
-		///1x 2
-		///1x 5
-		///1x 4
-
 		//Textbook randomiser
 		static Random rnd = new Random();
 
 		public static void ShipPlacer()
 		{
-			int[,] carrier5 = new int[2,2];
-			int[,] destroyer4 = new int[2,2];
-			int[,] cruiser3 = new int[2,2];
-			int[,] submarine3 = new int[2,2];
-			int[,] torpedoboat2 = new int[2,2];
-
-			int horisontal = rnd.Next(0, 2); 
-
-			//Starting coords and placement for 5 length ship
+			//Starting coords and placement for 5 length ship (Carrier)
+			//Determine if ship is vertical or horisontal
+			int horisontal = rnd.Next(0, 2);
 			if (horisontal == 1)
 			{
+				//Determine start coords
 				int x = rnd.Next(0, 6);
 				int y = rnd.Next(0, 10);
 				for (int i = 0; i < 5; i++)
@@ -49,79 +38,225 @@ namespace Battleship
 				}
 			}
 
-			//Starting coords and placement for 4 length ship
-			horisontal = rnd.Next(0, 2);
-			if (horisontal == 1)
+			//Starting coords and placement for 4 length ship (Destroyer)
+			PlaceDestroyer:
+			bool destroyerClear = false;
+			do
 			{
-				int x = rnd.Next(0, 7);
-				int y = rnd.Next(0, 10);
-				for (int i = 0; i < 4; i++)
+				//Determine if ship is vertical or horisontal
+				horisontal = rnd.Next(0, 2);
+				if (horisontal == 1)
 				{
-					Battleship.playerOneGameboard[x, y] = true;
-					x++;
+					//Determine start coords
+					int x = rnd.Next(0, 7);
+					int y = rnd.Next(0, 10);
+					int xCheck = x;
+					int yCheck = y;
+					for (int i = 0; i < 4; i++)
+					{
+						//Check that all proposed positions are empty, if not, start over
+						if (Battleship.playerOneGameboard[xCheck, yCheck] == true)
+						{
+							goto PlaceDestroyer;
+						}
+						xCheck++;
+					}
+					//All positions clear, set those positions to true
+					destroyerClear = true;
+					for (int i = 0; i < 4; i++)
+					{
+						Battleship.playerOneGameboard[x, y] = true;
+						x++;
+					}
+
 				}
-			}
-			else
-			{
-				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 7);
-				for (int i = 0; i < 4; i++)
+				else
 				{
-					Battleship.playerOneGameboard[x, y] = true;
-					y++;
+					int x = rnd.Next(0, 10);
+					int y = rnd.Next(0, 7);
+					int xCheck = x;
+					int yCheck = y;
+					for (int i = 0; i < 4; i++)
+					{
+						//Check that all proposed positions are empty, if not, start over
+						if (Battleship.playerOneGameboard[xCheck, yCheck] == true)
+						{
+							goto PlaceDestroyer;
+						}
+						yCheck++;
+					}
+					for (int i = 0; i < 4; i++)
+					{
+						Battleship.playerOneGameboard[x, y] = true;
+						y++;
+					}
 				}
-			}
+			} while (destroyerClear == false);
 
-			//Starting coords and placement for 3 length ship
-			horisontal = rnd.Next(0, 2);
-			if (horisontal == 1)
+			//Starting coords and placement for 3 length ship (Minesweeper)
+			PlaceMinesweeper:
+			bool minesweeperClear = false;
+			do
 			{
-				int x = rnd.Next(0, 8);
-				int y = rnd.Next(0, 10);
-				cruiser3[1, 0] = x;
-				cruiser3[0, 1] = y;
-			}
-			else
-			{
-				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 8);
-				cruiser3[1, 0] = x;
-				cruiser3[0, 1] = y;
-			}
+				//Determine if ship is vertical or horisontal
+				horisontal = rnd.Next(0, 2);
+				if (horisontal == 1)
+				{
+					//Determine start coords
+					int x = rnd.Next(0, 8);
+					int y = rnd.Next(0, 10);
+					int xCheck = x;
+					int yCheck = y;
+					for (int i = 0; i < 3; i++)
+					{
+						//Check that all proposed positions are empty, if not, start over
+						if (Battleship.playerOneGameboard[xCheck, yCheck] == true)
+						{
+							goto PlaceMinesweeper;
+						}
+						xCheck++;
+					}
+					//All positions clear, set those positions to true
+					minesweeperClear = true;
+					for (int i = 0; i < 3; i++)
+					{
+						Battleship.playerOneGameboard[x, y] = true;
+						x++;
+					}
 
-			//Starting coords and placement for 3 length ship
-			horisontal = rnd.Next(0, 2);
-			if (horisontal == 1)
-			{
-				int x = rnd.Next(0, 8);
-				int y = rnd.Next(0, 10);
-				submarine3[1, 0] = x;
-				submarine3[0, 1] = y;
-			}
-			else
-			{
-				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 8);
-				submarine3[1, 0] = x;
-				submarine3[0, 1] = y;
-			}
+				}
+				else
+				{
+					int x = rnd.Next(0, 10);
+					int y = rnd.Next(0, 8);
+					int xCheck = x;
+					int yCheck = y;
+					for (int i = 0; i < 3; i++)
+					{
+						//Check that all proposed positions are empty, if not, start over
+						if (Battleship.playerOneGameboard[xCheck, yCheck] == true)
+						{
+							goto PlaceMinesweeper;
+						}
+						yCheck++;
+					}
+					for (int i = 0; i < 3; i++)
+					{
+						Battleship.playerOneGameboard[x, y] = true;
+						y++;
+					}
+				}
+			} while (minesweeperClear == false);
 
-			//Starting coords and placement for 2 length ship
-			horisontal = rnd.Next(0, 2);
-			if (horisontal == 1)
+			//Starting coords and placement for 3 length ship (Submarine)
+			PlaceSubmarine:
+			bool submarineClear = false;
+			do
 			{
-				int x = rnd.Next(0, 9);
-				int y = rnd.Next(0, 10);
-				torpedoboat2[1, 0] = x;
-				torpedoboat2[0, 1] = y;
-			}
-			else
+				//Determine if ship is vertical or horisontal
+				horisontal = rnd.Next(0, 2);
+				if (horisontal == 1)
+				{
+					//Determine start coords
+					int x = rnd.Next(0, 8);
+					int y = rnd.Next(0, 10);
+					int xCheck = x;
+					int yCheck = y;
+					for (int i = 0; i < 3; i++)
+					{
+						//Check that all proposed positions are empty, if not, start over
+						if (Battleship.playerOneGameboard[xCheck, yCheck] == true)
+						{
+							goto PlaceSubmarine;
+						}
+						xCheck++;
+					}
+					//All positions clear, set those positions to true
+					submarineClear = true;
+					for (int i = 0; i < 3; i++)
+					{
+						Battleship.playerOneGameboard[x, y] = true;
+						x++;
+					}
+
+				}
+				else
+				{
+					int x = rnd.Next(0, 10);
+					int y = rnd.Next(0, 8);
+					int xCheck = x;
+					int yCheck = y;
+					for (int i = 0; i < 3; i++)
+					{
+						//Check that all proposed positions are empty, if not, start over
+						if (Battleship.playerOneGameboard[xCheck, yCheck] == true)
+						{
+							goto PlaceSubmarine;
+						}
+						yCheck++;
+					}
+					for (int i = 0; i < 3; i++)
+					{
+						Battleship.playerOneGameboard[x, y] = true;
+						y++;
+					}
+				}
+			} while (submarineClear == false);
+
+			//Starting coords and placement for 2 length ship (Torpedo Boat)
+			PlaceTorpedoBoat:
+			bool torpedoBoatClear = false;
+			do
 			{
-				int x = rnd.Next(0, 10);
-				int y = rnd.Next(0, 9);
-				torpedoboat2[1, 0] = x;
-				torpedoboat2[0, 1] = y;
-			}
+				//Determine if ship is vertical or horisontal
+				horisontal = rnd.Next(0, 2);
+				if (horisontal == 1)
+				{
+					//Determine start coords
+					int x = rnd.Next(0, 9);
+					int y = rnd.Next(0, 10);
+					int xCheck = x;
+					int yCheck = y;
+					for (int i = 0; i < 2; i++)
+					{
+						//Check that all proposed positions are empty, if not, start over
+						if (Battleship.playerOneGameboard[xCheck, yCheck] == true)
+						{
+							goto PlaceTorpedoBoat;
+						}
+						xCheck++;
+					}
+					//All positions clear, set those positions to true
+					minesweeperClear = true;
+					for (int i = 0; i < 2; i++)
+					{
+						Battleship.playerOneGameboard[x, y] = true;
+						x++;
+					}
+
+				}
+				else
+				{
+					int x = rnd.Next(0, 10);
+					int y = rnd.Next(0, 9);
+					int xCheck = x;
+					int yCheck = y;
+					for (int i = 0; i < 2; i++)
+					{
+						//Check that all proposed positions are empty, if not, start over
+						if (Battleship.playerOneGameboard[xCheck, yCheck] == true)
+						{
+							goto PlaceTorpedoBoat;
+						}
+						yCheck++;
+					}
+					for (int i = 0; i < 3; i++)
+					{
+						Battleship.playerOneGameboard[x, y] = true;
+						y++;
+					}
+				}
+			} while (torpedoBoatClear == false);
 		}
 		//Goes through both boards and sets all indexes to false.
 		public static void ResetBoards()

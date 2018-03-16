@@ -26,7 +26,7 @@ namespace Battleship
 		{
 			//Sets all positions to false, as there aren't any ships on the gameboard yet.
 			Methods.ResetBoards();
-
+			Methods.ShipPlacer();
 			
 		}
 	}
