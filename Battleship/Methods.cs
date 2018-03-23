@@ -43,11 +43,14 @@ namespace Battleship
 		{
 			if (Battleship.playerTwoGameboard[x, y] == true)
 			{
-
+				//Hit
+				Battleship.playerTwoGameboard[x, y] = false;
+				//TD: Set button color to orange/yellow
 			}
 			else
 			{
-
+				//Miss
+				//TD: Set button color to blue(?)
 			}
 		}
 
