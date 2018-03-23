@@ -26,13 +26,15 @@ namespace Battleship
 		{
 			//Sets all positions to false, as there aren't any ships on the gameboard yet.
 			Methods.ResetBoards();
+
+			//Ship placement
 			Methods.ShipPlacerOne();
 			Methods.ShipPlacerTwo();
 		}
 
 		private void btn2Pos00_Click(object sender, EventArgs e)
 		{
-
+			Methods.HitDetectorGameboardTwo(0, 0);
 		}
 
 		private void btn2Pos01_Click(object sender, EventArgs e)

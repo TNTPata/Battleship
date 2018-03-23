@@ -37,6 +37,20 @@ namespace Battleship
 				}
 			}
 		}
+
+		//Detects hits or misses
+		public static void HitDetectorGameboardTwo (int x,int y)
+		{
+			if (Battleship.playerTwoGameboard[x, y] == true)
+			{
+
+			}
+			else
+			{
+
+			}
+		}
+
 		//Places ships on your gameboard
 		public static void ShipPlacerOne()
 		{
@@ -285,6 +299,7 @@ namespace Battleship
 				}
 			} while (torpedoBoatClear == false);
 		}
+
 		//Places ships for enemys gameboard
 		public static void ShipPlacerTwo()
 		{
