@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,14 +39,16 @@ namespace Battleship
 			}
 		}
 		//Detects hits or misses for right gameboard
-		public static void HitDetectorGameboardTwo (int x,int y)
+		public static void HitDetectorGameboardTwo (int x,int y, ref System.Windows.Forms.Button buttonToChange)
 		{
 			//Hit
 			if (Battleship.playerTwoGameboard[x, y] == true)
 			{
+				//Sets position to "hit"/"no ship"
+				//Sets button color to orange/yellow
 				Battleship.playerTwoGameboard[x, y] = false;
 
-				//TD: Set button color to orange/yellow
+				buttonToChange.BackColor = Color.Yellow;
 			}
 			//Miss
 			else

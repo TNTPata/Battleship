@@ -34,8 +34,7 @@ namespace Battleship
 
 		private void btn2Pos00_Click(object sender, EventArgs e)
 		{
-			Methods.HitDetectorGameboardTwo(0, 0);
-			Button button = sender as Button;
+			Methods.HitDetectorGameboardTwo(0, 0, ref btn2Pos00);
 		}
 
 		private void btn2Pos01_Click(object sender, EventArgs e)
