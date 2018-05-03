@@ -37,16 +37,15 @@ namespace Battleship
 				}
 			}
 		}
-		//Detects hits or misses
+		//Detects hits or misses for right gameboard
 		public static void HitDetectorGameboardTwo (int x,int y)
 		{
 			//Hit
 			if (Battleship.playerTwoGameboard[x, y] == true)
 			{
 				Battleship.playerTwoGameboard[x, y] = false;
-				
+
 				//TD: Set button color to orange/yellow
-				
 			}
 			//Miss
 			else
