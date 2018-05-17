@@ -48,6 +48,7 @@ namespace Battleship
 				//Sets button color to orange/yellow
 				Battleship.playerTwoGameboard[x, y] = false;
 
+				///buttonToChange.UseVisualStyleBackColor = false;
 				buttonToChange.BackColor = Color.Yellow;
 			}
 			//Miss
