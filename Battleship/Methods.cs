@@ -315,7 +315,7 @@ namespace Battleship
 			int horisontal = rnd.Next(0, 2);
 			if (horisontal == 1)
 			{
-				//Determine start coords
+				//Determine start coords for horisontal ships
 				int x = rnd.Next(0, 6);
 				int y = rnd.Next(0, 10);
 				for (int i = 0; i < 5; i++)
@@ -326,6 +326,7 @@ namespace Battleship
 			}
 			else
 			{
+				//Determine start coords for vertical ships
 				int x = rnd.Next(0, 10);
 				int y = rnd.Next(0, 6);
 				for (int i = 0; i < 5; i++)
@@ -344,7 +345,7 @@ namespace Battleship
 				horisontal = rnd.Next(0, 2);
 				if (horisontal == 1)
 				{
-					//Determine start coords
+					//Determine start coords for horisontal ships
 					int x = rnd.Next(0, 7);
 					int y = rnd.Next(0, 10);
 					int xCheck = x;
