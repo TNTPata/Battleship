@@ -38,23 +38,22 @@ namespace Battleship
 				}
 			}
 		}
-		//Detects hits or misses for right gameboard
+		//Detects hits or misses for right (enemy) gameboard
 		public static void HitDetectorGameboardTwo (int x,int y, ref System.Windows.Forms.PictureBox buttonToChange)
 		{
 			//Hit
 			if (Battleship.playerTwoGameboard[x, y] == true)
 			{
-				//Sets position to "hit"/"no ship"
+				//Sets position to "hit"
 				//Sets button color to orange/yellow
 				Battleship.playerTwoGameboard[x, y] = false;
 
-				///buttonToChange.UseVisualStyleBackColor = false;
 				buttonToChange.BackColor = Color.Yellow;
 			}
 			//Miss
 			else
 			{
-				//TD: Set button color to blue(?)
+				buttonToChange.BackColor = Color.LightBlue;
 			}
 		}
 
