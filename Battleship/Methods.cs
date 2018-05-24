@@ -39,7 +39,7 @@ namespace Battleship
 			}
 		}
 		//Detects hits or misses for right gameboard
-		public static void HitDetectorGameboardTwo (int x,int y, ref System.Windows.Forms.Button buttonToChange)
+		public static void HitDetectorGameboardTwo (int x,int y, ref System.Windows.Forms.PictureBox buttonToChange)
 		{
 			//Hit
 			if (Battleship.playerTwoGameboard[x, y] == true)
