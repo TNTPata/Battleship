@@ -554,6 +554,8 @@ namespace Battleship
 					}
 				}
 			} while (torpedoBoatClear == false);
+			
+			
 		}
 
 	}

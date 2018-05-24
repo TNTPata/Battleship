@@ -1665,7 +1665,6 @@
 			// pb2Pos58
 			// 
 			this.pb2Pos58.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos58.Enabled = false;
 			this.pb2Pos58.Location = new System.Drawing.Point(211, 350);
 			this.pb2Pos58.Name = "pb2Pos58";
 			this.pb2Pos58.Size = new System.Drawing.Size(35, 35);
@@ -1676,7 +1675,6 @@
 			// pb2Pos59
 			// 
 			this.pb2Pos59.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos59.Enabled = false;
 			this.pb2Pos59.Location = new System.Drawing.Point(211, 391);
 			this.pb2Pos59.Name = "pb2Pos59";
 			this.pb2Pos59.Size = new System.Drawing.Size(35, 35);
@@ -1687,7 +1685,6 @@
 			// pb2Pos69
 			// 
 			this.pb2Pos69.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos69.Enabled = false;
 			this.pb2Pos69.Location = new System.Drawing.Point(252, 391);
 			this.pb2Pos69.Name = "pb2Pos69";
 			this.pb2Pos69.Size = new System.Drawing.Size(35, 35);
@@ -1698,7 +1695,6 @@
 			// pb2Pos68
 			// 
 			this.pb2Pos68.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos68.Enabled = false;
 			this.pb2Pos68.Location = new System.Drawing.Point(252, 350);
 			this.pb2Pos68.Name = "pb2Pos68";
 			this.pb2Pos68.Size = new System.Drawing.Size(35, 35);
@@ -1709,7 +1705,6 @@
 			// pb2Pos96
 			// 
 			this.pb2Pos96.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos96.Enabled = false;
 			this.pb2Pos96.Location = new System.Drawing.Point(375, 268);
 			this.pb2Pos96.Name = "pb2Pos96";
 			this.pb2Pos96.Size = new System.Drawing.Size(35, 35);
@@ -1720,7 +1715,6 @@
 			// pb2Pos97
 			// 
 			this.pb2Pos97.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos97.Enabled = false;
 			this.pb2Pos97.Location = new System.Drawing.Point(375, 309);
 			this.pb2Pos97.Name = "pb2Pos97";
 			this.pb2Pos97.Size = new System.Drawing.Size(35, 35);
@@ -1731,7 +1725,6 @@
 			// pb2Pos98
 			// 
 			this.pb2Pos98.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos98.Enabled = false;
 			this.pb2Pos98.Location = new System.Drawing.Point(375, 350);
 			this.pb2Pos98.Name = "pb2Pos98";
 			this.pb2Pos98.Size = new System.Drawing.Size(35, 35);
@@ -1742,7 +1735,6 @@
 			// pb2Pos89
 			// 
 			this.pb2Pos89.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos89.Enabled = false;
 			this.pb2Pos89.Location = new System.Drawing.Point(334, 391);
 			this.pb2Pos89.Name = "pb2Pos89";
 			this.pb2Pos89.Size = new System.Drawing.Size(35, 35);
@@ -1753,7 +1745,6 @@
 			// pb2Pos67
 			// 
 			this.pb2Pos67.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos67.Enabled = false;
 			this.pb2Pos67.Location = new System.Drawing.Point(252, 309);
 			this.pb2Pos67.Name = "pb2Pos67";
 			this.pb2Pos67.Size = new System.Drawing.Size(35, 35);
@@ -1764,7 +1755,6 @@
 			// pb2Pos76
 			// 
 			this.pb2Pos76.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos76.Enabled = false;
 			this.pb2Pos76.Location = new System.Drawing.Point(293, 268);
 			this.pb2Pos76.Name = "pb2Pos76";
 			this.pb2Pos76.Size = new System.Drawing.Size(35, 35);
@@ -1775,7 +1765,6 @@
 			// pb2Pos77
 			// 
 			this.pb2Pos77.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos77.Enabled = false;
 			this.pb2Pos77.Location = new System.Drawing.Point(293, 309);
 			this.pb2Pos77.Name = "pb2Pos77";
 			this.pb2Pos77.Size = new System.Drawing.Size(35, 35);
@@ -1786,7 +1775,6 @@
 			// pb2Pos87
 			// 
 			this.pb2Pos87.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos87.Enabled = false;
 			this.pb2Pos87.Location = new System.Drawing.Point(334, 309);
 			this.pb2Pos87.Name = "pb2Pos87";
 			this.pb2Pos87.Size = new System.Drawing.Size(35, 35);
@@ -1797,7 +1785,6 @@
 			// pb2Pos78
 			// 
 			this.pb2Pos78.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos78.Enabled = false;
 			this.pb2Pos78.Location = new System.Drawing.Point(293, 350);
 			this.pb2Pos78.Name = "pb2Pos78";
 			this.pb2Pos78.Size = new System.Drawing.Size(35, 35);
@@ -1808,7 +1795,6 @@
 			// pb2Pos88
 			// 
 			this.pb2Pos88.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos88.Enabled = false;
 			this.pb2Pos88.Location = new System.Drawing.Point(334, 350);
 			this.pb2Pos88.Name = "pb2Pos88";
 			this.pb2Pos88.Size = new System.Drawing.Size(35, 35);
@@ -1819,7 +1805,6 @@
 			// pb2Pos79
 			// 
 			this.pb2Pos79.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos79.Enabled = false;
 			this.pb2Pos79.Location = new System.Drawing.Point(293, 391);
 			this.pb2Pos79.Name = "pb2Pos79";
 			this.pb2Pos79.Size = new System.Drawing.Size(35, 35);
@@ -1830,7 +1815,6 @@
 			// pb2Pos99
 			// 
 			this.pb2Pos99.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos99.Enabled = false;
 			this.pb2Pos99.Location = new System.Drawing.Point(375, 391);
 			this.pb2Pos99.Name = "pb2Pos99";
 			this.pb2Pos99.Size = new System.Drawing.Size(35, 35);
@@ -1841,7 +1825,6 @@
 			// pb2Pos86
 			// 
 			this.pb2Pos86.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos86.Enabled = false;
 			this.pb2Pos86.Location = new System.Drawing.Point(334, 268);
 			this.pb2Pos86.Name = "pb2Pos86";
 			this.pb2Pos86.Size = new System.Drawing.Size(35, 35);
@@ -1852,7 +1835,6 @@
 			// pb2Pos49
 			// 
 			this.pb2Pos49.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos49.Enabled = false;
 			this.pb2Pos49.Location = new System.Drawing.Point(170, 391);
 			this.pb2Pos49.Name = "pb2Pos49";
 			this.pb2Pos49.Size = new System.Drawing.Size(35, 35);
@@ -1863,7 +1845,6 @@
 			// pb2Pos57
 			// 
 			this.pb2Pos57.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos57.Enabled = false;
 			this.pb2Pos57.Location = new System.Drawing.Point(211, 309);
 			this.pb2Pos57.Name = "pb2Pos57";
 			this.pb2Pos57.Size = new System.Drawing.Size(35, 35);
@@ -1874,7 +1855,6 @@
 			// pb2Pos48
 			// 
 			this.pb2Pos48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos48.Enabled = false;
 			this.pb2Pos48.Location = new System.Drawing.Point(170, 350);
 			this.pb2Pos48.Name = "pb2Pos48";
 			this.pb2Pos48.Size = new System.Drawing.Size(35, 35);
@@ -1885,7 +1865,6 @@
 			// pb2Pos38
 			// 
 			this.pb2Pos38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos38.Enabled = false;
 			this.pb2Pos38.Location = new System.Drawing.Point(129, 350);
 			this.pb2Pos38.Name = "pb2Pos38";
 			this.pb2Pos38.Size = new System.Drawing.Size(35, 35);
@@ -1896,7 +1875,6 @@
 			// pb2Pos39
 			// 
 			this.pb2Pos39.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos39.Enabled = false;
 			this.pb2Pos39.Location = new System.Drawing.Point(129, 391);
 			this.pb2Pos39.Name = "pb2Pos39";
 			this.pb2Pos39.Size = new System.Drawing.Size(35, 35);
@@ -1907,7 +1885,6 @@
 			// pb2Pos66
 			// 
 			this.pb2Pos66.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos66.Enabled = false;
 			this.pb2Pos66.Location = new System.Drawing.Point(252, 268);
 			this.pb2Pos66.Name = "pb2Pos66";
 			this.pb2Pos66.Size = new System.Drawing.Size(35, 35);
@@ -1918,7 +1895,6 @@
 			// pb2Pos47
 			// 
 			this.pb2Pos47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos47.Enabled = false;
 			this.pb2Pos47.Location = new System.Drawing.Point(170, 309);
 			this.pb2Pos47.Name = "pb2Pos47";
 			this.pb2Pos47.Size = new System.Drawing.Size(35, 35);
@@ -1929,7 +1905,6 @@
 			// pb2Pos26
 			// 
 			this.pb2Pos26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos26.Enabled = false;
 			this.pb2Pos26.Location = new System.Drawing.Point(88, 268);
 			this.pb2Pos26.Name = "pb2Pos26";
 			this.pb2Pos26.Size = new System.Drawing.Size(35, 35);
@@ -1940,7 +1915,6 @@
 			// pb2Pos29
 			// 
 			this.pb2Pos29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos29.Enabled = false;
 			this.pb2Pos29.Location = new System.Drawing.Point(88, 391);
 			this.pb2Pos29.Name = "pb2Pos29";
 			this.pb2Pos29.Size = new System.Drawing.Size(35, 35);
@@ -1951,7 +1925,6 @@
 			// pb2Pos37
 			// 
 			this.pb2Pos37.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos37.Enabled = false;
 			this.pb2Pos37.Location = new System.Drawing.Point(129, 309);
 			this.pb2Pos37.Name = "pb2Pos37";
 			this.pb2Pos37.Size = new System.Drawing.Size(35, 35);
@@ -1962,7 +1935,6 @@
 			// pb2Pos27
 			// 
 			this.pb2Pos27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos27.Enabled = false;
 			this.pb2Pos27.Location = new System.Drawing.Point(88, 309);
 			this.pb2Pos27.Name = "pb2Pos27";
 			this.pb2Pos27.Size = new System.Drawing.Size(35, 35);
@@ -1973,7 +1945,6 @@
 			// pb2Pos28
 			// 
 			this.pb2Pos28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos28.Enabled = false;
 			this.pb2Pos28.Location = new System.Drawing.Point(88, 350);
 			this.pb2Pos28.Name = "pb2Pos28";
 			this.pb2Pos28.Size = new System.Drawing.Size(35, 35);
@@ -1984,7 +1955,6 @@
 			// pb2Pos19
 			// 
 			this.pb2Pos19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos19.Enabled = false;
 			this.pb2Pos19.Location = new System.Drawing.Point(47, 391);
 			this.pb2Pos19.Name = "pb2Pos19";
 			this.pb2Pos19.Size = new System.Drawing.Size(35, 35);
@@ -1995,7 +1965,6 @@
 			// pb2Pos56
 			// 
 			this.pb2Pos56.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos56.Enabled = false;
 			this.pb2Pos56.Location = new System.Drawing.Point(211, 268);
 			this.pb2Pos56.Name = "pb2Pos56";
 			this.pb2Pos56.Size = new System.Drawing.Size(35, 35);
@@ -2006,7 +1975,6 @@
 			// pb2Pos08
 			// 
 			this.pb2Pos08.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos08.Enabled = false;
 			this.pb2Pos08.Location = new System.Drawing.Point(6, 350);
 			this.pb2Pos08.Name = "pb2Pos08";
 			this.pb2Pos08.Size = new System.Drawing.Size(35, 35);
@@ -2017,7 +1985,6 @@
 			// pb2Pos17
 			// 
 			this.pb2Pos17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos17.Enabled = false;
 			this.pb2Pos17.Location = new System.Drawing.Point(47, 309);
 			this.pb2Pos17.Name = "pb2Pos17";
 			this.pb2Pos17.Size = new System.Drawing.Size(35, 35);
@@ -2028,7 +1995,6 @@
 			// pb2Pos18
 			// 
 			this.pb2Pos18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos18.Enabled = false;
 			this.pb2Pos18.Location = new System.Drawing.Point(47, 350);
 			this.pb2Pos18.Name = "pb2Pos18";
 			this.pb2Pos18.Size = new System.Drawing.Size(35, 35);
@@ -2039,7 +2005,6 @@
 			// pb2Pos07
 			// 
 			this.pb2Pos07.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos07.Enabled = false;
 			this.pb2Pos07.Location = new System.Drawing.Point(6, 309);
 			this.pb2Pos07.Name = "pb2Pos07";
 			this.pb2Pos07.Size = new System.Drawing.Size(35, 35);
@@ -2050,7 +2015,6 @@
 			// pb2Pos09
 			// 
 			this.pb2Pos09.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos09.Enabled = false;
 			this.pb2Pos09.Location = new System.Drawing.Point(6, 391);
 			this.pb2Pos09.Name = "pb2Pos09";
 			this.pb2Pos09.Size = new System.Drawing.Size(35, 35);
@@ -2061,7 +2025,6 @@
 			// pb2Pos36
 			// 
 			this.pb2Pos36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos36.Enabled = false;
 			this.pb2Pos36.Location = new System.Drawing.Point(129, 268);
 			this.pb2Pos36.Name = "pb2Pos36";
 			this.pb2Pos36.Size = new System.Drawing.Size(35, 35);
@@ -2072,7 +2035,6 @@
 			// pb2Pos46
 			// 
 			this.pb2Pos46.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos46.Enabled = false;
 			this.pb2Pos46.Location = new System.Drawing.Point(170, 268);
 			this.pb2Pos46.Name = "pb2Pos46";
 			this.pb2Pos46.Size = new System.Drawing.Size(35, 35);
@@ -2083,7 +2045,6 @@
 			// pb2Pos25
 			// 
 			this.pb2Pos25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos25.Enabled = false;
 			this.pb2Pos25.Location = new System.Drawing.Point(88, 227);
 			this.pb2Pos25.Name = "pb2Pos25";
 			this.pb2Pos25.Size = new System.Drawing.Size(35, 35);
@@ -2094,7 +2055,6 @@
 			// pb2Pos95
 			// 
 			this.pb2Pos95.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos95.Enabled = false;
 			this.pb2Pos95.Location = new System.Drawing.Point(375, 227);
 			this.pb2Pos95.Name = "pb2Pos95";
 			this.pb2Pos95.Size = new System.Drawing.Size(35, 35);
@@ -2105,7 +2065,6 @@
 			// pb2Pos85
 			// 
 			this.pb2Pos85.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos85.Enabled = false;
 			this.pb2Pos85.Location = new System.Drawing.Point(334, 227);
 			this.pb2Pos85.Name = "pb2Pos85";
 			this.pb2Pos85.Size = new System.Drawing.Size(35, 35);
@@ -2116,7 +2075,6 @@
 			// pb2Pos06
 			// 
 			this.pb2Pos06.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos06.Enabled = false;
 			this.pb2Pos06.Location = new System.Drawing.Point(6, 268);
 			this.pb2Pos06.Name = "pb2Pos06";
 			this.pb2Pos06.Size = new System.Drawing.Size(35, 35);
@@ -2127,7 +2085,6 @@
 			// pb2Pos16
 			// 
 			this.pb2Pos16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos16.Enabled = false;
 			this.pb2Pos16.Location = new System.Drawing.Point(47, 268);
 			this.pb2Pos16.Name = "pb2Pos16";
 			this.pb2Pos16.Size = new System.Drawing.Size(35, 35);
@@ -2138,7 +2095,6 @@
 			// pb2Pos35
 			// 
 			this.pb2Pos35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos35.Enabled = false;
 			this.pb2Pos35.Location = new System.Drawing.Point(129, 227);
 			this.pb2Pos35.Name = "pb2Pos35";
 			this.pb2Pos35.Size = new System.Drawing.Size(35, 35);
@@ -2149,7 +2105,6 @@
 			// pb2Pos65
 			// 
 			this.pb2Pos65.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos65.Enabled = false;
 			this.pb2Pos65.Location = new System.Drawing.Point(252, 227);
 			this.pb2Pos65.Name = "pb2Pos65";
 			this.pb2Pos65.Size = new System.Drawing.Size(35, 35);
@@ -2160,7 +2115,6 @@
 			// pb2Pos15
 			// 
 			this.pb2Pos15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos15.Enabled = false;
 			this.pb2Pos15.Location = new System.Drawing.Point(47, 227);
 			this.pb2Pos15.Name = "pb2Pos15";
 			this.pb2Pos15.Size = new System.Drawing.Size(35, 35);
@@ -2171,7 +2125,6 @@
 			// pb2Pos75
 			// 
 			this.pb2Pos75.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos75.Enabled = false;
 			this.pb2Pos75.Location = new System.Drawing.Point(293, 227);
 			this.pb2Pos75.Name = "pb2Pos75";
 			this.pb2Pos75.Size = new System.Drawing.Size(35, 35);
@@ -2182,7 +2135,6 @@
 			// pb2Pos55
 			// 
 			this.pb2Pos55.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos55.Enabled = false;
 			this.pb2Pos55.Location = new System.Drawing.Point(211, 227);
 			this.pb2Pos55.Name = "pb2Pos55";
 			this.pb2Pos55.Size = new System.Drawing.Size(35, 35);
@@ -2193,7 +2145,6 @@
 			// pb2Pos05
 			// 
 			this.pb2Pos05.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos05.Enabled = false;
 			this.pb2Pos05.Location = new System.Drawing.Point(6, 227);
 			this.pb2Pos05.Name = "pb2Pos05";
 			this.pb2Pos05.Size = new System.Drawing.Size(35, 35);
@@ -2204,7 +2155,6 @@
 			// pb2Pos45
 			// 
 			this.pb2Pos45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos45.Enabled = false;
 			this.pb2Pos45.Location = new System.Drawing.Point(170, 227);
 			this.pb2Pos45.Name = "pb2Pos45";
 			this.pb2Pos45.Size = new System.Drawing.Size(35, 35);
@@ -2215,7 +2165,6 @@
 			// pb2Pos94
 			// 
 			this.pb2Pos94.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos94.Enabled = false;
 			this.pb2Pos94.Location = new System.Drawing.Point(375, 186);
 			this.pb2Pos94.Name = "pb2Pos94";
 			this.pb2Pos94.Size = new System.Drawing.Size(35, 35);
@@ -2226,7 +2175,6 @@
 			// pb2Pos84
 			// 
 			this.pb2Pos84.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos84.Enabled = false;
 			this.pb2Pos84.Location = new System.Drawing.Point(334, 186);
 			this.pb2Pos84.Name = "pb2Pos84";
 			this.pb2Pos84.Size = new System.Drawing.Size(35, 35);
@@ -2237,7 +2185,6 @@
 			// pb2Pos04
 			// 
 			this.pb2Pos04.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos04.Enabled = false;
 			this.pb2Pos04.Location = new System.Drawing.Point(6, 186);
 			this.pb2Pos04.Name = "pb2Pos04";
 			this.pb2Pos04.Size = new System.Drawing.Size(35, 35);
@@ -2248,7 +2195,6 @@
 			// pb2Pos74
 			// 
 			this.pb2Pos74.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos74.Enabled = false;
 			this.pb2Pos74.Location = new System.Drawing.Point(293, 186);
 			this.pb2Pos74.Name = "pb2Pos74";
 			this.pb2Pos74.Size = new System.Drawing.Size(35, 35);
@@ -2259,7 +2205,6 @@
 			// pb2Pos54
 			// 
 			this.pb2Pos54.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos54.Enabled = false;
 			this.pb2Pos54.Location = new System.Drawing.Point(211, 186);
 			this.pb2Pos54.Name = "pb2Pos54";
 			this.pb2Pos54.Size = new System.Drawing.Size(35, 35);
@@ -2270,7 +2215,6 @@
 			// pb2Pos44
 			// 
 			this.pb2Pos44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos44.Enabled = false;
 			this.pb2Pos44.Location = new System.Drawing.Point(170, 186);
 			this.pb2Pos44.Name = "pb2Pos44";
 			this.pb2Pos44.Size = new System.Drawing.Size(35, 35);
@@ -2281,7 +2225,6 @@
 			// pb2Pos64
 			// 
 			this.pb2Pos64.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos64.Enabled = false;
 			this.pb2Pos64.Location = new System.Drawing.Point(252, 186);
 			this.pb2Pos64.Name = "pb2Pos64";
 			this.pb2Pos64.Size = new System.Drawing.Size(35, 35);
@@ -2292,7 +2235,6 @@
 			// pb2Pos14
 			// 
 			this.pb2Pos14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos14.Enabled = false;
 			this.pb2Pos14.Location = new System.Drawing.Point(47, 186);
 			this.pb2Pos14.Name = "pb2Pos14";
 			this.pb2Pos14.Size = new System.Drawing.Size(35, 35);
@@ -2303,7 +2245,6 @@
 			// pb2Pos24
 			// 
 			this.pb2Pos24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos24.Enabled = false;
 			this.pb2Pos24.Location = new System.Drawing.Point(88, 186);
 			this.pb2Pos24.Name = "pb2Pos24";
 			this.pb2Pos24.Size = new System.Drawing.Size(35, 35);
@@ -2314,7 +2255,6 @@
 			// pb2Pos34
 			// 
 			this.pb2Pos34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos34.Enabled = false;
 			this.pb2Pos34.Location = new System.Drawing.Point(129, 186);
 			this.pb2Pos34.Name = "pb2Pos34";
 			this.pb2Pos34.Size = new System.Drawing.Size(35, 35);
@@ -2325,7 +2265,6 @@
 			// pb2Pos01
 			// 
 			this.pb2Pos01.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos01.Enabled = false;
 			this.pb2Pos01.Location = new System.Drawing.Point(6, 63);
 			this.pb2Pos01.Name = "pb2Pos01";
 			this.pb2Pos01.Size = new System.Drawing.Size(35, 35);
@@ -2336,7 +2275,6 @@
 			// pb2Pos11
 			// 
 			this.pb2Pos11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos11.Enabled = false;
 			this.pb2Pos11.Location = new System.Drawing.Point(47, 63);
 			this.pb2Pos11.Name = "pb2Pos11";
 			this.pb2Pos11.Size = new System.Drawing.Size(35, 35);
@@ -2347,7 +2285,6 @@
 			// pb2Pos21
 			// 
 			this.pb2Pos21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos21.Enabled = false;
 			this.pb2Pos21.Location = new System.Drawing.Point(88, 63);
 			this.pb2Pos21.Name = "pb2Pos21";
 			this.pb2Pos21.Size = new System.Drawing.Size(35, 35);
@@ -2358,7 +2295,6 @@
 			// pb2Pos32
 			// 
 			this.pb2Pos32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos32.Enabled = false;
 			this.pb2Pos32.Location = new System.Drawing.Point(129, 104);
 			this.pb2Pos32.Name = "pb2Pos32";
 			this.pb2Pos32.Size = new System.Drawing.Size(35, 35);
@@ -2369,7 +2305,6 @@
 			// pb2Pos42
 			// 
 			this.pb2Pos42.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos42.Enabled = false;
 			this.pb2Pos42.Location = new System.Drawing.Point(170, 104);
 			this.pb2Pos42.Name = "pb2Pos42";
 			this.pb2Pos42.Size = new System.Drawing.Size(35, 35);
@@ -2380,7 +2315,6 @@
 			// pb2Pos52
 			// 
 			this.pb2Pos52.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos52.Enabled = false;
 			this.pb2Pos52.Location = new System.Drawing.Point(211, 104);
 			this.pb2Pos52.Name = "pb2Pos52";
 			this.pb2Pos52.Size = new System.Drawing.Size(35, 35);
@@ -2391,7 +2325,6 @@
 			// pb2Pos62
 			// 
 			this.pb2Pos62.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos62.Enabled = false;
 			this.pb2Pos62.Location = new System.Drawing.Point(252, 104);
 			this.pb2Pos62.Name = "pb2Pos62";
 			this.pb2Pos62.Size = new System.Drawing.Size(35, 35);
@@ -2402,7 +2335,6 @@
 			// pb2Pos23
 			// 
 			this.pb2Pos23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos23.Enabled = false;
 			this.pb2Pos23.Location = new System.Drawing.Point(88, 145);
 			this.pb2Pos23.Name = "pb2Pos23";
 			this.pb2Pos23.Size = new System.Drawing.Size(35, 35);
@@ -2413,7 +2345,6 @@
 			// pb2Pos43
 			// 
 			this.pb2Pos43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos43.Enabled = false;
 			this.pb2Pos43.Location = new System.Drawing.Point(170, 145);
 			this.pb2Pos43.Name = "pb2Pos43";
 			this.pb2Pos43.Size = new System.Drawing.Size(35, 35);
@@ -2424,7 +2355,6 @@
 			// pb2Pos33
 			// 
 			this.pb2Pos33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos33.Enabled = false;
 			this.pb2Pos33.Location = new System.Drawing.Point(129, 145);
 			this.pb2Pos33.Name = "pb2Pos33";
 			this.pb2Pos33.Size = new System.Drawing.Size(35, 35);
@@ -2435,7 +2365,6 @@
 			// pb2Pos72
 			// 
 			this.pb2Pos72.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos72.Enabled = false;
 			this.pb2Pos72.Location = new System.Drawing.Point(293, 104);
 			this.pb2Pos72.Name = "pb2Pos72";
 			this.pb2Pos72.Size = new System.Drawing.Size(35, 35);
@@ -2446,7 +2375,6 @@
 			// pb2Pos53
 			// 
 			this.pb2Pos53.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos53.Enabled = false;
 			this.pb2Pos53.Location = new System.Drawing.Point(211, 145);
 			this.pb2Pos53.Name = "pb2Pos53";
 			this.pb2Pos53.Size = new System.Drawing.Size(35, 35);
@@ -2457,7 +2385,6 @@
 			// pb2Pos03
 			// 
 			this.pb2Pos03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos03.Enabled = false;
 			this.pb2Pos03.Location = new System.Drawing.Point(6, 145);
 			this.pb2Pos03.Name = "pb2Pos03";
 			this.pb2Pos03.Size = new System.Drawing.Size(35, 35);
@@ -2468,7 +2395,6 @@
 			// pb2Pos93
 			// 
 			this.pb2Pos93.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos93.Enabled = false;
 			this.pb2Pos93.Location = new System.Drawing.Point(375, 145);
 			this.pb2Pos93.Name = "pb2Pos93";
 			this.pb2Pos93.Size = new System.Drawing.Size(35, 35);
@@ -2479,7 +2405,6 @@
 			// pb2Pos13
 			// 
 			this.pb2Pos13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos13.Enabled = false;
 			this.pb2Pos13.Location = new System.Drawing.Point(47, 145);
 			this.pb2Pos13.Name = "pb2Pos13";
 			this.pb2Pos13.Size = new System.Drawing.Size(35, 35);
@@ -2490,7 +2415,6 @@
 			// pb2Pos63
 			// 
 			this.pb2Pos63.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos63.Enabled = false;
 			this.pb2Pos63.Location = new System.Drawing.Point(252, 145);
 			this.pb2Pos63.Name = "pb2Pos63";
 			this.pb2Pos63.Size = new System.Drawing.Size(35, 35);
@@ -2501,7 +2425,6 @@
 			// pb2Pos22
 			// 
 			this.pb2Pos22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos22.Enabled = false;
 			this.pb2Pos22.Location = new System.Drawing.Point(88, 104);
 			this.pb2Pos22.Name = "pb2Pos22";
 			this.pb2Pos22.Size = new System.Drawing.Size(35, 35);
@@ -2512,7 +2435,6 @@
 			// pb2Pos73
 			// 
 			this.pb2Pos73.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos73.Enabled = false;
 			this.pb2Pos73.Location = new System.Drawing.Point(293, 145);
 			this.pb2Pos73.Name = "pb2Pos73";
 			this.pb2Pos73.Size = new System.Drawing.Size(35, 35);
@@ -2523,7 +2445,6 @@
 			// pb2Pos83
 			// 
 			this.pb2Pos83.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos83.Enabled = false;
 			this.pb2Pos83.Location = new System.Drawing.Point(334, 145);
 			this.pb2Pos83.Name = "pb2Pos83";
 			this.pb2Pos83.Size = new System.Drawing.Size(35, 35);
@@ -2534,7 +2455,6 @@
 			// pb2Pos82
 			// 
 			this.pb2Pos82.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos82.Enabled = false;
 			this.pb2Pos82.Location = new System.Drawing.Point(334, 104);
 			this.pb2Pos82.Name = "pb2Pos82";
 			this.pb2Pos82.Size = new System.Drawing.Size(35, 35);
@@ -2545,7 +2465,6 @@
 			// pb2Pos92
 			// 
 			this.pb2Pos92.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos92.Enabled = false;
 			this.pb2Pos92.Location = new System.Drawing.Point(375, 104);
 			this.pb2Pos92.Name = "pb2Pos92";
 			this.pb2Pos92.Size = new System.Drawing.Size(35, 35);
@@ -2556,7 +2475,6 @@
 			// pb2Pos81
 			// 
 			this.pb2Pos81.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos81.Enabled = false;
 			this.pb2Pos81.Location = new System.Drawing.Point(334, 63);
 			this.pb2Pos81.Name = "pb2Pos81";
 			this.pb2Pos81.Size = new System.Drawing.Size(35, 35);
@@ -2567,7 +2485,6 @@
 			// pb2Pos02
 			// 
 			this.pb2Pos02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos02.Enabled = false;
 			this.pb2Pos02.Location = new System.Drawing.Point(6, 104);
 			this.pb2Pos02.Name = "pb2Pos02";
 			this.pb2Pos02.Size = new System.Drawing.Size(35, 35);
@@ -2578,7 +2495,6 @@
 			// pb2Pos91
 			// 
 			this.pb2Pos91.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos91.Enabled = false;
 			this.pb2Pos91.Location = new System.Drawing.Point(375, 63);
 			this.pb2Pos91.Name = "pb2Pos91";
 			this.pb2Pos91.Size = new System.Drawing.Size(35, 35);
@@ -2589,7 +2505,6 @@
 			// pb2Pos12
 			// 
 			this.pb2Pos12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos12.Enabled = false;
 			this.pb2Pos12.Location = new System.Drawing.Point(47, 104);
 			this.pb2Pos12.Name = "pb2Pos12";
 			this.pb2Pos12.Size = new System.Drawing.Size(35, 35);
@@ -2600,7 +2515,6 @@
 			// pb2Pos71
 			// 
 			this.pb2Pos71.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos71.Enabled = false;
 			this.pb2Pos71.Location = new System.Drawing.Point(293, 63);
 			this.pb2Pos71.Name = "pb2Pos71";
 			this.pb2Pos71.Size = new System.Drawing.Size(35, 35);
@@ -2611,7 +2525,6 @@
 			// pb2Pos31
 			// 
 			this.pb2Pos31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos31.Enabled = false;
 			this.pb2Pos31.Location = new System.Drawing.Point(129, 63);
 			this.pb2Pos31.Name = "pb2Pos31";
 			this.pb2Pos31.Size = new System.Drawing.Size(35, 35);
@@ -2622,7 +2535,6 @@
 			// pb2Pos41
 			// 
 			this.pb2Pos41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos41.Enabled = false;
 			this.pb2Pos41.Location = new System.Drawing.Point(170, 63);
 			this.pb2Pos41.Name = "pb2Pos41";
 			this.pb2Pos41.Size = new System.Drawing.Size(35, 35);
@@ -2633,7 +2545,6 @@
 			// pb2Pos51
 			// 
 			this.pb2Pos51.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos51.Enabled = false;
 			this.pb2Pos51.Location = new System.Drawing.Point(211, 63);
 			this.pb2Pos51.Name = "pb2Pos51";
 			this.pb2Pos51.Size = new System.Drawing.Size(35, 35);
@@ -2644,7 +2555,6 @@
 			// pb2Pos61
 			// 
 			this.pb2Pos61.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos61.Enabled = false;
 			this.pb2Pos61.Location = new System.Drawing.Point(252, 63);
 			this.pb2Pos61.Name = "pb2Pos61";
 			this.pb2Pos61.Size = new System.Drawing.Size(35, 35);
@@ -2655,7 +2565,6 @@
 			// pb2Pos50
 			// 
 			this.pb2Pos50.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos50.Enabled = false;
 			this.pb2Pos50.Location = new System.Drawing.Point(211, 22);
 			this.pb2Pos50.Name = "pb2Pos50";
 			this.pb2Pos50.Size = new System.Drawing.Size(35, 35);
@@ -2666,7 +2575,6 @@
 			// pb2Pos60
 			// 
 			this.pb2Pos60.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos60.Enabled = false;
 			this.pb2Pos60.Location = new System.Drawing.Point(252, 22);
 			this.pb2Pos60.Name = "pb2Pos60";
 			this.pb2Pos60.Size = new System.Drawing.Size(35, 35);
@@ -2677,7 +2585,6 @@
 			// pb2Pos80
 			// 
 			this.pb2Pos80.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos80.Enabled = false;
 			this.pb2Pos80.Location = new System.Drawing.Point(334, 22);
 			this.pb2Pos80.Name = "pb2Pos80";
 			this.pb2Pos80.Size = new System.Drawing.Size(35, 35);
@@ -2688,7 +2595,6 @@
 			// pb2Pos70
 			// 
 			this.pb2Pos70.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos70.Enabled = false;
 			this.pb2Pos70.Location = new System.Drawing.Point(293, 22);
 			this.pb2Pos70.Name = "pb2Pos70";
 			this.pb2Pos70.Size = new System.Drawing.Size(35, 35);
@@ -2699,7 +2605,6 @@
 			// pb2Pos90
 			// 
 			this.pb2Pos90.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos90.Enabled = false;
 			this.pb2Pos90.Location = new System.Drawing.Point(375, 22);
 			this.pb2Pos90.Name = "pb2Pos90";
 			this.pb2Pos90.Size = new System.Drawing.Size(35, 35);
@@ -2710,7 +2615,6 @@
 			// pb2Pos00
 			// 
 			this.pb2Pos00.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos00.Enabled = false;
 			this.pb2Pos00.Location = new System.Drawing.Point(6, 22);
 			this.pb2Pos00.Name = "pb2Pos00";
 			this.pb2Pos00.Size = new System.Drawing.Size(35, 35);
@@ -2721,7 +2625,6 @@
 			// pb2Pos10
 			// 
 			this.pb2Pos10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos10.Enabled = false;
 			this.pb2Pos10.Location = new System.Drawing.Point(47, 22);
 			this.pb2Pos10.Name = "pb2Pos10";
 			this.pb2Pos10.Size = new System.Drawing.Size(35, 35);
@@ -2732,7 +2635,6 @@
 			// pb2Pos20
 			// 
 			this.pb2Pos20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos20.Enabled = false;
 			this.pb2Pos20.Location = new System.Drawing.Point(88, 22);
 			this.pb2Pos20.Name = "pb2Pos20";
 			this.pb2Pos20.Size = new System.Drawing.Size(35, 35);
@@ -2743,7 +2645,6 @@
 			// pb2Pos30
 			// 
 			this.pb2Pos30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos30.Enabled = false;
 			this.pb2Pos30.Location = new System.Drawing.Point(129, 22);
 			this.pb2Pos30.Name = "pb2Pos30";
 			this.pb2Pos30.Size = new System.Drawing.Size(35, 35);
@@ -2754,7 +2655,6 @@
 			// pb2Pos40
 			// 
 			this.pb2Pos40.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.pb2Pos40.Enabled = false;
 			this.pb2Pos40.Location = new System.Drawing.Point(170, 22);
 			this.pb2Pos40.Name = "pb2Pos40";
 			this.pb2Pos40.Size = new System.Drawing.Size(35, 35);
