@@ -30,6 +30,7 @@ namespace Battleship
 			//Ship placement
 			Methods.ShipPlacerOne();
 			Methods.ShipPlacerTwo();
+			groupBox2.Enabled = true;
 		}
 
 		private void pb2Pos00_Click(object sender, EventArgs e)
