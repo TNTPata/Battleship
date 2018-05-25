@@ -51,7 +51,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Methods.cs" />
+    <Compile Include="Gameplay.cs" />
+    <Compile Include="HitDetectors.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

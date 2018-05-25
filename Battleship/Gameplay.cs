@@ -8,7 +8,7 @@ namespace Battleship
 {
 	class Gameplay
 	{
-		public static void Singleplayer()
+		public static void SingleplayerGame()
 		{
 
 		}
