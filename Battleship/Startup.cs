@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-	public class Methods
+	public class Startup
 	{
 		//Textbook randomiser
 		static Random rnd = new Random();
@@ -131,25 +131,6 @@ namespace Battleship
 			if (Battleship.playerOneGameboard[9, 8] == true) { bship.pb1Pos98.BackColor = Color.LimeGreen; }
 			if (Battleship.playerOneGameboard[9, 9] == true) { bship.pb1Pos99.BackColor = Color.LimeGreen; }
 			bship.Invalidate();
-		}
-
-		//Detects hits or misses for right (enemy) gameboard
-		public static void HitDetectorGameboardTwo (int x,int y, ref System.Windows.Forms.PictureBox buttonToChange)
-		{
-			//Hit
-			if (Battleship.playerTwoGameboard[x, y] == true)
-			{
-				//Sets position to "hit"
-				//Sets button color to orange/yellow
-				Battleship.playerTwoGameboard[x, y] = false;
-
-				buttonToChange.BackColor = Color.Yellow;
-			}
-			//Miss
-			else if (buttonToChange.BackColor != Color.Yellow)
-			{
-				buttonToChange.BackColor = Color.LightBlue;
-			}
 		}
 
 		//Places ships on your gameboard
