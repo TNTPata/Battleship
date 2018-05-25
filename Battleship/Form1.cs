@@ -22,6 +22,10 @@ namespace Battleship
 			InitializeComponent();
 		}
 
+		//***REMOVE LATER***
+		//public static int numberOfPlayers = 1;
+		//***REMOVE LATER***
+
 		private void Battleship_Load(object sender, EventArgs e)
 		{
 			//Sets all positions to false, as there aren't any ships on the gameboard yet.
@@ -33,6 +37,8 @@ namespace Battleship
 			groupBox1.Enabled = true;
 			groupBox2.Enabled = true;
 			Startup.ShipMarker();
+
+
 		}
 
 		#region pictureBox.Click events
