@@ -35,6 +35,7 @@ namespace Battleship
 			Startup.ShipMarker();
 		}
 
+		#region pictureBox.Click events
 		private void pb2Pos00_Click(object sender, EventArgs e)
 		{
 			HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos00);
@@ -603,5 +604,6 @@ namespace Battleship
 			HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos99);
 
 		}
+		#endregion
 	}
 }
