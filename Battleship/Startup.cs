@@ -208,6 +208,7 @@ namespace Battleship
 						}
 						yCheck++;
 					}
+					destroyerClear = true;
 					for (int i = 0; i < 4; i++)
 					{
 						Battleship.playerOneGameboard[x, y] = true;
@@ -263,6 +264,7 @@ namespace Battleship
 						}
 						yCheck++;
 					}
+					minesweeperClear = true;
 					for (int i = 0; i < 3; i++)
 					{
 						Battleship.playerOneGameboard[x, y] = true;
@@ -318,6 +320,7 @@ namespace Battleship
 						}
 						yCheck++;
 					}
+					submarineClear = true;
 					for (int i = 0; i < 3; i++)
 					{
 						Battleship.playerOneGameboard[x, y] = true;
@@ -373,6 +376,7 @@ namespace Battleship
 						}
 						yCheck++;
 					}
+					torpedoBoatClear = true;
 					for (int i = 0; i < 2; i++)
 					{
 						Battleship.playerOneGameboard[x, y] = true;
