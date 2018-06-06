@@ -16,7 +16,7 @@ namespace Battleship
 			if (Battleship.playerTwoGameboard[x, y] == true)
 			{
 				//Sets position to "hit"
-				//Sets button color to orange/yellow
+				//Sets button color to yellow
 				Battleship.playerTwoGameboard[x, y] = false;
 
 				buttonToChange.BackColor = Color.Yellow;

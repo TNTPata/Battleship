@@ -29,14 +29,14 @@ namespace Battleship
 		private void Battleship_Load(object sender, EventArgs e)
 		{
 			//Sets all positions to false, as there aren't any ships on the gameboard yet.
-			Startup.ResetBoards();
+			Battleship.ResetBoards();
 
 			//Ship placement
-			Startup.ShipPlacerOne();
-			Startup.ShipPlacerTwo();
+			Battleship.ShipPlacerOne();
+			Battleship.ShipPlacerTwo();
 			groupBox1.Enabled = true;
 			groupBox2.Enabled = true;
-			Startup.ShipMarker();
+			Battleship.ShipMarker();
 
 
 		}
