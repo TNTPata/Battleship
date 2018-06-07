@@ -21,11 +21,23 @@ namespace Battleship
 
 				buttonToChange.BackColor = Color.Yellow;
 			}
+			//Used for debug Redraw
+			else if ((buttonToChange.BackColor == Color.Yellow) && (Battleship.playerTwoGameboard[x, y] == '0'))
+			{
+				buttonToChange.BackColor = Color.LightBlue;
+			}
 			//Miss
 			else if (buttonToChange.BackColor != Color.Yellow)
 			{
 				buttonToChange.BackColor = Color.LightBlue;
 			}
+			
+		}
+
+		//Used for when debug button "Redraw" is pushed. 
+		public static void DebugHitDetectorGameboardTwo(int x, int y, ref System.Windows.Forms.PictureBox buttonToChange)
+		{
+
 		}
 	}
 }

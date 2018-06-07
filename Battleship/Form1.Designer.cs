@@ -232,6 +232,7 @@
 			this.pb2Pos30 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos40 = new System.Windows.Forms.PictureBox();
 			this.btnDebugHITALL = new System.Windows.Forms.Button();
+			this.btnDebugREDRAW = new System.Windows.Forms.Button();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos97)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos78)).BeginInit();
@@ -1548,6 +1549,7 @@
 			// 
 			// groupBox3
 			// 
+			this.groupBox3.Controls.Add(this.btnDebugREDRAW);
 			this.groupBox3.Controls.Add(this.btnDebugHITALL);
 			this.groupBox3.Location = new System.Drawing.Point(437, 13);
 			this.groupBox3.Name = "groupBox3";
@@ -2675,6 +2677,16 @@
 			this.btnDebugHITALL.UseVisualStyleBackColor = true;
 			this.btnDebugHITALL.Click += new System.EventHandler(this.btnDebugHITALL_Click);
 			// 
+			// btnDebugREDRAW
+			// 
+			this.btnDebugREDRAW.Location = new System.Drawing.Point(87, 51);
+			this.btnDebugREDRAW.Name = "btnDebugREDRAW";
+			this.btnDebugREDRAW.Size = new System.Drawing.Size(75, 23);
+			this.btnDebugREDRAW.TabIndex = 1;
+			this.btnDebugREDRAW.Text = "Redraw";
+			this.btnDebugREDRAW.UseVisualStyleBackColor = true;
+			this.btnDebugREDRAW.Click += new System.EventHandler(this.btnDebugREDRAW_Click);
+			// 
 			// Battleship
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -3098,6 +3110,7 @@
 		public System.Windows.Forms.PictureBox pb2Pos24;
 		public System.Windows.Forms.PictureBox pb2Pos34;
 		private System.Windows.Forms.Button btnDebugHITALL;
+		private System.Windows.Forms.Button btnDebugREDRAW;
 	}
 }
 

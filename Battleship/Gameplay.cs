@@ -15,7 +15,7 @@ namespace Battleship
 		
 		//Scans gameboard for all positions to be empty
 		//Return 0 if noone has won yet, 1 if player one has won, 2 if player two has won
-		public static int WinCheck()
+		public static int WinnerCheck()
 		{
 			int gameboardOnePositionsChecked = 0;
 			for (int x = 0; x < 10; x++)

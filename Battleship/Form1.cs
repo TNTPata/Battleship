@@ -29,16 +29,15 @@ namespace Battleship
 		private void Battleship_Load(object sender, EventArgs e)
 		{
 			//Sets all positions to false, as there aren't any ships on the gameboard yet.
-			Battleship.ResetBoards();
+			ResetBoards();
 
 			//Ship placement
-			Battleship.ShipPlacerOne();
-			Battleship.ShipPlacerTwo();
+			ShipPlacerOne();
+			ShipPlacerTwo();
 			groupBox1.Enabled = true;
 			groupBox2.Enabled = true;
-			Battleship.ShipMarker();
-
-
+			groupBox3.Enabled = true;
+			ShipMarker();
 		}
 
 		#region PictureBox.Click events
@@ -612,6 +611,7 @@ namespace Battleship
 		}
 		#endregion
 
+		#region Debug buttons
 		//Debug button to fire at all buttons at the same time
 		private void btnDebugHITALL_Click(object sender, EventArgs e)
 		{
@@ -716,5 +716,12 @@ namespace Battleship
 			HitDetectors.HitDetectorGameboardTwo(9, 8, ref pb2Pos98);
 			HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos99);
 		}
+
+		private void btnDebugREDRAW_Click(object sender, EventArgs e)
+		{
+			ResetBoards();
+			ShipPlacerTwo();
+		}
+		#endregion
 	}
 }
