@@ -1549,6 +1549,7 @@
 			// groupBox3
 			// 
 			this.groupBox3.Controls.Add(this.btnDebugHITALL);
+			this.groupBox3.Enabled = false;
 			this.groupBox3.Location = new System.Drawing.Point(437, 13);
 			this.groupBox3.Name = "groupBox3";
 			this.groupBox3.Size = new System.Drawing.Size(241, 436);
