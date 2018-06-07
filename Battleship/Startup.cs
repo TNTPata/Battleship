@@ -129,108 +129,107 @@ namespace Battleship
 			ref System.Windows.Forms.PictureBox pb1Pos98,
 			ref System.Windows.Forms.PictureBox pb1Pos99) {
 
-
-			//MArk all positions that are not empty with Lime green
-			if (playerOneGameboard[0, 0] != '0') { pb1Pos00.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 1] != '0') { pb1Pos01.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 2] != '0') { pb1Pos02.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 3] != '0') { pb1Pos03.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 4] != '0') { pb1Pos04.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 5] != '0') { pb1Pos05.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 6] != '0') { pb1Pos06.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 7] != '0') { pb1Pos07.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 8] != '0') { pb1Pos08.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[0, 9] != '0') { pb1Pos09.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 0] != '0') { pb1Pos10.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 1] != '0') { pb1Pos11.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 2] != '0') { pb1Pos12.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 3] != '0') { pb1Pos13.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 4] != '0') { pb1Pos14.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 5] != '0') { pb1Pos15.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 6] != '0') { pb1Pos16.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 7] != '0') { pb1Pos17.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 8] != '0') { pb1Pos18.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[1, 9] != '0') { pb1Pos19.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 0] != '0') { pb1Pos20.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 1] != '0') { pb1Pos21.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 2] != '0') { pb1Pos22.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 3] != '0') { pb1Pos23.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 4] != '0') { pb1Pos24.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 5] != '0') { pb1Pos25.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 6] != '0') { pb1Pos26.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 7] != '0') { pb1Pos27.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 8] != '0') { pb1Pos28.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[2, 9] != '0') { pb1Pos29.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 0] != '0') { pb1Pos30.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 1] != '0') { pb1Pos31.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 2] != '0') { pb1Pos32.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 3] != '0') { pb1Pos33.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 4] != '0') { pb1Pos34.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 5] != '0') { pb1Pos35.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 6] != '0') { pb1Pos36.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 7] != '0') { pb1Pos37.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 8] != '0') { pb1Pos38.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[3, 9] != '0') { pb1Pos39.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 0] != '0') { pb1Pos40.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 1] != '0') { pb1Pos41.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 2] != '0') { pb1Pos42.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 3] != '0') { pb1Pos43.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 4] != '0') { pb1Pos44.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 5] != '0') { pb1Pos45.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 6] != '0') { pb1Pos46.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 7] != '0') { pb1Pos47.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 8] != '0') { pb1Pos48.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[4, 9] != '0') { pb1Pos49.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 0] != '0') { pb1Pos50.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 1] != '0') { pb1Pos51.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 2] != '0') { pb1Pos52.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 3] != '0') { pb1Pos53.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 4] != '0') { pb1Pos54.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 5] != '0') { pb1Pos55.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 6] != '0') { pb1Pos56.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 7] != '0') { pb1Pos57.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 8] != '0') { pb1Pos58.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[5, 9] != '0') { pb1Pos59.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 0] != '0') { pb1Pos60.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 1] != '0') { pb1Pos61.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 2] != '0') { pb1Pos62.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 3] != '0') { pb1Pos63.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 4] != '0') { pb1Pos64.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 5] != '0') { pb1Pos65.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 6] != '0') { pb1Pos66.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 7] != '0') { pb1Pos67.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 8] != '0') { pb1Pos68.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[6, 9] != '0') { pb1Pos69.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 0] != '0') { pb1Pos70.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 1] != '0') { pb1Pos71.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 2] != '0') { pb1Pos72.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 3] != '0') { pb1Pos73.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 4] != '0') { pb1Pos74.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 5] != '0') { pb1Pos75.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 6] != '0') { pb1Pos76.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 7] != '0') { pb1Pos77.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 8] != '0') { pb1Pos78.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[7, 9] != '0') { pb1Pos79.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 0] != '0') { pb1Pos80.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 1] != '0') { pb1Pos81.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 2] != '0') { pb1Pos82.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 3] != '0') { pb1Pos83.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 4] != '0') { pb1Pos84.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 5] != '0') { pb1Pos85.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 6] != '0') { pb1Pos86.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 7] != '0') { pb1Pos87.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 8] != '0') { pb1Pos88.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[8, 9] != '0') { pb1Pos89.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 0] != '0') { pb1Pos90.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 1] != '0') { pb1Pos91.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 2] != '0') { pb1Pos92.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 3] != '0') { pb1Pos93.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 4] != '0') { pb1Pos94.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 5] != '0') { pb1Pos95.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 6] != '0') { pb1Pos96.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 7] != '0') { pb1Pos97.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 8] != '0') { pb1Pos98.BackColor = Color.LimeGreen; }
-			if (playerOneGameboard[9, 9] != '0') { pb1Pos99.BackColor = Color.LimeGreen; }
+			//Mark all positions that are not empty with Lime green, others with light blue
+			if (playerOneGameboard[0, 0] != '0') { pb1Pos00.BackColor = Color.LimeGreen; } else { pb1Pos00.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 1] != '0') { pb1Pos01.BackColor = Color.LimeGreen; } else { pb1Pos01.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 2] != '0') { pb1Pos02.BackColor = Color.LimeGreen; } else { pb1Pos02.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 3] != '0') { pb1Pos03.BackColor = Color.LimeGreen; } else { pb1Pos03.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 4] != '0') { pb1Pos04.BackColor = Color.LimeGreen; } else { pb1Pos04.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 5] != '0') { pb1Pos05.BackColor = Color.LimeGreen; } else { pb1Pos05.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 6] != '0') { pb1Pos06.BackColor = Color.LimeGreen; } else { pb1Pos06.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 7] != '0') { pb1Pos07.BackColor = Color.LimeGreen; } else { pb1Pos07.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 8] != '0') { pb1Pos08.BackColor = Color.LimeGreen; } else { pb1Pos08.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[0, 9] != '0') { pb1Pos09.BackColor = Color.LimeGreen; } else { pb1Pos09.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 0] != '0') { pb1Pos10.BackColor = Color.LimeGreen; } else { pb1Pos10.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 1] != '0') { pb1Pos11.BackColor = Color.LimeGreen; } else { pb1Pos11.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 2] != '0') { pb1Pos12.BackColor = Color.LimeGreen; } else { pb1Pos12.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 3] != '0') { pb1Pos13.BackColor = Color.LimeGreen; } else { pb1Pos13.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 4] != '0') { pb1Pos14.BackColor = Color.LimeGreen; } else { pb1Pos14.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 5] != '0') { pb1Pos15.BackColor = Color.LimeGreen; } else { pb1Pos15.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 6] != '0') { pb1Pos16.BackColor = Color.LimeGreen; } else { pb1Pos16.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 7] != '0') { pb1Pos17.BackColor = Color.LimeGreen; } else { pb1Pos17.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 8] != '0') { pb1Pos18.BackColor = Color.LimeGreen; } else { pb1Pos18.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[1, 9] != '0') { pb1Pos19.BackColor = Color.LimeGreen; } else { pb1Pos19.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 0] != '0') { pb1Pos20.BackColor = Color.LimeGreen; } else { pb1Pos20.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 1] != '0') { pb1Pos21.BackColor = Color.LimeGreen; } else { pb1Pos21.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 2] != '0') { pb1Pos22.BackColor = Color.LimeGreen; } else { pb1Pos22.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 3] != '0') { pb1Pos23.BackColor = Color.LimeGreen; } else { pb1Pos23.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 4] != '0') { pb1Pos24.BackColor = Color.LimeGreen; } else { pb1Pos24.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 5] != '0') { pb1Pos25.BackColor = Color.LimeGreen; } else { pb1Pos25.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 6] != '0') { pb1Pos26.BackColor = Color.LimeGreen; } else { pb1Pos26.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 7] != '0') { pb1Pos27.BackColor = Color.LimeGreen; } else { pb1Pos27.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 8] != '0') { pb1Pos28.BackColor = Color.LimeGreen; } else { pb1Pos28.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[2, 9] != '0') { pb1Pos29.BackColor = Color.LimeGreen; } else { pb1Pos29.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 0] != '0') { pb1Pos30.BackColor = Color.LimeGreen; } else { pb1Pos30.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 1] != '0') { pb1Pos31.BackColor = Color.LimeGreen; } else { pb1Pos31.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 2] != '0') { pb1Pos32.BackColor = Color.LimeGreen; } else { pb1Pos32.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 3] != '0') { pb1Pos33.BackColor = Color.LimeGreen; } else { pb1Pos33.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 4] != '0') { pb1Pos34.BackColor = Color.LimeGreen; } else { pb1Pos34.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 5] != '0') { pb1Pos35.BackColor = Color.LimeGreen; } else { pb1Pos35.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 6] != '0') { pb1Pos36.BackColor = Color.LimeGreen; } else { pb1Pos36.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 7] != '0') { pb1Pos37.BackColor = Color.LimeGreen; } else { pb1Pos37.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 8] != '0') { pb1Pos38.BackColor = Color.LimeGreen; } else { pb1Pos38.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[3, 9] != '0') { pb1Pos39.BackColor = Color.LimeGreen; } else { pb1Pos39.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 0] != '0') { pb1Pos40.BackColor = Color.LimeGreen; } else { pb1Pos40.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 1] != '0') { pb1Pos41.BackColor = Color.LimeGreen; } else { pb1Pos41.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 2] != '0') { pb1Pos42.BackColor = Color.LimeGreen; } else { pb1Pos42.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 3] != '0') { pb1Pos43.BackColor = Color.LimeGreen; } else { pb1Pos43.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 4] != '0') { pb1Pos44.BackColor = Color.LimeGreen; } else { pb1Pos44.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 5] != '0') { pb1Pos45.BackColor = Color.LimeGreen; } else { pb1Pos45.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 6] != '0') { pb1Pos46.BackColor = Color.LimeGreen; } else { pb1Pos46.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 7] != '0') { pb1Pos47.BackColor = Color.LimeGreen; } else { pb1Pos47.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 8] != '0') { pb1Pos48.BackColor = Color.LimeGreen; } else { pb1Pos48.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[4, 9] != '0') { pb1Pos49.BackColor = Color.LimeGreen; } else { pb1Pos49.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 0] != '0') { pb1Pos50.BackColor = Color.LimeGreen; } else { pb1Pos50.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 1] != '0') { pb1Pos51.BackColor = Color.LimeGreen; } else { pb1Pos51.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 2] != '0') { pb1Pos52.BackColor = Color.LimeGreen; } else { pb1Pos52.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 3] != '0') { pb1Pos53.BackColor = Color.LimeGreen; } else { pb1Pos53.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 4] != '0') { pb1Pos54.BackColor = Color.LimeGreen; } else { pb1Pos54.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 5] != '0') { pb1Pos55.BackColor = Color.LimeGreen; } else { pb1Pos55.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 6] != '0') { pb1Pos56.BackColor = Color.LimeGreen; } else { pb1Pos56.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 7] != '0') { pb1Pos57.BackColor = Color.LimeGreen; } else { pb1Pos57.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 8] != '0') { pb1Pos58.BackColor = Color.LimeGreen; } else { pb1Pos58.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[5, 9] != '0') { pb1Pos59.BackColor = Color.LimeGreen; } else { pb1Pos59.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 0] != '0') { pb1Pos60.BackColor = Color.LimeGreen; } else { pb1Pos60.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 1] != '0') { pb1Pos61.BackColor = Color.LimeGreen; } else { pb1Pos61.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 2] != '0') { pb1Pos62.BackColor = Color.LimeGreen; } else { pb1Pos62.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 3] != '0') { pb1Pos63.BackColor = Color.LimeGreen; } else { pb1Pos63.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 4] != '0') { pb1Pos64.BackColor = Color.LimeGreen; } else { pb1Pos64.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 5] != '0') { pb1Pos65.BackColor = Color.LimeGreen; } else { pb1Pos65.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 6] != '0') { pb1Pos66.BackColor = Color.LimeGreen; } else { pb1Pos66.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 7] != '0') { pb1Pos67.BackColor = Color.LimeGreen; } else { pb1Pos67.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 8] != '0') { pb1Pos68.BackColor = Color.LimeGreen; } else { pb1Pos68.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[6, 9] != '0') { pb1Pos69.BackColor = Color.LimeGreen; } else { pb1Pos69.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 0] != '0') { pb1Pos70.BackColor = Color.LimeGreen; } else { pb1Pos70.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 1] != '0') { pb1Pos71.BackColor = Color.LimeGreen; } else { pb1Pos71.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 2] != '0') { pb1Pos72.BackColor = Color.LimeGreen; } else { pb1Pos72.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 3] != '0') { pb1Pos73.BackColor = Color.LimeGreen; } else { pb1Pos73.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 4] != '0') { pb1Pos74.BackColor = Color.LimeGreen; } else { pb1Pos74.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 5] != '0') { pb1Pos75.BackColor = Color.LimeGreen; } else { pb1Pos75.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 6] != '0') { pb1Pos76.BackColor = Color.LimeGreen; } else { pb1Pos76.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 7] != '0') { pb1Pos77.BackColor = Color.LimeGreen; } else { pb1Pos77.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 8] != '0') { pb1Pos78.BackColor = Color.LimeGreen; } else { pb1Pos78.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[7, 9] != '0') { pb1Pos79.BackColor = Color.LimeGreen; } else { pb1Pos79.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 0] != '0') { pb1Pos80.BackColor = Color.LimeGreen; } else { pb1Pos80.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 1] != '0') { pb1Pos81.BackColor = Color.LimeGreen; } else { pb1Pos81.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 2] != '0') { pb1Pos82.BackColor = Color.LimeGreen; } else { pb1Pos82.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 3] != '0') { pb1Pos83.BackColor = Color.LimeGreen; } else { pb1Pos83.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 4] != '0') { pb1Pos84.BackColor = Color.LimeGreen; } else { pb1Pos84.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 5] != '0') { pb1Pos85.BackColor = Color.LimeGreen; } else { pb1Pos85.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 6] != '0') { pb1Pos86.BackColor = Color.LimeGreen; } else { pb1Pos86.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 7] != '0') { pb1Pos87.BackColor = Color.LimeGreen; } else { pb1Pos87.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 8] != '0') { pb1Pos88.BackColor = Color.LimeGreen; } else { pb1Pos88.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[8, 9] != '0') { pb1Pos89.BackColor = Color.LimeGreen; } else { pb1Pos89.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 0] != '0') { pb1Pos90.BackColor = Color.LimeGreen; } else { pb1Pos90.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 1] != '0') { pb1Pos91.BackColor = Color.LimeGreen; } else { pb1Pos91.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 2] != '0') { pb1Pos92.BackColor = Color.LimeGreen; } else { pb1Pos92.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 3] != '0') { pb1Pos93.BackColor = Color.LimeGreen; } else { pb1Pos93.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 4] != '0') { pb1Pos94.BackColor = Color.LimeGreen; } else { pb1Pos94.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 5] != '0') { pb1Pos95.BackColor = Color.LimeGreen; } else { pb1Pos95.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 6] != '0') { pb1Pos96.BackColor = Color.LimeGreen; } else { pb1Pos96.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 7] != '0') { pb1Pos97.BackColor = Color.LimeGreen; } else { pb1Pos97.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 8] != '0') { pb1Pos98.BackColor = Color.LimeGreen; } else { pb1Pos98.BackColor = Color.LightBlue; }
+			if (playerOneGameboard[9, 9] != '0') { pb1Pos99.BackColor = Color.LimeGreen; } else { pb1Pos99.BackColor = Color.LightBlue; }
 		}
 		#endregion
 
