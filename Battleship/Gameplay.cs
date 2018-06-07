@@ -8,10 +8,13 @@ namespace Battleship
 {
 	class Gameplay
 	{
-		public static void SingleplayerGame()
-		{
-
-		}
+		//public static void SingleplayerGame()
+		//{
+		//	do
+		//	{
+		//
+		//	} while (WinnerCheck != 0);
+		//}
 		
 		//Scans gameboard for all positions to be empty
 		//Return 0 if noone has won yet, 1 if player one has won, 2 if player two has won
@@ -29,7 +32,7 @@ namespace Battleship
 				}
 			}
 
-			//Ensures that all 100 positions are empty/false
+			//Ensures that all 100 positions are empty
 			if (gameboardOnePositionsChecked == 100)
 			{
 				return 1;
@@ -47,13 +50,13 @@ namespace Battleship
 				}
 			}
 
-			//Ensures that all 100 positions are empty/false
+			//Ensures that all 100 positions are empty
 			if (gameboardTwoPositionsChecked == 100)
 			{
 				return 2;
 			}
 
-			//Neither of the boards had 100 false/empty positions, noone has won yet. 
+			//Neither of the boards had 100 empty positions, noone has won yet. 
 			return 0;
 		}
 	}
