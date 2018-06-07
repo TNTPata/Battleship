@@ -41,7 +41,7 @@ namespace Battleship
 
 		}
 
-		#region pictureBox.Click events
+		#region PictureBox.Click events
 		private void pb2Pos00_Click(object sender, EventArgs e)
 		{
 			HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos00);
@@ -612,6 +612,7 @@ namespace Battleship
 		}
 		#endregion
 
+		//Debug button to fire at all buttons at the same time
 		private void btnDebugHITALL_Click(object sender, EventArgs e)
 		{
 			HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos00);
