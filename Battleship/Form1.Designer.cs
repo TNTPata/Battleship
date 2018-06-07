@@ -130,6 +130,7 @@
 			this.pb1Pos61 = new System.Windows.Forms.PictureBox();
 			this.pb1Pos00 = new System.Windows.Forms.PictureBox();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
+			this.btnDebugHITALL = new System.Windows.Forms.Button();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.pb2Pos58 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos59 = new System.Windows.Forms.PictureBox();
@@ -332,6 +333,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos51)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos61)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos00)).BeginInit();
+			this.groupBox3.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pb2Pos58)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb2Pos59)).BeginInit();
@@ -1546,13 +1548,23 @@
 			// 
 			// groupBox3
 			// 
-			this.groupBox3.Enabled = false;
+			this.groupBox3.Controls.Add(this.btnDebugHITALL);
 			this.groupBox3.Location = new System.Drawing.Point(437, 13);
 			this.groupBox3.Name = "groupBox3";
 			this.groupBox3.Size = new System.Drawing.Size(241, 436);
 			this.groupBox3.TabIndex = 101;
 			this.groupBox3.TabStop = false;
 			this.groupBox3.Text = "Stats";
+			// 
+			// btnDebugHITALL
+			// 
+			this.btnDebugHITALL.Location = new System.Drawing.Point(87, 22);
+			this.btnDebugHITALL.Name = "btnDebugHITALL";
+			this.btnDebugHITALL.Size = new System.Drawing.Size(75, 23);
+			this.btnDebugHITALL.TabIndex = 0;
+			this.btnDebugHITALL.Text = "Hit All";
+			this.btnDebugHITALL.UseVisualStyleBackColor = true;
+			this.btnDebugHITALL.Click += new System.EventHandler(this.btnDebugHITALL_Click);
 			// 
 			// groupBox2
 			// 
@@ -2775,6 +2787,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos51)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos61)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos00)).EndInit();
+			this.groupBox3.ResumeLayout(false);
 			this.groupBox2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pb2Pos58)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb2Pos59)).EndInit();
@@ -3084,6 +3097,7 @@
 		public System.Windows.Forms.PictureBox pb2Pos14;
 		public System.Windows.Forms.PictureBox pb2Pos24;
 		public System.Windows.Forms.PictureBox pb2Pos34;
+		private System.Windows.Forms.Button btnDebugHITALL;
 	}
 }
 
