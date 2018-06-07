@@ -13,11 +13,11 @@ namespace Battleship
 		public static void HitDetectorGameboardTwo(int x, int y, ref System.Windows.Forms.PictureBox buttonToChange)
 		{
 			//Hit
-			if (Battleship.playerTwoGameboard[x, y] == true)
+			if (Battleship.playerTwoGameboard[x, y] != '0')
 			{
 				//Sets position to "hit"
 				//Sets button color to yellow
-				Battleship.playerTwoGameboard[x, y] = false;
+				Battleship.playerTwoGameboard[x, y] = '0';
 
 				buttonToChange.BackColor = Color.Yellow;
 			}

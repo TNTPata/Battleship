@@ -22,7 +22,7 @@ namespace Battleship
 			{
 				for (int y = 0; y < 10; y++)
 				{
-					if (Battleship.playerOneGameboard[x, y] == false)
+					if (Battleship.playerOneGameboard[x, y] == '0')
 					{
 						gameboardOnePositionsChecked++;
 					}
@@ -40,7 +40,7 @@ namespace Battleship
 			{
 				for (int y = 0; y < 10; y++)
 				{
-					if (Battleship.playerTwoGameboard[x, y] == false)
+					if (Battleship.playerTwoGameboard[x, y] == '0')
 					{
 						gameboardTwoPositionsChecked++;
 					}
