@@ -132,7 +132,7 @@ namespace Battleship
 			if (playerOneGameboard[9, 9] != '0') { bship.pb1Pos99.BackColor = Color.LimeGreen; }
 		}
 
-		//Places ships on your gameboard
+		//Places ships on player one gameboard
 		public static void ShipPlacerOne()
 		{
 			//Starting coords and placement for 5 length ship (Carrier)
@@ -385,7 +385,7 @@ namespace Battleship
 			} while (torpedoBoatClear == false);
 		}
 
-		//Places ships for enemys gameboard
+		//Places ships for player two/enemys gameboard
 		public static void ShipPlacerTwo()
 		{
 			//Starting coords and placement for 5 length ship (Carrier)

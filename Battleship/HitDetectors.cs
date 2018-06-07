@@ -9,7 +9,7 @@ namespace Battleship
 {
 	class HitDetectors
 	{
-		//Detects hits or misses for right (enemy) gameboard
+		//Detects hits or misses for player two/enemy gameboard
 		public static void HitDetectorGameboardTwo(int x, int y, ref System.Windows.Forms.PictureBox buttonToChange)
 		{
 			//Hit

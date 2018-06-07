@@ -719,8 +719,12 @@ namespace Battleship
 			HitDetectors.DebugHitDetectorGameboardTwo(9, 8, ref pb2Pos98);
 			HitDetectors.DebugHitDetectorGameboardTwo(9, 9, ref pb2Pos99);
 
-			//Place ships for player two/enemy
+			//Place ships for both boards
+			ShipPlacerOne();
 			ShipPlacerTwo();
+			
+			//Mark ship for player one
+			ShipMarker();
 
 			//Mark ships for player two/enemy
 			HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos00);
