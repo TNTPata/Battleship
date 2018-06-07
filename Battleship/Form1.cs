@@ -713,6 +713,7 @@ namespace Battleship
 		}
 		#endregion
 
+		#region Debug
 		//Debug button to fire at all buttons at the same time, press again to generate new ship placements
 		private void btnDebugHITALL_Click(object sender, EventArgs e)
 		{
@@ -1031,5 +1032,6 @@ namespace Battleship
 			HitDetectors.HitDetectorGameboardTwo(9, 8, ref pb2Pos98);
 			HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos99);
 		}
+		#endregion
 	}
 }
