@@ -140,6 +140,8 @@ namespace Battleship
 				ref pb1Pos98,
 				ref pb1Pos99);
 			#endregion
+
+			Gameplay.SingleplayerGame();
 		}
 
 		#region PictureBox.Click events

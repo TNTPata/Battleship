@@ -8,13 +8,14 @@ namespace Battleship
 {
 	class Gameplay
 	{
-		//public static void SingleplayerGame()
-		//{
-		//	do
-		//	{
-		//
-		//	} while (WinnerCheck != 0);
-		//}
+		public static void SingleplayerGame()
+		{
+			//Start game
+			do
+			{
+		
+			} while (WinnerCheck() != 0);
+		}
 		
 		//Scans gameboard for all positions to be empty
 		//Return 0 if noone has won yet, 1 if player one has won, 2 if player two has won
