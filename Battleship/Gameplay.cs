@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-	class Gameplay
+	partial class Battleship
 	{
 		public static void SingleplayerGame()
 		{
-			//Start game
+			//Start game, check after each round if someone has won
 			do
 			{
-		
+
 			} while (WinnerCheck() != 0);
 		}
 		

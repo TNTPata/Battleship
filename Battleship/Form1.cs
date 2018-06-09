@@ -34,10 +34,8 @@ namespace Battleship
 			//Ship placement
 			ShipPlacerOne();
 			ShipPlacerTwo();
-			groupBox1.Enabled = true;
-			groupBox2.Enabled = true;
-			groupBox3.Enabled = true;
-
+			groupBox1.Enabled = groupBox2.Enabled = groupBox3.Enabled = true;
+		
 			#region ShipMarker()
 			ShipMarker(ref pb1Pos00,
 				ref pb1Pos01,
@@ -141,7 +139,7 @@ namespace Battleship
 				ref pb1Pos99);
 			#endregion
 
-			Gameplay.SingleplayerGame();
+			SingleplayerGame();
 		}
 
 		#region PictureBox.Click events
