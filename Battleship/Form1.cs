@@ -22,8 +22,8 @@ namespace Battleship
 			InitializeComponent();
 		}
 
-		//Where X is 1 or 2, i.e. player one or player two
-		public static int playerXTurn = 1;
+		//i.e. player one or player two
+		public static int currentPlayer = 1;
 		
 
 		private void Battleship_Load(object sender, EventArgs e)
