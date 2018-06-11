@@ -3138,7 +3138,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-			pb2Pos83.Enabled = false;
+			pb2Pos82.Enabled = false;
 		}
 
 		private void pb2Pos83_Click(object sender, EventArgs e)
