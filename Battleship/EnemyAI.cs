@@ -37,7 +37,7 @@ namespace Battleship
 			//Fires at the given tile
 			//Checks if the tile is not empty
 			//Sets gameboard to '0' and sets button to red if tile is not empty
-			//If this switch is closed, do NOT open
+			//If this switch is closed/hidden, do NOT open
 			switch (positionToHit)
 			{
 				case 1:
