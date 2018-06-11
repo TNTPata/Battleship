@@ -37,8 +37,10 @@ namespace Battleship
 			//Ship placement
 			ShipPlacerOne();
 			ShipPlacerTwo();
-			groupBox1.Enabled = groupBox2.Enabled = groupBox3.Enabled = true;
-		
+
+			//Enabling of enemys gameboard and statistics box
+			groupBox2.Enabled = groupBox3.Enabled = true;
+					
 			#region ShipMarker()
 			ShipMarker(ref pb1Pos00,
 				ref pb1Pos01,
@@ -141,13 +143,24 @@ namespace Battleship
 				ref pb1Pos98,
 				ref pb1Pos99);
 			#endregion
-
 		}
 
-		#region PictureBox.Click events
+		//Naming rule:
+		//pb(gameboard#)Pos(X)(Y)
+		#region PictureBox.Click events for gameboard two
 		private void pb2Pos00_Click(object sender, EventArgs e)
 		{
 			HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos00);
+			if (numberOfPlayers == 2)
+			{
+				groupBox2.Enabled = false;
+				groupBox1.Enabled = true;
+			}
+			else if (numberOfPlayers == 1)
+			{
+				EnemyFire();
+			}
+
 		}
 
 		private void pb2Pos01_Click(object sender, EventArgs e)
@@ -1033,6 +1046,508 @@ namespace Battleship
 			HitDetectors.HitDetectorGameboardTwo(9, 7, ref pb2Pos97);
 			HitDetectors.HitDetectorGameboardTwo(9, 8, ref pb2Pos98);
 			HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos99);
+		}
+		#endregion
+
+		#region PictureBox.Click events for gameboard one
+		private void pb1Pos00_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos01_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos02_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos03_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos04_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos05_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos06_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos07_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos08_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos09_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos10_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos11_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos12_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos13_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos14_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos15_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos16_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos17_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos18_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos19_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos20_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos21_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos22_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos23_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos24_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos25_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos26_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos27_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos28_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos29_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos30_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos31_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos32_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos33_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos34_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos35_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos36_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos37_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos38_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos39_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos40_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos41_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos42_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos43_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos44_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos45_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos46_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos47_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos48_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos49_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos50_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos51_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos52_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos53_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos54_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos55_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos56_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos57_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos58_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos59_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos60_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos61_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos62_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos63_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos64_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos65_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos66_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos67_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos68_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos69_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos70_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos71_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos72_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos73_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos74_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos75_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos76_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos77_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos78_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos79_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos80_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos81_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos82_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos83_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos84_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos85_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos86_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos87_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos88_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos89_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos90_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos91_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos92_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos93_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos94_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos95_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos96_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos97_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos98_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void pb1Pos99_Click(object sender, EventArgs e)
+		{
+
 		}
 		#endregion
 	}

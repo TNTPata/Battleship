@@ -556,6 +556,7 @@
 			this.pb1Pos97.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos97.TabIndex = 99;
 			this.pb1Pos97.TabStop = false;
+			this.pb1Pos97.Click += new System.EventHandler(this.pb1Pos97_Click);
 			// 
 			// pb1Pos78
 			// 
@@ -566,6 +567,7 @@
 			this.pb1Pos78.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos78.TabIndex = 98;
 			this.pb1Pos78.TabStop = false;
+			this.pb1Pos78.Click += new System.EventHandler(this.pb1Pos78_Click);
 			// 
 			// pb1Pos88
 			// 
@@ -576,6 +578,7 @@
 			this.pb1Pos88.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos88.TabIndex = 97;
 			this.pb1Pos88.TabStop = false;
+			this.pb1Pos88.Click += new System.EventHandler(this.pb1Pos88_Click);
 			// 
 			// pb1Pos98
 			// 
@@ -586,6 +589,7 @@
 			this.pb1Pos98.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos98.TabIndex = 96;
 			this.pb1Pos98.TabStop = false;
+			this.pb1Pos98.Click += new System.EventHandler(this.pb1Pos98_Click);
 			// 
 			// pb1Pos79
 			// 
@@ -596,6 +600,7 @@
 			this.pb1Pos79.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos79.TabIndex = 95;
 			this.pb1Pos79.TabStop = false;
+			this.pb1Pos79.Click += new System.EventHandler(this.pb1Pos79_Click);
 			// 
 			// pb1Pos89
 			// 
@@ -606,6 +611,7 @@
 			this.pb1Pos89.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos89.TabIndex = 94;
 			this.pb1Pos89.TabStop = false;
+			this.pb1Pos89.Click += new System.EventHandler(this.pb1Pos89_Click);
 			// 
 			// pb1Pos99
 			// 
@@ -616,6 +622,7 @@
 			this.pb1Pos99.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos99.TabIndex = 93;
 			this.pb1Pos99.TabStop = false;
+			this.pb1Pos99.Click += new System.EventHandler(this.pb1Pos99_Click);
 			// 
 			// pb1Pos86
 			// 
@@ -626,6 +633,7 @@
 			this.pb1Pos86.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos86.TabIndex = 92;
 			this.pb1Pos86.TabStop = false;
+			this.pb1Pos86.Click += new System.EventHandler(this.pb1Pos86_Click);
 			// 
 			// pb1Pos77
 			// 
@@ -636,6 +644,7 @@
 			this.pb1Pos77.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos77.TabIndex = 91;
 			this.pb1Pos77.TabStop = false;
+			this.pb1Pos77.Click += new System.EventHandler(this.pb1Pos77_Click);
 			// 
 			// pb1Pos87
 			// 
@@ -646,6 +655,7 @@
 			this.pb1Pos87.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos87.TabIndex = 90;
 			this.pb1Pos87.TabStop = false;
+			this.pb1Pos87.Click += new System.EventHandler(this.pb1Pos87_Click);
 			// 
 			// pb1Pos67
 			// 
@@ -656,6 +666,7 @@
 			this.pb1Pos67.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos67.TabIndex = 89;
 			this.pb1Pos67.TabStop = false;
+			this.pb1Pos67.Click += new System.EventHandler(this.pb1Pos67_Click);
 			// 
 			// pb1Pos96
 			// 
@@ -666,6 +677,7 @@
 			this.pb1Pos96.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos96.TabIndex = 88;
 			this.pb1Pos96.TabStop = false;
+			this.pb1Pos96.Click += new System.EventHandler(this.pb1Pos96_Click);
 			// 
 			// pb1Pos49
 			// 
@@ -676,6 +688,7 @@
 			this.pb1Pos49.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos49.TabIndex = 87;
 			this.pb1Pos49.TabStop = false;
+			this.pb1Pos49.Click += new System.EventHandler(this.pb1Pos49_Click);
 			// 
 			// pb1Pos58
 			// 
@@ -686,6 +699,7 @@
 			this.pb1Pos58.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos58.TabIndex = 86;
 			this.pb1Pos58.TabStop = false;
+			this.pb1Pos58.Click += new System.EventHandler(this.pb1Pos58_Click);
 			// 
 			// pb1Pos59
 			// 
@@ -696,6 +710,7 @@
 			this.pb1Pos59.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos59.TabIndex = 85;
 			this.pb1Pos59.TabStop = false;
+			this.pb1Pos59.Click += new System.EventHandler(this.pb1Pos59_Click);
 			// 
 			// pb1Pos68
 			// 
@@ -706,6 +721,7 @@
 			this.pb1Pos68.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos68.TabIndex = 84;
 			this.pb1Pos68.TabStop = false;
+			this.pb1Pos68.Click += new System.EventHandler(this.pb1Pos68_Click);
 			// 
 			// pb1Pos69
 			// 
@@ -716,6 +732,7 @@
 			this.pb1Pos69.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos69.TabIndex = 83;
 			this.pb1Pos69.TabStop = false;
+			this.pb1Pos69.Click += new System.EventHandler(this.pb1Pos69_Click);
 			// 
 			// pb1Pos48
 			// 
@@ -726,6 +743,7 @@
 			this.pb1Pos48.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos48.TabIndex = 82;
 			this.pb1Pos48.TabStop = false;
+			this.pb1Pos48.Click += new System.EventHandler(this.pb1Pos48_Click);
 			// 
 			// pb1Pos76
 			// 
@@ -736,6 +754,7 @@
 			this.pb1Pos76.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos76.TabIndex = 81;
 			this.pb1Pos76.TabStop = false;
+			this.pb1Pos76.Click += new System.EventHandler(this.pb1Pos76_Click);
 			// 
 			// pb1Pos47
 			// 
@@ -746,6 +765,7 @@
 			this.pb1Pos47.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos47.TabIndex = 80;
 			this.pb1Pos47.TabStop = false;
+			this.pb1Pos47.Click += new System.EventHandler(this.pb1Pos47_Click);
 			// 
 			// pb1Pos66
 			// 
@@ -756,6 +776,7 @@
 			this.pb1Pos66.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos66.TabIndex = 79;
 			this.pb1Pos66.TabStop = false;
+			this.pb1Pos66.Click += new System.EventHandler(this.pb1Pos66_Click);
 			// 
 			// pb1Pos57
 			// 
@@ -766,6 +787,7 @@
 			this.pb1Pos57.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos57.TabIndex = 78;
 			this.pb1Pos57.TabStop = false;
+			this.pb1Pos57.Click += new System.EventHandler(this.pb1Pos57_Click);
 			// 
 			// pb1Pos29
 			// 
@@ -776,6 +798,7 @@
 			this.pb1Pos29.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos29.TabIndex = 77;
 			this.pb1Pos29.TabStop = false;
+			this.pb1Pos29.Click += new System.EventHandler(this.pb1Pos29_Click);
 			// 
 			// pb1Pos39
 			// 
@@ -786,6 +809,7 @@
 			this.pb1Pos39.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos39.TabIndex = 76;
 			this.pb1Pos39.TabStop = false;
+			this.pb1Pos39.Click += new System.EventHandler(this.pb1Pos39_Click);
 			// 
 			// pb1Pos56
 			// 
@@ -796,6 +820,7 @@
 			this.pb1Pos56.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos56.TabIndex = 75;
 			this.pb1Pos56.TabStop = false;
+			this.pb1Pos56.Click += new System.EventHandler(this.pb1Pos56_Click);
 			// 
 			// pb1Pos28
 			// 
@@ -806,6 +831,7 @@
 			this.pb1Pos28.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos28.TabIndex = 74;
 			this.pb1Pos28.TabStop = false;
+			this.pb1Pos28.Click += new System.EventHandler(this.pb1Pos28_Click);
 			// 
 			// pb1Pos37
 			// 
@@ -816,6 +842,7 @@
 			this.pb1Pos37.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos37.TabIndex = 73;
 			this.pb1Pos37.TabStop = false;
+			this.pb1Pos37.Click += new System.EventHandler(this.pb1Pos37_Click);
 			// 
 			// pb1Pos38
 			// 
@@ -826,6 +853,7 @@
 			this.pb1Pos38.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos38.TabIndex = 72;
 			this.pb1Pos38.TabStop = false;
+			this.pb1Pos38.Click += new System.EventHandler(this.pb1Pos38_Click);
 			// 
 			// pb1Pos27
 			// 
@@ -836,6 +864,7 @@
 			this.pb1Pos27.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos27.TabIndex = 71;
 			this.pb1Pos27.TabStop = false;
+			this.pb1Pos27.Click += new System.EventHandler(this.pb1Pos27_Click);
 			// 
 			// pb1Pos26
 			// 
@@ -846,6 +875,7 @@
 			this.pb1Pos26.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos26.TabIndex = 70;
 			this.pb1Pos26.TabStop = false;
+			this.pb1Pos26.Click += new System.EventHandler(this.pb1Pos26_Click);
 			// 
 			// pb1Pos46
 			// 
@@ -856,6 +886,7 @@
 			this.pb1Pos46.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos46.TabIndex = 69;
 			this.pb1Pos46.TabStop = false;
+			this.pb1Pos46.Click += new System.EventHandler(this.pb1Pos46_Click);
 			// 
 			// pb1Pos07
 			// 
@@ -866,6 +897,7 @@
 			this.pb1Pos07.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos07.TabIndex = 68;
 			this.pb1Pos07.TabStop = false;
+			this.pb1Pos07.Click += new System.EventHandler(this.pb1Pos07_Click);
 			// 
 			// pb1Pos17
 			// 
@@ -876,6 +908,7 @@
 			this.pb1Pos17.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos17.TabIndex = 67;
 			this.pb1Pos17.TabStop = false;
+			this.pb1Pos17.Click += new System.EventHandler(this.pb1Pos17_Click);
 			// 
 			// pb1Pos36
 			// 
@@ -886,6 +919,7 @@
 			this.pb1Pos36.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos36.TabIndex = 66;
 			this.pb1Pos36.TabStop = false;
+			this.pb1Pos36.Click += new System.EventHandler(this.pb1Pos36_Click);
 			// 
 			// pb1Pos18
 			// 
@@ -896,6 +930,7 @@
 			this.pb1Pos18.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos18.TabIndex = 65;
 			this.pb1Pos18.TabStop = false;
+			this.pb1Pos18.Click += new System.EventHandler(this.pb1Pos18_Click);
 			// 
 			// pb1Pos09
 			// 
@@ -906,6 +941,7 @@
 			this.pb1Pos09.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos09.TabIndex = 64;
 			this.pb1Pos09.TabStop = false;
+			this.pb1Pos09.Click += new System.EventHandler(this.pb1Pos09_Click);
 			// 
 			// pb1Pos08
 			// 
@@ -916,6 +952,7 @@
 			this.pb1Pos08.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos08.TabIndex = 63;
 			this.pb1Pos08.TabStop = false;
+			this.pb1Pos08.Click += new System.EventHandler(this.pb1Pos08_Click);
 			// 
 			// pb1Pos19
 			// 
@@ -926,6 +963,7 @@
 			this.pb1Pos19.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos19.TabIndex = 62;
 			this.pb1Pos19.TabStop = false;
+			this.pb1Pos19.Click += new System.EventHandler(this.pb1Pos19_Click);
 			// 
 			// pb1Pos04
 			// 
@@ -936,6 +974,7 @@
 			this.pb1Pos04.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos04.TabIndex = 61;
 			this.pb1Pos04.TabStop = false;
+			this.pb1Pos04.Click += new System.EventHandler(this.pb1Pos04_Click);
 			// 
 			// pb1Pos06
 			// 
@@ -946,6 +985,7 @@
 			this.pb1Pos06.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos06.TabIndex = 60;
 			this.pb1Pos06.TabStop = false;
+			this.pb1Pos06.Click += new System.EventHandler(this.pb1Pos06_Click);
 			// 
 			// pb1Pos16
 			// 
@@ -956,6 +996,7 @@
 			this.pb1Pos16.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos16.TabIndex = 59;
 			this.pb1Pos16.TabStop = false;
+			this.pb1Pos16.Click += new System.EventHandler(this.pb1Pos16_Click);
 			// 
 			// pb1Pos75
 			// 
@@ -966,6 +1007,7 @@
 			this.pb1Pos75.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos75.TabIndex = 58;
 			this.pb1Pos75.TabStop = false;
+			this.pb1Pos75.Click += new System.EventHandler(this.pb1Pos75_Click);
 			// 
 			// pb1Pos95
 			// 
@@ -976,6 +1018,7 @@
 			this.pb1Pos95.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos95.TabIndex = 57;
 			this.pb1Pos95.TabStop = false;
+			this.pb1Pos95.Click += new System.EventHandler(this.pb1Pos95_Click);
 			// 
 			// pb1Pos65
 			// 
@@ -986,6 +1029,7 @@
 			this.pb1Pos65.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos65.TabIndex = 56;
 			this.pb1Pos65.TabStop = false;
+			this.pb1Pos65.Click += new System.EventHandler(this.pb1Pos65_Click);
 			// 
 			// pb1Pos85
 			// 
@@ -996,6 +1040,7 @@
 			this.pb1Pos85.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos85.TabIndex = 55;
 			this.pb1Pos85.TabStop = false;
+			this.pb1Pos85.Click += new System.EventHandler(this.pb1Pos85_Click);
 			// 
 			// pb1Pos74
 			// 
@@ -1006,6 +1051,7 @@
 			this.pb1Pos74.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos74.TabIndex = 54;
 			this.pb1Pos74.TabStop = false;
+			this.pb1Pos74.Click += new System.EventHandler(this.pb1Pos74_Click);
 			// 
 			// pb1Pos45
 			// 
@@ -1016,6 +1062,7 @@
 			this.pb1Pos45.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos45.TabIndex = 53;
 			this.pb1Pos45.TabStop = false;
+			this.pb1Pos45.Click += new System.EventHandler(this.pb1Pos45_Click);
 			// 
 			// pb1Pos55
 			// 
@@ -1026,6 +1073,7 @@
 			this.pb1Pos55.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos55.TabIndex = 52;
 			this.pb1Pos55.TabStop = false;
+			this.pb1Pos55.Click += new System.EventHandler(this.pb1Pos55_Click);
 			// 
 			// pb1Pos15
 			// 
@@ -1036,6 +1084,7 @@
 			this.pb1Pos15.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos15.TabIndex = 51;
 			this.pb1Pos15.TabStop = false;
+			this.pb1Pos15.Click += new System.EventHandler(this.pb1Pos15_Click);
 			// 
 			// pb1Pos25
 			// 
@@ -1046,6 +1095,7 @@
 			this.pb1Pos25.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos25.TabIndex = 50;
 			this.pb1Pos25.TabStop = false;
+			this.pb1Pos25.Click += new System.EventHandler(this.pb1Pos25_Click);
 			// 
 			// pb1Pos35
 			// 
@@ -1056,6 +1106,7 @@
 			this.pb1Pos35.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos35.TabIndex = 49;
 			this.pb1Pos35.TabStop = false;
+			this.pb1Pos35.Click += new System.EventHandler(this.pb1Pos35_Click);
 			// 
 			// pb1Pos34
 			// 
@@ -1066,6 +1117,7 @@
 			this.pb1Pos34.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos34.TabIndex = 48;
 			this.pb1Pos34.TabStop = false;
+			this.pb1Pos34.Click += new System.EventHandler(this.pb1Pos34_Click);
 			// 
 			// pb1Pos05
 			// 
@@ -1076,6 +1128,7 @@
 			this.pb1Pos05.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos05.TabIndex = 47;
 			this.pb1Pos05.TabStop = false;
+			this.pb1Pos05.Click += new System.EventHandler(this.pb1Pos05_Click);
 			// 
 			// pb1Pos44
 			// 
@@ -1086,6 +1139,7 @@
 			this.pb1Pos44.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos44.TabIndex = 46;
 			this.pb1Pos44.TabStop = false;
+			this.pb1Pos44.Click += new System.EventHandler(this.pb1Pos44_Click);
 			// 
 			// pb1Pos64
 			// 
@@ -1096,6 +1150,7 @@
 			this.pb1Pos64.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos64.TabIndex = 45;
 			this.pb1Pos64.TabStop = false;
+			this.pb1Pos64.Click += new System.EventHandler(this.pb1Pos64_Click);
 			// 
 			// pb1Pos84
 			// 
@@ -1106,6 +1161,7 @@
 			this.pb1Pos84.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos84.TabIndex = 44;
 			this.pb1Pos84.TabStop = false;
+			this.pb1Pos84.Click += new System.EventHandler(this.pb1Pos84_Click);
 			// 
 			// pb1Pos94
 			// 
@@ -1116,6 +1172,7 @@
 			this.pb1Pos94.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos94.TabIndex = 43;
 			this.pb1Pos94.TabStop = false;
+			this.pb1Pos94.Click += new System.EventHandler(this.pb1Pos94_Click);
 			// 
 			// pb1Pos54
 			// 
@@ -1126,6 +1183,7 @@
 			this.pb1Pos54.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos54.TabIndex = 42;
 			this.pb1Pos54.TabStop = false;
+			this.pb1Pos54.Click += new System.EventHandler(this.pb1Pos54_Click);
 			// 
 			// pb1Pos14
 			// 
@@ -1136,6 +1194,7 @@
 			this.pb1Pos14.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos14.TabIndex = 41;
 			this.pb1Pos14.TabStop = false;
+			this.pb1Pos14.Click += new System.EventHandler(this.pb1Pos14_Click);
 			// 
 			// pb1Pos24
 			// 
@@ -1146,6 +1205,7 @@
 			this.pb1Pos24.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos24.TabIndex = 40;
 			this.pb1Pos24.TabStop = false;
+			this.pb1Pos24.Click += new System.EventHandler(this.pb1Pos24_Click);
 			// 
 			// pb1Pos13
 			// 
@@ -1156,6 +1216,7 @@
 			this.pb1Pos13.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos13.TabIndex = 39;
 			this.pb1Pos13.TabStop = false;
+			this.pb1Pos13.Click += new System.EventHandler(this.pb1Pos13_Click);
 			// 
 			// pb1Pos23
 			// 
@@ -1166,6 +1227,7 @@
 			this.pb1Pos23.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos23.TabIndex = 38;
 			this.pb1Pos23.TabStop = false;
+			this.pb1Pos23.Click += new System.EventHandler(this.pb1Pos23_Click);
 			// 
 			// pb1Pos33
 			// 
@@ -1176,6 +1238,7 @@
 			this.pb1Pos33.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos33.TabIndex = 37;
 			this.pb1Pos33.TabStop = false;
+			this.pb1Pos33.Click += new System.EventHandler(this.pb1Pos33_Click);
 			// 
 			// pb1Pos43
 			// 
@@ -1186,6 +1249,7 @@
 			this.pb1Pos43.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos43.TabIndex = 36;
 			this.pb1Pos43.TabStop = false;
+			this.pb1Pos43.Click += new System.EventHandler(this.pb1Pos43_Click);
 			// 
 			// pb1Pos53
 			// 
@@ -1196,6 +1260,7 @@
 			this.pb1Pos53.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos53.TabIndex = 35;
 			this.pb1Pos53.TabStop = false;
+			this.pb1Pos53.Click += new System.EventHandler(this.pb1Pos53_Click);
 			// 
 			// pb1Pos63
 			// 
@@ -1206,6 +1271,7 @@
 			this.pb1Pos63.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos63.TabIndex = 34;
 			this.pb1Pos63.TabStop = false;
+			this.pb1Pos63.Click += new System.EventHandler(this.pb1Pos63_Click);
 			// 
 			// pb1Pos73
 			// 
@@ -1216,6 +1282,7 @@
 			this.pb1Pos73.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos73.TabIndex = 33;
 			this.pb1Pos73.TabStop = false;
+			this.pb1Pos73.Click += new System.EventHandler(this.pb1Pos73_Click);
 			// 
 			// pb1Pos83
 			// 
@@ -1226,6 +1293,7 @@
 			this.pb1Pos83.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos83.TabIndex = 32;
 			this.pb1Pos83.TabStop = false;
+			this.pb1Pos83.Click += new System.EventHandler(this.pb1Pos83_Click);
 			// 
 			// pb1Pos93
 			// 
@@ -1236,6 +1304,7 @@
 			this.pb1Pos93.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos93.TabIndex = 31;
 			this.pb1Pos93.TabStop = false;
+			this.pb1Pos93.Click += new System.EventHandler(this.pb1Pos93_Click);
 			// 
 			// pb1Pos03
 			// 
@@ -1246,6 +1315,7 @@
 			this.pb1Pos03.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos03.TabIndex = 30;
 			this.pb1Pos03.TabStop = false;
+			this.pb1Pos03.Click += new System.EventHandler(this.pb1Pos03_Click);
 			// 
 			// pb1Pos12
 			// 
@@ -1256,6 +1326,7 @@
 			this.pb1Pos12.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos12.TabIndex = 29;
 			this.pb1Pos12.TabStop = false;
+			this.pb1Pos12.Click += new System.EventHandler(this.pb1Pos12_Click);
 			// 
 			// pb1Pos22
 			// 
@@ -1266,6 +1337,7 @@
 			this.pb1Pos22.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos22.TabIndex = 28;
 			this.pb1Pos22.TabStop = false;
+			this.pb1Pos22.Click += new System.EventHandler(this.pb1Pos22_Click);
 			// 
 			// pb1Pos32
 			// 
@@ -1276,6 +1348,7 @@
 			this.pb1Pos32.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos32.TabIndex = 27;
 			this.pb1Pos32.TabStop = false;
+			this.pb1Pos32.Click += new System.EventHandler(this.pb1Pos32_Click);
 			// 
 			// pb1Pos42
 			// 
@@ -1286,6 +1359,7 @@
 			this.pb1Pos42.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos42.TabIndex = 26;
 			this.pb1Pos42.TabStop = false;
+			this.pb1Pos42.Click += new System.EventHandler(this.pb1Pos42_Click);
 			// 
 			// pb1Pos52
 			// 
@@ -1296,6 +1370,7 @@
 			this.pb1Pos52.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos52.TabIndex = 25;
 			this.pb1Pos52.TabStop = false;
+			this.pb1Pos52.Click += new System.EventHandler(this.pb1Pos52_Click);
 			// 
 			// pb1Pos62
 			// 
@@ -1306,6 +1381,7 @@
 			this.pb1Pos62.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos62.TabIndex = 24;
 			this.pb1Pos62.TabStop = false;
+			this.pb1Pos62.Click += new System.EventHandler(this.pb1Pos62_Click);
 			// 
 			// pb1Pos72
 			// 
@@ -1316,6 +1392,7 @@
 			this.pb1Pos72.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos72.TabIndex = 23;
 			this.pb1Pos72.TabStop = false;
+			this.pb1Pos72.Click += new System.EventHandler(this.pb1Pos72_Click);
 			// 
 			// pb1Pos82
 			// 
@@ -1326,6 +1403,7 @@
 			this.pb1Pos82.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos82.TabIndex = 22;
 			this.pb1Pos82.TabStop = false;
+			this.pb1Pos82.Click += new System.EventHandler(this.pb1Pos82_Click);
 			// 
 			// pb1Pos92
 			// 
@@ -1336,6 +1414,7 @@
 			this.pb1Pos92.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos92.TabIndex = 21;
 			this.pb1Pos92.TabStop = false;
+			this.pb1Pos92.Click += new System.EventHandler(this.pb1Pos92_Click);
 			// 
 			// pb1Pos02
 			// 
@@ -1346,6 +1425,7 @@
 			this.pb1Pos02.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos02.TabIndex = 20;
 			this.pb1Pos02.TabStop = false;
+			this.pb1Pos02.Click += new System.EventHandler(this.pb1Pos02_Click);
 			// 
 			// pb1Pos71
 			// 
@@ -1356,6 +1436,7 @@
 			this.pb1Pos71.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos71.TabIndex = 19;
 			this.pb1Pos71.TabStop = false;
+			this.pb1Pos71.Click += new System.EventHandler(this.pb1Pos71_Click);
 			// 
 			// pb1Pos81
 			// 
@@ -1366,6 +1447,7 @@
 			this.pb1Pos81.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos81.TabIndex = 18;
 			this.pb1Pos81.TabStop = false;
+			this.pb1Pos81.Click += new System.EventHandler(this.pb1Pos81_Click);
 			// 
 			// pb1Pos91
 			// 
@@ -1376,6 +1458,7 @@
 			this.pb1Pos91.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos91.TabIndex = 17;
 			this.pb1Pos91.TabStop = false;
+			this.pb1Pos91.Click += new System.EventHandler(this.pb1Pos91_Click);
 			// 
 			// pb1Pos10
 			// 
@@ -1386,6 +1469,7 @@
 			this.pb1Pos10.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos10.TabIndex = 16;
 			this.pb1Pos10.TabStop = false;
+			this.pb1Pos10.Click += new System.EventHandler(this.pb1Pos10_Click);
 			// 
 			// pb1Pos20
 			// 
@@ -1396,6 +1480,7 @@
 			this.pb1Pos20.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos20.TabIndex = 15;
 			this.pb1Pos20.TabStop = false;
+			this.pb1Pos20.Click += new System.EventHandler(this.pb1Pos20_Click);
 			// 
 			// pb1Pos30
 			// 
@@ -1406,6 +1491,7 @@
 			this.pb1Pos30.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos30.TabIndex = 14;
 			this.pb1Pos30.TabStop = false;
+			this.pb1Pos30.Click += new System.EventHandler(this.pb1Pos30_Click);
 			// 
 			// pb1Pos40
 			// 
@@ -1416,6 +1502,7 @@
 			this.pb1Pos40.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos40.TabIndex = 13;
 			this.pb1Pos40.TabStop = false;
+			this.pb1Pos40.Click += new System.EventHandler(this.pb1Pos40_Click);
 			// 
 			// pb1Pos50
 			// 
@@ -1426,6 +1513,7 @@
 			this.pb1Pos50.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos50.TabIndex = 12;
 			this.pb1Pos50.TabStop = false;
+			this.pb1Pos50.Click += new System.EventHandler(this.pb1Pos50_Click);
 			// 
 			// pb1Pos60
 			// 
@@ -1436,6 +1524,7 @@
 			this.pb1Pos60.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos60.TabIndex = 11;
 			this.pb1Pos60.TabStop = false;
+			this.pb1Pos60.Click += new System.EventHandler(this.pb1Pos60_Click);
 			// 
 			// pb1Pos70
 			// 
@@ -1446,6 +1535,7 @@
 			this.pb1Pos70.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos70.TabIndex = 10;
 			this.pb1Pos70.TabStop = false;
+			this.pb1Pos70.Click += new System.EventHandler(this.pb1Pos70_Click);
 			// 
 			// pb1Pos80
 			// 
@@ -1456,6 +1546,7 @@
 			this.pb1Pos80.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos80.TabIndex = 9;
 			this.pb1Pos80.TabStop = false;
+			this.pb1Pos80.Click += new System.EventHandler(this.pb1Pos80_Click);
 			// 
 			// pb1Pos90
 			// 
@@ -1466,6 +1557,7 @@
 			this.pb1Pos90.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos90.TabIndex = 8;
 			this.pb1Pos90.TabStop = false;
+			this.pb1Pos90.Click += new System.EventHandler(this.pb1Pos90_Click);
 			// 
 			// pb1Pos01
 			// 
@@ -1476,6 +1568,7 @@
 			this.pb1Pos01.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos01.TabIndex = 7;
 			this.pb1Pos01.TabStop = false;
+			this.pb1Pos01.Click += new System.EventHandler(this.pb1Pos01_Click);
 			// 
 			// pb1Pos11
 			// 
@@ -1486,6 +1579,7 @@
 			this.pb1Pos11.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos11.TabIndex = 6;
 			this.pb1Pos11.TabStop = false;
+			this.pb1Pos11.Click += new System.EventHandler(this.pb1Pos11_Click);
 			// 
 			// pb1Pos21
 			// 
@@ -1496,6 +1590,7 @@
 			this.pb1Pos21.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos21.TabIndex = 5;
 			this.pb1Pos21.TabStop = false;
+			this.pb1Pos21.Click += new System.EventHandler(this.pb1Pos21_Click);
 			// 
 			// pb1Pos31
 			// 
@@ -1506,6 +1601,7 @@
 			this.pb1Pos31.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos31.TabIndex = 4;
 			this.pb1Pos31.TabStop = false;
+			this.pb1Pos31.Click += new System.EventHandler(this.pb1Pos31_Click);
 			// 
 			// pb1Pos41
 			// 
@@ -1516,6 +1612,7 @@
 			this.pb1Pos41.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos41.TabIndex = 3;
 			this.pb1Pos41.TabStop = false;
+			this.pb1Pos41.Click += new System.EventHandler(this.pb1Pos41_Click);
 			// 
 			// pb1Pos51
 			// 
@@ -1526,6 +1623,7 @@
 			this.pb1Pos51.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos51.TabIndex = 2;
 			this.pb1Pos51.TabStop = false;
+			this.pb1Pos51.Click += new System.EventHandler(this.pb1Pos51_Click);
 			// 
 			// pb1Pos61
 			// 
@@ -1536,6 +1634,7 @@
 			this.pb1Pos61.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos61.TabIndex = 1;
 			this.pb1Pos61.TabStop = false;
+			this.pb1Pos61.Click += new System.EventHandler(this.pb1Pos61_Click);
 			// 
 			// pb1Pos00
 			// 
@@ -1546,6 +1645,7 @@
 			this.pb1Pos00.Size = new System.Drawing.Size(35, 35);
 			this.pb1Pos00.TabIndex = 0;
 			this.pb1Pos00.TabStop = false;
+			this.pb1Pos00.Click += new System.EventHandler(this.pb1Pos00_Click);
 			// 
 			// groupBox3
 			// 
