@@ -50,6 +50,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos00.BackColor = Color.White;
 							break;
 						}
 					}
@@ -63,6 +64,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos01.BackColor = Color.White;
 							break;
 						}
 					}
@@ -76,6 +78,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos02.BackColor = Color.White;
 							break;
 						}
 					}
@@ -89,6 +92,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos03.BackColor = Color.White;
 							break;
 						}
 					}
@@ -102,6 +106,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos04.BackColor = Color.White;
 							break;
 						}
 					}
@@ -115,6 +120,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos05.BackColor = Color.White;
 							break;
 						}
 					}
@@ -128,6 +134,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos06.BackColor = Color.White;
 							break;
 						}
 					}
@@ -141,6 +148,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos07.BackColor = Color.White;
 							break;
 						}
 					}
@@ -154,6 +162,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos08.BackColor = Color.White;
 							break;
 						}
 					}
@@ -167,6 +176,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos09.BackColor = Color.White;
 							break;
 						}
 					}
@@ -180,6 +190,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos10.BackColor = Color.White;
 							break;
 						}
 					}
@@ -193,6 +204,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos11.BackColor = Color.White;
 							break;
 						}
 					}
@@ -206,6 +218,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos12.BackColor = Color.White;
 							break;
 						}
 					}
@@ -219,6 +232,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos13.BackColor = Color.White;
 							break;
 						}
 					}
@@ -232,6 +246,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos14.BackColor = Color.White;
 							break;
 						}
 					}
@@ -245,6 +260,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos15.BackColor = Color.White;
 							break;
 						}
 					}
@@ -258,6 +274,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos16.BackColor = Color.White;
 							break;
 						}
 					}
@@ -271,6 +288,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos17.BackColor = Color.White;
 							break;
 						}
 					}
@@ -284,6 +302,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos18.BackColor = Color.White;
 							break;
 						}
 					}
@@ -297,6 +316,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos19.BackColor = Color.White;
 							break;
 						}
 					}
@@ -310,6 +330,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos20.BackColor = Color.White;
 							break;
 						}
 					}
@@ -323,6 +344,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos21.BackColor = Color.White;
 							break;
 						}
 					}
@@ -336,6 +358,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos22.BackColor = Color.White;
 							break;
 						}
 					}
@@ -349,6 +372,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos23.BackColor = Color.White;
 							break;
 						}
 					}
@@ -362,6 +386,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos24.BackColor = Color.White;
 							break;
 						}
 					}
@@ -375,6 +400,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos25.BackColor = Color.White;
 							break;
 						}
 					}
@@ -388,6 +414,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos26.BackColor = Color.White;
 							break;
 						}
 					}
@@ -401,6 +428,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos27.BackColor = Color.White;
 							break;
 						}
 					}
@@ -414,6 +442,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos28.BackColor = Color.White;
 							break;
 						}
 					}
@@ -427,6 +456,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos29.BackColor = Color.White;
 							break;
 						}
 					}
@@ -440,6 +470,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos30.BackColor = Color.White;
 							break;
 						}
 					}
@@ -453,6 +484,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos31.BackColor = Color.White;
 							break;
 						}
 					}
@@ -466,6 +498,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos32.BackColor = Color.White;
 							break;
 						}
 					}
@@ -479,6 +512,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos33.BackColor = Color.White;
 							break;
 						}
 					}
@@ -492,6 +526,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos34.BackColor = Color.White;
 							break;
 						}
 					}
@@ -505,6 +540,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos35.BackColor = Color.White;
 							break;
 						}
 					}
@@ -518,6 +554,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos36.BackColor = Color.White;
 							break;
 						}
 					}
@@ -531,6 +568,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos37.BackColor = Color.White;
 							break;
 						}
 					}
@@ -544,6 +582,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos38.BackColor = Color.White;
 							break;
 						}
 					}
@@ -557,6 +596,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos39.BackColor = Color.White;
 							break;
 						}
 					}
@@ -570,6 +610,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos40.BackColor = Color.White;
 							break;
 						}
 					}
@@ -583,6 +624,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos41.BackColor = Color.White;
 							break;
 						}
 					}
@@ -596,6 +638,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos42.BackColor = Color.White;
 							break;
 						}
 					}
@@ -609,6 +652,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos43.BackColor = Color.White;
 							break;
 						}
 					}
@@ -622,6 +666,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos44.BackColor = Color.White;
 							break;
 						}
 					}
@@ -635,6 +680,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos45.BackColor = Color.White;
 							break;
 						}
 					}
@@ -648,6 +694,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos46.BackColor = Color.White;
 							break;
 						}
 					}
@@ -661,6 +708,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos47.BackColor = Color.White;
 							break;
 						}
 					}
@@ -674,6 +722,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos48.BackColor = Color.White;
 							break;
 						}
 					}
@@ -687,6 +736,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos49.BackColor = Color.White;
 							break;
 						}
 					}
@@ -700,6 +750,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos50.BackColor = Color.White;
 							break;
 						}
 					}
@@ -713,6 +764,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos51.BackColor = Color.White;
 							break;
 						}
 					}
@@ -726,6 +778,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos52.BackColor = Color.White;
 							break;
 						}
 					}
@@ -739,6 +792,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos53.BackColor = Color.White;
 							break;
 						}
 					}
@@ -752,6 +806,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos54.BackColor = Color.White;
 							break;
 						}
 					}
@@ -765,6 +820,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos55.BackColor = Color.White;
 							break;
 						}
 					}
@@ -778,6 +834,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos56.BackColor = Color.White;
 							break;
 						}
 					}
@@ -791,6 +848,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos57.BackColor = Color.White;
 							break;
 						}
 					}
@@ -804,6 +862,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos58.BackColor = Color.White;
 							break;
 						}
 					}
@@ -817,6 +876,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos59.BackColor = Color.White;
 							break;
 						}
 					}
@@ -830,6 +890,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos60.BackColor = Color.White;
 							break;
 						}
 					}
@@ -843,6 +904,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos61.BackColor = Color.White;
 							break;
 						}
 					}
@@ -856,6 +918,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos62.BackColor = Color.White;
 							break;
 						}
 					}
@@ -869,6 +932,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos63.BackColor = Color.White;
 							break;
 						}
 					}
@@ -882,6 +946,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos64.BackColor = Color.White;
 							break;
 						}
 					}
@@ -895,6 +960,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos65.BackColor = Color.White;
 							break;
 						}
 					}
@@ -908,6 +974,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos66.BackColor = Color.White;
 							break;
 						}
 					}
@@ -921,6 +988,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos67.BackColor = Color.White;
 							break;
 						}
 					}
@@ -934,6 +1002,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos68.BackColor = Color.White;
 							break;
 						}
 					}
@@ -947,6 +1016,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos69.BackColor = Color.White;
 							break;
 						}
 					}
@@ -960,6 +1030,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos70.BackColor = Color.White;
 							break;
 						}
 					}
@@ -973,6 +1044,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos71.BackColor = Color.White;
 							break;
 						}
 					}
@@ -986,6 +1058,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos72.BackColor = Color.White;
 							break;
 						}
 					}
@@ -999,6 +1072,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos73.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1012,6 +1086,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos74.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1025,6 +1100,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos75.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1038,6 +1114,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos76.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1051,6 +1128,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos77.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1064,6 +1142,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos78.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1077,6 +1156,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos79.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1090,6 +1170,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos80.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1103,6 +1184,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos81.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1116,6 +1198,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos82.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1129,6 +1212,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos83.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1142,6 +1226,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos84.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1155,6 +1240,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos85.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1168,6 +1254,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos86.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1181,6 +1268,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos87.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1194,6 +1282,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos88.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1207,6 +1296,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos89.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1220,6 +1310,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos90.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1233,6 +1324,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos91.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1246,6 +1338,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos92.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1259,6 +1352,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos93.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1272,6 +1366,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos94.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1285,6 +1380,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos95.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1298,6 +1394,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos96.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1311,6 +1408,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos97.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1324,6 +1422,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos98.BackColor = Color.White;
 							break;
 						}
 					}
@@ -1337,6 +1436,7 @@ namespace Battleship
 						}
 						else
 						{
+							pb1Pos99.BackColor = Color.White;
 							break;
 						}
 					}
