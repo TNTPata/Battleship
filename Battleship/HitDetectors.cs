@@ -9,6 +9,26 @@ namespace Battleship
 {
 	class HitDetectors
 	{
+		//Detects hits or misses for player ones gameboard
+		public static void HitDetectorGameboardOne(int x, int y, ref System.Windows.Forms.PictureBox buttonToChange)
+		{
+			//Hit
+			if (Battleship.playerOneGameboard[x, y] != '0')
+			{
+				//Sets position to "hit"
+				//Sets button color to yellow
+				Battleship.playerOneGameboard[x, y] = '0';
+
+				buttonToChange.BackColor = Color.Yellow;
+			}
+			//Miss
+			else if (buttonToChange.BackColor != Color.Yellow)
+			{
+				buttonToChange.BackColor = Color.LightBlue;
+			}
+		}
+
+
 		//Detects hits or misses for player two/enemy gameboard
 		public static void HitDetectorGameboardTwo(int x, int y, ref System.Windows.Forms.PictureBox buttonToChange)
 		{
