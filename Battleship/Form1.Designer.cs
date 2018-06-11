@@ -130,6 +130,7 @@
 			this.pb1Pos61 = new System.Windows.Forms.PictureBox();
 			this.pb1Pos00 = new System.Windows.Forms.PictureBox();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
+			this.label1 = new System.Windows.Forms.Label();
 			this.btnDebugHITALL = new System.Windows.Forms.Button();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
 			this.pb2Pos58 = new System.Windows.Forms.PictureBox();
@@ -232,6 +233,7 @@
 			this.pb2Pos20 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos30 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos40 = new System.Windows.Forms.PictureBox();
+			this.label2 = new System.Windows.Forms.Label();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos97)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos78)).BeginInit();
@@ -1649,6 +1651,8 @@
 			// 
 			// groupBox3
 			// 
+			this.groupBox3.Controls.Add(this.label2);
+			this.groupBox3.Controls.Add(this.label1);
 			this.groupBox3.Controls.Add(this.btnDebugHITALL);
 			this.groupBox3.Enabled = false;
 			this.groupBox3.Location = new System.Drawing.Point(437, 13);
@@ -1657,6 +1661,15 @@
 			this.groupBox3.TabIndex = 101;
 			this.groupBox3.TabStop = false;
 			this.groupBox3.Text = "Stats";
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Location = new System.Drawing.Point(84, 81);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(57, 17);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "Winner:";
 			// 
 			// btnDebugHITALL
 			// 
@@ -2778,6 +2791,15 @@
 			this.pb2Pos40.TabStop = false;
 			this.pb2Pos40.Click += new System.EventHandler(this.pb2Pos40_Click);
 			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Location = new System.Drawing.Point(84, 98);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(65, 17);
+			this.label2.TabIndex = 2;
+			this.label2.Text = "None yet";
+			// 
 			// Battleship
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2891,6 +2913,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos61)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos00)).EndInit();
 			this.groupBox3.ResumeLayout(false);
+			this.groupBox3.PerformLayout();
 			this.groupBox2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.pb2Pos58)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb2Pos59)).EndInit();
@@ -3201,6 +3224,8 @@
 		public System.Windows.Forms.PictureBox pb2Pos24;
 		public System.Windows.Forms.PictureBox pb2Pos34;
 		private System.Windows.Forms.Button btnDebugHITALL;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label label2;
 	}
 }
 
