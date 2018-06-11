@@ -8,15 +8,6 @@ namespace Battleship
 {
 	partial class Battleship
 	{
-		//public static void SingleplayerGame()
-		//{
-		//	//Start game, check after each round if someone has won
-		//	do
-		//	{
-		//
-		//	} while (WinnerCheck() != 0);
-		//}
-		
 		//Scans gameboard for all positions to be empty
 		//Return 0 if noone has won yet, 1 if player one has won, 2 if player two has won
 		public static int WinnerCheck()

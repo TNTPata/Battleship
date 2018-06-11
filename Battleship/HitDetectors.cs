@@ -24,7 +24,7 @@ namespace Battleship
 			//Miss
 			else if (buttonToChange.BackColor != Color.Yellow)
 			{
-				buttonToChange.BackColor = Color.LightBlue;
+				buttonToChange.BackColor = Color.White;
 			}
 		}
 
