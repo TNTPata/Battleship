@@ -186,6 +186,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos00.Enabled = false;
 		}
 
 		private void pb2Pos01_Click(object sender, EventArgs e)
@@ -221,6 +222,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos01.Enabled = false;
 		}
 
 		private void pb2Pos02_Click(object sender, EventArgs e)
@@ -256,6 +258,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos02.Enabled = false;
 		}
 
 		private void pb2Pos03_Click(object sender, EventArgs e)
@@ -291,6 +294,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos03.Enabled = false;
 		}
 
 		private void pb2Pos04_Click(object sender, EventArgs e)
@@ -326,6 +330,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos04.Enabled = false;
 		}
 
 		private void pb2Pos05_Click(object sender, EventArgs e)
@@ -361,6 +366,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos05.Enabled = false;
 		}
 
 		private void pb2Pos06_Click(object sender, EventArgs e)
@@ -396,6 +402,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos06.Enabled = false;
 		}
 
 		private void pb2Pos07_Click(object sender, EventArgs e)
@@ -431,6 +438,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos07.Enabled = false;
 		}
 
 		private void pb2Pos08_Click(object sender, EventArgs e)
@@ -466,6 +474,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos08.Enabled = false;
 		}
 
 		private void pb2Pos09_Click(object sender, EventArgs e)
@@ -501,6 +510,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos09.Enabled = false;
 		}
 
 		private void pb2Pos10_Click(object sender, EventArgs e)
@@ -536,6 +546,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos10.Enabled = false;
 		}
 
 		private void pb2Pos11_Click(object sender, EventArgs e)
@@ -571,6 +582,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos11.Enabled = false;
 		}
 
 		private void pb2Pos12_Click(object sender, EventArgs e)
@@ -606,6 +618,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos12.Enabled = false;
 		}
 
 		private void pb2Pos13_Click(object sender, EventArgs e)
@@ -641,6 +654,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos13.Enabled = false;
 		}
 
 		private void pb2Pos14_Click(object sender, EventArgs e)
@@ -676,6 +690,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos14.Enabled = false;
 		}
 
 		private void pb2Pos15_Click(object sender, EventArgs e)
@@ -711,6 +726,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos15.Enabled = false;
 		}
 
 		private void pb2Pos16_Click(object sender, EventArgs e)
@@ -746,6 +762,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos16.Enabled = false;
 		}
 
 		private void pb2Pos17_Click(object sender, EventArgs e)
@@ -781,6 +798,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos17.Enabled = false;
 		}
 
 		private void pb2Pos18_Click(object sender, EventArgs e)
@@ -816,6 +834,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos18.Enabled = false;
 		}
 
 		private void pb2Pos19_Click(object sender, EventArgs e)
@@ -851,6 +870,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos19.Enabled = false;
 		}
 
 		private void pb2Pos20_Click(object sender, EventArgs e)
@@ -886,6 +906,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos20.Enabled = false;
 		}
 
 		private void pb2Pos21_Click(object sender, EventArgs e)
@@ -921,7 +942,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos21.Enabled = false;
 		}
 
 		private void pb2Pos22_Click(object sender, EventArgs e)
@@ -957,7 +978,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos22.Enabled = false;
 		}
 
 		private void pb2Pos23_Click(object sender, EventArgs e)
@@ -993,7 +1014,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos23.Enabled = false;
 		}
 
 		private void pb2Pos24_Click(object sender, EventArgs e)
@@ -1029,7 +1050,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos24.Enabled = false;
 		}
 
 		private void pb2Pos25_Click(object sender, EventArgs e)
@@ -1065,7 +1086,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos25.Enabled = false;
 		}
 
 		private void pb2Pos26_Click(object sender, EventArgs e)
@@ -1101,7 +1122,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos26.Enabled = false;
 		}
 
 		private void pb2Pos27_Click(object sender, EventArgs e)
@@ -1137,7 +1158,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos27.Enabled = false;
 		}
 
 		private void pb2Pos28_Click(object sender, EventArgs e)
@@ -1173,7 +1194,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos28.Enabled = false;
 		}
 
 		private void pb2Pos29_Click(object sender, EventArgs e)
@@ -1209,7 +1230,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos29.Enabled = false;
 		}
 
 		private void pb2Pos30_Click(object sender, EventArgs e)
@@ -1245,7 +1266,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos30.Enabled = false;
 		}
 
 		private void pb2Pos31_Click(object sender, EventArgs e)
@@ -1281,7 +1302,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos31.Enabled = false;
 		}
 
 		private void pb2Pos32_Click(object sender, EventArgs e)
@@ -1317,7 +1338,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos32.Enabled = false;
 		}
 
 		private void pb2Pos33_Click(object sender, EventArgs e)
@@ -1353,7 +1374,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos33.Enabled = false;
 		}
 
 		private void pb2Pos34_Click(object sender, EventArgs e)
@@ -1389,7 +1410,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos34.Enabled = false;
 		}
 
 		private void pb2Pos35_Click(object sender, EventArgs e)
@@ -1425,6 +1446,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos35.Enabled = false;
 		}
 
 		private void pb2Pos36_Click(object sender, EventArgs e)
@@ -1460,6 +1482,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos36.Enabled = false;
 		}
 
 		private void pb2Pos37_Click(object sender, EventArgs e)
@@ -1495,6 +1518,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos37.Enabled = false;
 		}
 
 		private void pb2Pos38_Click(object sender, EventArgs e)
@@ -1530,6 +1554,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos38.Enabled = false;
 		}
 
 		private void pb2Pos39_Click(object sender, EventArgs e)
@@ -1565,6 +1590,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos39.Enabled = false;
 		}
 
 		private void pb2Pos40_Click(object sender, EventArgs e)
@@ -1600,7 +1626,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos40.Enabled = false;
 		}
 
 		private void pb2Pos41_Click(object sender, EventArgs e)
@@ -1636,7 +1662,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos41.Enabled = false;
 		}
 
 		private void pb2Pos42_Click(object sender, EventArgs e)
@@ -1672,7 +1698,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos42.Enabled = false;
 		}
 
 		private void pb2Pos43_Click(object sender, EventArgs e)
@@ -1708,7 +1734,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos43.Enabled = false;
 		}
 
 		private void pb2Pos44_Click(object sender, EventArgs e)
@@ -1744,7 +1770,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos44.Enabled = false;
 		}
 
 		private void pb2Pos45_Click(object sender, EventArgs e)
@@ -1780,7 +1806,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos45.Enabled = false;
 		}
 
 		private void pb2Pos46_Click(object sender, EventArgs e)
@@ -1816,7 +1842,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos46.Enabled = false;
 		}
 
 		private void pb2Pos47_Click(object sender, EventArgs e)
@@ -1852,7 +1878,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos47.Enabled = false;
 		}
 
 		private void pb2Pos48_Click(object sender, EventArgs e)
@@ -1888,7 +1914,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos48.Enabled = false;
 		}
 
 		private void pb2Pos49_Click(object sender, EventArgs e)
@@ -1924,7 +1950,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos49.Enabled = false;
 		}
 
 		private void pb2Pos50_Click(object sender, EventArgs e)
@@ -1960,7 +1986,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos50.Enabled = false;
 		}
 
 		private void pb2Pos51_Click(object sender, EventArgs e)
@@ -1996,7 +2022,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos51.Enabled = false;
 		}
 
 		private void pb2Pos52_Click(object sender, EventArgs e)
@@ -2032,7 +2058,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos52.Enabled = false;
 		}
 
 		private void pb2Pos53_Click(object sender, EventArgs e)
@@ -2068,7 +2094,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos53.Enabled = false;
 		}
 
 		private void pb2Pos54_Click(object sender, EventArgs e)
@@ -2104,7 +2130,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos54.Enabled = false;
 		}
 
 		private void pb2Pos55_Click(object sender, EventArgs e)
@@ -2140,7 +2166,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos55.Enabled = false;
 		}
 
 		private void pb2Pos56_Click(object sender, EventArgs e)
@@ -2176,7 +2202,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos56.Enabled = false;
 		}
 
 		private void pb2Pos57_Click(object sender, EventArgs e)
@@ -2212,7 +2238,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos57.Enabled = false;
 		}
 
 		private void pb2Pos58_Click(object sender, EventArgs e)
@@ -2248,7 +2274,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos58.Enabled = false;
 		}
 
 		private void pb2Pos59_Click(object sender, EventArgs e)
@@ -2284,7 +2310,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos59.Enabled = false;
 		}
 
 		private void pb2Pos60_Click(object sender, EventArgs e)
@@ -2320,7 +2346,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos60.Enabled = false;
 		}
 
 		private void pb2Pos61_Click(object sender, EventArgs e)
@@ -2356,7 +2382,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos61.Enabled = false;
 		}
 
 		private void pb2Pos62_Click(object sender, EventArgs e)
@@ -2392,7 +2418,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos62.Enabled = false;
 		}
 
 		private void pb2Pos63_Click(object sender, EventArgs e)
@@ -2428,7 +2454,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos63.Enabled = false;
 		}
 
 		private void pb2Pos64_Click(object sender, EventArgs e)
@@ -2464,7 +2490,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos64.Enabled = false;
 		}
 
 		private void pb2Pos65_Click(object sender, EventArgs e)
@@ -2500,7 +2526,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos65.Enabled = false;
 		}
 
 		private void pb2Pos66_Click(object sender, EventArgs e)
@@ -2536,7 +2562,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos66.Enabled = false;
 		}
 
 		private void pb2Pos67_Click(object sender, EventArgs e)
@@ -2572,7 +2598,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos67.Enabled = false;
 		}
 
 		private void pb2Pos68_Click(object sender, EventArgs e)
@@ -2608,7 +2634,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos68.Enabled = false;
 		}
 
 		private void pb2Pos69_Click(object sender, EventArgs e)
@@ -2644,7 +2670,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos69.Enabled = false;
 		}
 
 		private void pb2Pos70_Click(object sender, EventArgs e)
@@ -2680,7 +2706,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos70.Enabled = false;
 		}
 
 		private void pb2Pos71_Click(object sender, EventArgs e)
@@ -2716,7 +2742,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos71.Enabled = false;
 		}
 
 		private void pb2Pos72_Click(object sender, EventArgs e)
@@ -2752,7 +2778,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos72.Enabled = false;
 		}
 
 		private void pb2Pos73_Click(object sender, EventArgs e)
@@ -2788,7 +2814,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos73.Enabled = false;
 		}
 
 		private void pb2Pos74_Click(object sender, EventArgs e)
@@ -2824,7 +2850,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos74.Enabled = false;
 		}
 
 		private void pb2Pos75_Click(object sender, EventArgs e)
@@ -2860,7 +2886,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos75.Enabled = false;
 		}
 
 		private void pb2Pos76_Click(object sender, EventArgs e)
@@ -2896,7 +2922,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos76.Enabled = false;
 		}
 
 		private void pb2Pos77_Click(object sender, EventArgs e)
@@ -2932,7 +2958,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos77.Enabled = false;
 		}
 
 		private void pb2Pos78_Click(object sender, EventArgs e)
@@ -2968,7 +2994,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos78.Enabled = false;
 		}
 
 		private void pb2Pos79_Click(object sender, EventArgs e)
@@ -3004,7 +3030,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos79.Enabled = false;
 		}
 
 		private void pb2Pos80_Click(object sender, EventArgs e)
@@ -3040,7 +3066,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos80.Enabled = false;
 		}
 
 		private void pb2Pos81_Click(object sender, EventArgs e)
@@ -3076,6 +3102,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos81.Enabled = false;
 		}
 
 		private void pb2Pos82_Click(object sender, EventArgs e)
@@ -3111,7 +3138,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos83.Enabled = false;
 		}
 
 		private void pb2Pos83_Click(object sender, EventArgs e)
@@ -3147,6 +3174,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos83.Enabled = false;
 		}
 
 		private void pb2Pos84_Click(object sender, EventArgs e)
@@ -3182,7 +3210,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos84.Enabled = false;
 		}
 
 		private void pb2Pos85_Click(object sender, EventArgs e)
@@ -3218,7 +3246,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos85.Enabled = false;
 		}
 
 		private void pb2Pos86_Click(object sender, EventArgs e)
@@ -3254,7 +3282,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos86.Enabled = false;
 		}
 
 		private void pb2Pos87_Click(object sender, EventArgs e)
@@ -3290,6 +3318,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos87.Enabled = false;
 		}
 
 		private void pb2Pos88_Click(object sender, EventArgs e)
@@ -3325,7 +3354,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos88.Enabled = false;
 		}
 
 		private void pb2Pos89_Click(object sender, EventArgs e)
@@ -3361,7 +3390,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos89.Enabled = false;
 		}
 
 		private void pb2Pos90_Click(object sender, EventArgs e)
@@ -3397,7 +3426,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos90.Enabled = false;
 		}
 
 		private void pb2Pos91_Click(object sender, EventArgs e)
@@ -3433,6 +3462,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos91.Enabled = false;
 		}
 
 		private void pb2Pos92_Click(object sender, EventArgs e)
@@ -3468,6 +3498,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos92.Enabled = false;
 		}
 
 		private void pb2Pos93_Click(object sender, EventArgs e)
@@ -3503,6 +3534,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
+			pb2Pos93.Enabled = false;
 		}
 
 		private void pb2Pos94_Click(object sender, EventArgs e)
@@ -3538,7 +3570,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos94.Enabled = false;
 		}
 
 		private void pb2Pos95_Click(object sender, EventArgs e)
@@ -3574,7 +3606,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos95.Enabled = false;
 		}
 
 		private void pb2Pos96_Click(object sender, EventArgs e)
@@ -3610,7 +3642,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos96.Enabled = false;
 		}
 
 		private void pb2Pos97_Click(object sender, EventArgs e)
@@ -3646,7 +3678,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos97.Enabled = false;
 		}
 
 		private void pb2Pos98_Click(object sender, EventArgs e)
@@ -3682,7 +3714,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos98.Enabled = false;
 		}
 
 		private void pb2Pos99_Click(object sender, EventArgs e)
@@ -3718,7 +3750,7 @@ namespace Battleship
 					victoriousPlayer = 2;
 				}
 			}
-
+			pb2Pos99.Enabled = false;
 		}
 		#endregion
 
@@ -4040,6 +4072,108 @@ namespace Battleship
 			HitDetectors.HitDetectorGameboardTwo(9, 7, ref pb2Pos97);
 			HitDetectors.HitDetectorGameboardTwo(9, 8, ref pb2Pos98);
 			HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos99);
+
+			//Ensure all buttons are pressable again
+			pb2Pos00.Enabled = true;
+			pb2Pos01.Enabled = true;
+			pb2Pos02.Enabled = true;
+			pb2Pos03.Enabled = true;
+			pb2Pos04.Enabled = true;
+			pb2Pos05.Enabled = true;
+			pb2Pos06.Enabled = true;
+			pb2Pos07.Enabled = true;
+			pb2Pos08.Enabled = true;
+			pb2Pos09.Enabled = true;
+			pb2Pos10.Enabled = true;
+			pb2Pos11.Enabled = true;
+			pb2Pos12.Enabled = true;
+			pb2Pos13.Enabled = true;
+			pb2Pos14.Enabled = true;
+			pb2Pos15.Enabled = true;
+			pb2Pos16.Enabled = true;
+			pb2Pos17.Enabled = true;
+			pb2Pos18.Enabled = true;
+			pb2Pos19.Enabled = true;
+			pb2Pos20.Enabled = true;
+			pb2Pos21.Enabled = true;
+			pb2Pos22.Enabled = true;
+			pb2Pos23.Enabled = true;
+			pb2Pos24.Enabled = true;
+			pb2Pos25.Enabled = true;
+			pb2Pos26.Enabled = true;
+			pb2Pos27.Enabled = true;
+			pb2Pos28.Enabled = true;
+			pb2Pos29.Enabled = true;
+			pb2Pos30.Enabled = true;
+			pb2Pos31.Enabled = true;
+			pb2Pos32.Enabled = true;
+			pb2Pos33.Enabled = true;
+			pb2Pos34.Enabled = true;
+			pb2Pos35.Enabled = true;
+			pb2Pos36.Enabled = true;
+			pb2Pos37.Enabled = true;
+			pb2Pos38.Enabled = true;
+			pb2Pos39.Enabled = true;
+			pb2Pos40.Enabled = true;
+			pb2Pos41.Enabled = true;
+			pb2Pos42.Enabled = true;
+			pb2Pos43.Enabled = true;
+			pb2Pos44.Enabled = true;
+			pb2Pos45.Enabled = true;
+			pb2Pos46.Enabled = true;
+			pb2Pos47.Enabled = true;
+			pb2Pos48.Enabled = true;
+			pb2Pos49.Enabled = true;
+			pb2Pos50.Enabled = true;
+			pb2Pos51.Enabled = true;
+			pb2Pos52.Enabled = true;
+			pb2Pos53.Enabled = true;
+			pb2Pos54.Enabled = true;
+			pb2Pos55.Enabled = true;
+			pb2Pos56.Enabled = true;
+			pb2Pos57.Enabled = true;
+			pb2Pos58.Enabled = true;
+			pb2Pos59.Enabled = true;
+			pb2Pos60.Enabled = true;
+			pb2Pos61.Enabled = true;
+			pb2Pos62.Enabled = true;
+			pb2Pos63.Enabled = true;
+			pb2Pos64.Enabled = true;
+			pb2Pos65.Enabled = true;
+			pb2Pos66.Enabled = true;
+			pb2Pos67.Enabled = true;
+			pb2Pos68.Enabled = true;
+			pb2Pos69.Enabled = true;
+			pb2Pos70.Enabled = true;
+			pb2Pos71.Enabled = true;
+			pb2Pos72.Enabled = true;
+			pb2Pos73.Enabled = true;
+			pb2Pos74.Enabled = true;
+			pb2Pos75.Enabled = true;
+			pb2Pos76.Enabled = true;
+			pb2Pos77.Enabled = true;
+			pb2Pos78.Enabled = true;
+			pb2Pos79.Enabled = true;
+			pb2Pos80.Enabled = true;
+			pb2Pos81.Enabled = true;
+			pb2Pos82.Enabled = true;
+			pb2Pos83.Enabled = true;
+			pb2Pos84.Enabled = true;
+			pb2Pos85.Enabled = true;
+			pb2Pos86.Enabled = true;
+			pb2Pos87.Enabled = true;
+			pb2Pos88.Enabled = true;
+			pb2Pos89.Enabled = true;
+			pb2Pos90.Enabled = true;
+			pb2Pos91.Enabled = true;
+			pb2Pos92.Enabled = true;
+			pb2Pos93.Enabled = true;
+			pb2Pos94.Enabled = true;
+			pb2Pos95.Enabled = true;
+			pb2Pos96.Enabled = true;
+			pb2Pos97.Enabled = true;
+			pb2Pos98.Enabled = true;
+			pb2Pos99.Enabled = true;
 		}
 		#endregion
 
