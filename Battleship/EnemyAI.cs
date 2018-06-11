@@ -29,6 +29,7 @@ namespace Battleship
 				}
 				else
 				{
+
 					break;
 				}
 
@@ -289,10 +290,10 @@ namespace Battleship
 					}
 				case 20:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[1, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[1, 9] = '0';
+							pb1Pos19.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -302,10 +303,10 @@ namespace Battleship
 					}
 				case 21:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 0] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 0] = '0';
+							pb1Pos20.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -315,10 +316,10 @@ namespace Battleship
 					}
 				case 22:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 1] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 1] = '0';
+							pb1Pos21.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -328,10 +329,10 @@ namespace Battleship
 					}
 				case 23:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 2] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 2] = '0';
+							pb1Pos22.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -341,10 +342,10 @@ namespace Battleship
 					}
 				case 24:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 3] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 3] = '0';
+							pb1Pos23.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -354,10 +355,10 @@ namespace Battleship
 					}
 				case 25:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 4] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 4] = '0';
+							pb1Pos24.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -367,10 +368,10 @@ namespace Battleship
 					}
 				case 26:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 5] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 5] = '0';
+							pb1Pos25.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -380,10 +381,10 @@ namespace Battleship
 					}
 				case 27:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 6] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 6] = '0';
+							pb1Pos26.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -393,10 +394,10 @@ namespace Battleship
 					}
 				case 28:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 7] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 7] = '0';
+							pb1Pos27.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -406,10 +407,10 @@ namespace Battleship
 					}
 				case 29:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 8] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 8] = '0';
+							pb1Pos28.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -419,10 +420,10 @@ namespace Battleship
 					}
 				case 30:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[2, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[2, 9] = '0';
+							pb1Pos29.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -432,10 +433,10 @@ namespace Battleship
 					}
 				case 31:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 0] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 0] = '0';
+							pb1Pos30.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -445,10 +446,10 @@ namespace Battleship
 					}
 				case 32:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 1] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 1] = '0';
+							pb1Pos31.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -458,10 +459,10 @@ namespace Battleship
 					}
 				case 33:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 2] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 2] = '0';
+							pb1Pos32.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -471,10 +472,10 @@ namespace Battleship
 					}
 				case 34:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 3] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 3] = '0';
+							pb1Pos33.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -484,10 +485,10 @@ namespace Battleship
 					}
 				case 35:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 4] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 4] = '0';
+							pb1Pos34.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -497,10 +498,10 @@ namespace Battleship
 					}
 				case 36:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 5] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 5] = '0';
+							pb1Pos35.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -510,10 +511,10 @@ namespace Battleship
 					}
 				case 37:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 6] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 6] = '0';
+							pb1Pos36.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -523,10 +524,10 @@ namespace Battleship
 					}
 				case 38:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 7] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 7] = '0';
+							pb1Pos37.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -536,10 +537,10 @@ namespace Battleship
 					}
 				case 39:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 8] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 8] = '0';
+							pb1Pos38.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -549,10 +550,10 @@ namespace Battleship
 					}
 				case 40:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[3, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[3, 9] = '0';
+							pb1Pos39.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -562,10 +563,10 @@ namespace Battleship
 					}
 				case 41:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 0] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 0] = '0';
+							pb1Pos40.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -575,10 +576,10 @@ namespace Battleship
 					}
 				case 42:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 1] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 1] = '0';
+							pb1Pos41.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -588,10 +589,10 @@ namespace Battleship
 					}
 				case 43:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 2] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 2] = '0';
+							pb1Pos42.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -601,10 +602,10 @@ namespace Battleship
 					}
 				case 44:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 3] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 3] = '0';
+							pb1Pos43.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -614,10 +615,10 @@ namespace Battleship
 					}
 				case 45:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 4] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 4] = '0';
+							pb1Pos44.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -627,10 +628,10 @@ namespace Battleship
 					}
 				case 46:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 5] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 5] = '0';
+							pb1Pos45.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -640,10 +641,10 @@ namespace Battleship
 					}
 				case 47:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 6] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 6] = '0';
+							pb1Pos46.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -653,10 +654,10 @@ namespace Battleship
 					}
 				case 48:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 7] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 7] = '0';
+							pb1Pos47.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -666,10 +667,10 @@ namespace Battleship
 					}
 				case 49:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 8] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 8] = '0';
+							pb1Pos48.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -679,10 +680,10 @@ namespace Battleship
 					}
 				case 50:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[4, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[4, 9] = '0';
+							pb1Pos49.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -692,10 +693,10 @@ namespace Battleship
 					}
 				case 51:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 0] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 0] = '0';
+							pb1Pos50.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -705,10 +706,10 @@ namespace Battleship
 					}
 				case 52:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 1] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 1] = '0';
+							pb1Pos51.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -718,10 +719,10 @@ namespace Battleship
 					}
 				case 53:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 2] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 2] = '0';
+							pb1Pos52.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -731,10 +732,10 @@ namespace Battleship
 					}
 				case 54:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 3] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 3] = '0';
+							pb1Pos53.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -744,10 +745,10 @@ namespace Battleship
 					}
 				case 55:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 4] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 4] = '0';
+							pb1Pos54.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -757,10 +758,10 @@ namespace Battleship
 					}
 				case 56:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 5] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 5] = '0';
+							pb1Pos55.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -770,10 +771,10 @@ namespace Battleship
 					}
 				case 57:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 6] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 6] = '0';
+							pb1Pos56.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -783,10 +784,10 @@ namespace Battleship
 					}
 				case 58:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 7] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 7] = '0';
+							pb1Pos57.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -796,10 +797,10 @@ namespace Battleship
 					}
 				case 59:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 8] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 8] = '0';
+							pb1Pos58.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -809,10 +810,10 @@ namespace Battleship
 					}
 				case 60:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[5, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[5, 9] = '0';
+							pb1Pos59.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -822,10 +823,10 @@ namespace Battleship
 					}
 				case 61:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 0] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 0] = '0';
+							pb1Pos60.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -835,10 +836,10 @@ namespace Battleship
 					}
 				case 62:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 1] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 1] = '0';
+							pb1Pos61.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -848,10 +849,10 @@ namespace Battleship
 					}
 				case 63:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 2] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 2] = '0';
+							pb1Pos62.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -861,10 +862,10 @@ namespace Battleship
 					}
 				case 64:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 3] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 3] = '0';
+							pb1Pos63.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -874,10 +875,10 @@ namespace Battleship
 					}
 				case 65:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 4] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 4] = '0';
+							pb1Pos64.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -887,10 +888,10 @@ namespace Battleship
 					}
 				case 66:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 5] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 5] = '0';
+							pb1Pos65.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -900,10 +901,10 @@ namespace Battleship
 					}
 				case 67:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 6] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 6] = '0';
+							pb1Pos66.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -913,10 +914,10 @@ namespace Battleship
 					}
 				case 68:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 7] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 7] = '0';
+							pb1Pos67.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -926,10 +927,10 @@ namespace Battleship
 					}
 				case 69:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 8] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 8] = '0';
+							pb1Pos68.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -939,10 +940,10 @@ namespace Battleship
 					}
 				case 70:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[6, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[6, 9] = '0';
+							pb1Pos69.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -952,10 +953,10 @@ namespace Battleship
 					}
 				case 71:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 0] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 0] = '0';
+							pb1Pos70.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -965,10 +966,10 @@ namespace Battleship
 					}
 				case 72:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 1] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 1] = '0';
+							pb1Pos71.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -978,10 +979,10 @@ namespace Battleship
 					}
 				case 73:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 2] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 2] = '0';
+							pb1Pos72.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -991,10 +992,10 @@ namespace Battleship
 					}
 				case 74:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 3] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 3] = '0';
+							pb1Pos73.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1004,10 +1005,10 @@ namespace Battleship
 					}
 				case 75:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 4] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 4] = '0';
+							pb1Pos74.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1017,10 +1018,10 @@ namespace Battleship
 					}
 				case 76:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 5] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 5] = '0';
+							pb1Pos75.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1030,10 +1031,10 @@ namespace Battleship
 					}
 				case 77:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 6] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 6] = '0';
+							pb1Pos76.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1043,10 +1044,10 @@ namespace Battleship
 					}
 				case 78:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 7] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 7] = '0';
+							pb1Pos77.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1056,10 +1057,10 @@ namespace Battleship
 					}
 				case 79:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 8] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 8] = '0';
+							pb1Pos78.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1069,10 +1070,10 @@ namespace Battleship
 					}
 				case 80:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[7, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[7, 9] = '0';
+							pb1Pos79.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1082,10 +1083,10 @@ namespace Battleship
 					}
 				case 81:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 0] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 0] = '0';
+							pb1Pos80.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1095,10 +1096,10 @@ namespace Battleship
 					}
 				case 82:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 1] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 1] = '0';
+							pb1Pos81.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1108,10 +1109,10 @@ namespace Battleship
 					}
 				case 83:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 2] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 2] = '0';
+							pb1Pos82.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1121,10 +1122,10 @@ namespace Battleship
 					}
 				case 84:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 3] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 3] = '0';
+							pb1Pos83.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1134,10 +1135,10 @@ namespace Battleship
 					}
 				case 85:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 4] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 4] = '0';
+							pb1Pos84.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1147,10 +1148,10 @@ namespace Battleship
 					}
 				case 86:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 5] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 5] = '0';
+							pb1Pos85.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1160,10 +1161,10 @@ namespace Battleship
 					}
 				case 87:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 6] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 6] = '0';
+							pb1Pos86.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1173,10 +1174,10 @@ namespace Battleship
 					}
 				case 88:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 7] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 7] = '0';
+							pb1Pos87.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1186,10 +1187,10 @@ namespace Battleship
 					}
 				case 89:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 8] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 8] = '0';
+							pb1Pos88.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1199,10 +1200,10 @@ namespace Battleship
 					}
 				case 90:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[8, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[8, 9] = '0';
+							pb1Pos89.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1212,10 +1213,10 @@ namespace Battleship
 					}
 				case 91:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 0] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 0] = '0';
+							pb1Pos90.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1225,10 +1226,10 @@ namespace Battleship
 					}
 				case 92:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 1] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 1] = '0';
+							pb1Pos91.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1238,10 +1239,10 @@ namespace Battleship
 					}
 				case 93:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 2] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 2] = '0';
+							pb1Pos92.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1251,10 +1252,10 @@ namespace Battleship
 					}
 				case 94:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 3] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 3] = '0';
+							pb1Pos93.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1264,10 +1265,10 @@ namespace Battleship
 					}
 				case 95:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 4] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 4] = '0';
+							pb1Pos94.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1277,10 +1278,10 @@ namespace Battleship
 					}
 				case 96:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 5] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 5] = '0';
+							pb1Pos95.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1290,10 +1291,10 @@ namespace Battleship
 					}
 				case 97:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 6] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 6] = '0';
+							pb1Pos96.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1303,10 +1304,10 @@ namespace Battleship
 					}
 				case 98:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 7] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 7] = '0';
+							pb1Pos97.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1316,10 +1317,10 @@ namespace Battleship
 					}
 				case 99:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 8] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 8] = '0';
+							pb1Pos98.BackColor = Color.Red;
 							break;
 						}
 						else
@@ -1329,10 +1330,10 @@ namespace Battleship
 					}
 				case 100:
 					{
-						if (playerOneGameboard[1, 8] != '0')
+						if (playerOneGameboard[9, 9] != '0')
 						{
-							playerOneGameboard[1, 8] = '0';
-							pb1Pos18.BackColor = Color.Red;
+							playerOneGameboard[9, 9] = '0';
+							pb1Pos99.BackColor = Color.Red;
 							break;
 						}
 						else
