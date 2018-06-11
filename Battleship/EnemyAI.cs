@@ -15,21 +15,20 @@ namespace Battleship
 		//Method that enemy uses for firing at player
 		public void EnemyFire()
 		{
-			//Select random tile to fire at, add said tile to list
+			//Select random tile to fire at
 			int positionToHit = rnd.Next(0, 101);
 
-			//If proposed hit tile has already been fired at, generate a new hit tile
+			//If proposed hit tile has already been fired at, generate a new hit tile, else break loop
 			do
 			{
-				alreadyFiredAt.Add(positionToHit);
 				if (alreadyFiredAt.Contains(positionToHit))
 				{
-					positionToHit = rnd.Next(0, 101);
 					alreadyFiredAt.Add(positionToHit);
+					positionToHit = rnd.Next(0, 101);
 				}
 				else
 				{
-
+					alreadyFiredAt.Add(positionToHit);
 					break;
 				}
 
