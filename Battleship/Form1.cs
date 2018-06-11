@@ -22,6 +22,9 @@ namespace Battleship
 			InitializeComponent();
 		}
 
+		//i.e. singleplayer or multiplayer
+		public static int numberOfPlayers;
+
 		//i.e. player one or player two
 		public static int currentPlayer = 1;
 		
