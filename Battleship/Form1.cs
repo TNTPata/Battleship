@@ -22,13 +22,13 @@ namespace Battleship
 			InitializeComponent();
 		}
 
-		//***REMOVE LATER***
-		//public static int numberOfPlayers = 1;
-		//***REMOVE LATER***
+		//Where X is 1 or 2, i.e. player one or player two
+		public static int playerXTurn = 1;
+		
 
 		private void Battleship_Load(object sender, EventArgs e)
 		{
-			//Sets all positions to false, as there aren't any ships on the gameboard yet.
+			//Sets all positions to false, as there aren't any ships on the gameboard yet
 			ResetBoards();
 
 			//Ship placement
@@ -139,7 +139,6 @@ namespace Battleship
 				ref pb1Pos99);
 			#endregion
 
-			SingleplayerGame();
 		}
 
 		#region PictureBox.Click events
