@@ -233,7 +233,7 @@ namespace Battleship
 		}
 		#endregion
 
-		//Places ships on player one gameboard
+		//Places ships on player gameboard
 		public static void ShipPlacerOne()
 		{
 			//Starting coords and placement for 5 length ship (Carrier)
@@ -486,7 +486,7 @@ namespace Battleship
 			} while (torpedoBoatClear == false);
 		}
 
-		//Places ships for player two/enemys gameboard
+		//Places ships for enemy gameboard
 		public static void ShipPlacerTwo()
 		{
 			//Starting coords and placement for 5 length ship (Carrier)
@@ -494,7 +494,7 @@ namespace Battleship
 			int horisontal = rnd.Next(0, 2);
 			if (horisontal == 1)
 			{
-				//Determine start coords for horisontal ships
+				//Determine start coords
 				int x = rnd.Next(0, 6);
 				int y = rnd.Next(0, 10);
 				for (int i = 0; i < 5; i++)
@@ -505,7 +505,6 @@ namespace Battleship
 			}
 			else
 			{
-				//Determine start coords for vertical ships
 				int x = rnd.Next(0, 10);
 				int y = rnd.Next(0, 6);
 				for (int i = 0; i < 5; i++)
@@ -514,7 +513,7 @@ namespace Battleship
 					y++;
 				}
 			}
-		
+
 			//Starting coords and placement for 4 length ship (Destroyer)
 			PlaceDestroyer:
 			bool destroyerClear = false;
@@ -524,7 +523,7 @@ namespace Battleship
 				horisontal = rnd.Next(0, 2);
 				if (horisontal == 1)
 				{
-					//Determine start coords for horisontal ships
+					//Determine start coords
 					int x = rnd.Next(0, 7);
 					int y = rnd.Next(0, 10);
 					int xCheck = x;
@@ -545,7 +544,7 @@ namespace Battleship
 						Battleship.playerTwoGameboard[x, y] = 'D';
 						x++;
 					}
-		
+
 				}
 				else
 				{
@@ -570,7 +569,7 @@ namespace Battleship
 					}
 				}
 			} while (destroyerClear == false);
-		
+
 			//Starting coords and placement for 3 length ship (Minesweeper)
 			PlaceMinesweeper:
 			bool minesweeperClear = false;
@@ -601,7 +600,7 @@ namespace Battleship
 						Battleship.playerTwoGameboard[x, y] = 'M';
 						x++;
 					}
-		
+
 				}
 				else
 				{
@@ -626,7 +625,7 @@ namespace Battleship
 					}
 				}
 			} while (minesweeperClear == false);
-		
+
 			//Starting coords and placement for 3 length ship (Submarine)
 			PlaceSubmarine:
 			bool submarineClear = false;
@@ -657,7 +656,7 @@ namespace Battleship
 						Battleship.playerTwoGameboard[x, y] = 'S';
 						x++;
 					}
-		
+
 				}
 				else
 				{
@@ -682,7 +681,7 @@ namespace Battleship
 					}
 				}
 			} while (submarineClear == false);
-		
+
 			//Starting coords and placement for 2 length ship (Torpedo Boat)
 			PlaceTorpedoBoat:
 			bool torpedoBoatClear = false;
@@ -713,7 +712,7 @@ namespace Battleship
 						Battleship.playerTwoGameboard[x, y] = 'T';
 						x++;
 					}
-		
+
 				}
 				else
 				{
@@ -738,8 +737,7 @@ namespace Battleship
 					}
 				}
 			} while (torpedoBoatClear == false);
-			
-			
+
 		}
 	}
 }

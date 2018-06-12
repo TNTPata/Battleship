@@ -30,6 +30,7 @@ namespace Battleship
 
 
 		//Detects hits or misses for player two/enemy gameboard
+		//Reference buttonToChange from PictureBox_Click event
 		public static void HitDetectorGameboardTwo(int x, int y, ref System.Windows.Forms.PictureBox buttonToChange)
 		{
 			//Hit

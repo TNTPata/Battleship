@@ -25,7 +25,7 @@ namespace Battleship
 		//i.e. singleplayer or multiplayer
 		public static int numberOfPlayers = 1;
 
-		//i.e. player one or player two
+		//i.e. player or player two
 		public static int currentPlayer = 1;
 
 		//Variable to check against for determining who has won
@@ -4155,7 +4155,7 @@ namespace Battleship
 			ShipPlacerOne();
 			ShipPlacerTwo();
 
-			//Mark ship for player one
+			//Mark ship for player
 			#region ShipMarker()
 			ShipMarker(ref pb1Pos00,
 				ref pb1Pos01,
@@ -6898,7 +6898,7 @@ namespace Battleship
 			//Enabling of enemys gameboard and statistics box
 			groupBox2.Enabled = groupBox1.Enabled = true;
 					
-			//Marks ships for player one
+			//Marks ships for player 
 			#region ShipMarker()
 			ShipMarker(ref pb1Pos00,
 				ref pb1Pos01,
