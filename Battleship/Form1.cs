@@ -161,10 +161,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -180,10 +182,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos00.Enabled = false;
@@ -197,10 +201,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -216,10 +222,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos01.Enabled = false;
@@ -233,10 +241,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -252,10 +262,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos02.Enabled = false;
@@ -269,10 +281,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -288,10 +302,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos03.Enabled = false;
@@ -305,10 +321,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -324,10 +342,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos04.Enabled = false;
@@ -341,10 +361,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -360,10 +382,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos05.Enabled = false;
@@ -377,10 +401,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -396,10 +422,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos06.Enabled = false;
@@ -413,10 +441,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -432,10 +462,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos07.Enabled = false;
@@ -449,10 +481,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -468,10 +502,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos08.Enabled = false;
@@ -485,10 +521,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -504,10 +542,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos09.Enabled = false;
@@ -521,10 +561,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -540,10 +582,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos10.Enabled = false;
@@ -557,10 +601,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -576,10 +622,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos11.Enabled = false;
@@ -593,10 +641,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -612,10 +662,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos12.Enabled = false;
@@ -629,10 +681,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -648,10 +702,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos13.Enabled = false;
@@ -665,10 +721,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -684,10 +742,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos14.Enabled = false;
@@ -701,10 +761,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -720,10 +782,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos15.Enabled = false;
@@ -737,10 +801,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -756,10 +822,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos16.Enabled = false;
@@ -773,10 +841,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -792,10 +862,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos17.Enabled = false;
@@ -809,10 +881,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -828,10 +902,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos18.Enabled = false;
@@ -845,10 +921,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -864,10 +942,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos19.Enabled = false;
@@ -881,10 +961,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -900,10 +982,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos20.Enabled = false;
@@ -917,10 +1001,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -936,10 +1022,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos21.Enabled = false;
@@ -953,10 +1041,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -972,10 +1062,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos22.Enabled = false;
@@ -989,10 +1081,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1008,10 +1102,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos23.Enabled = false;
@@ -1025,10 +1121,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1044,10 +1142,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos24.Enabled = false;
@@ -1061,10 +1161,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1080,10 +1182,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos25.Enabled = false;
@@ -1097,10 +1201,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1116,10 +1222,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos26.Enabled = false;
@@ -1133,10 +1241,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1152,10 +1262,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos27.Enabled = false;
@@ -1169,10 +1281,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1188,10 +1302,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos28.Enabled = false;
@@ -1205,10 +1321,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1224,10 +1342,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos29.Enabled = false;
@@ -1241,10 +1361,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1260,10 +1382,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos30.Enabled = false;
@@ -1277,10 +1401,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1296,10 +1422,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos31.Enabled = false;
@@ -1313,10 +1441,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1332,10 +1462,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos32.Enabled = false;
@@ -1349,10 +1481,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1368,10 +1502,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos33.Enabled = false;
@@ -1385,10 +1521,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1404,10 +1542,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos34.Enabled = false;
@@ -1421,10 +1561,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1440,10 +1582,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos35.Enabled = false;
@@ -1457,10 +1601,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1476,10 +1622,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos36.Enabled = false;
@@ -1493,10 +1641,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1512,10 +1662,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos37.Enabled = false;
@@ -1529,10 +1681,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1548,10 +1702,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos38.Enabled = false;
@@ -1565,10 +1721,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1584,10 +1742,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos39.Enabled = false;
@@ -1601,10 +1761,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1620,10 +1782,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos40.Enabled = false;
@@ -1637,10 +1801,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1656,10 +1822,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos41.Enabled = false;
@@ -1673,10 +1841,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1692,10 +1862,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos42.Enabled = false;
@@ -1709,10 +1881,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1728,10 +1902,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos43.Enabled = false;
@@ -1745,10 +1921,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1764,10 +1942,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos44.Enabled = false;
@@ -1781,10 +1961,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1800,10 +1982,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos45.Enabled = false;
@@ -1817,10 +2001,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1836,10 +2022,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos46.Enabled = false;
@@ -1853,10 +2041,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1872,10 +2062,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos47.Enabled = false;
@@ -1889,10 +2081,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1908,10 +2102,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos48.Enabled = false;
@@ -1925,10 +2121,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1944,10 +2142,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos49.Enabled = false;
@@ -1961,10 +2161,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1980,10 +2182,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos50.Enabled = false;
@@ -1997,10 +2201,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2016,10 +2222,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos51.Enabled = false;
@@ -2033,10 +2241,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2052,10 +2262,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos52.Enabled = false;
@@ -2069,10 +2281,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2088,10 +2302,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos53.Enabled = false;
@@ -2105,10 +2321,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2124,10 +2342,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos54.Enabled = false;
@@ -2141,10 +2361,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2160,10 +2382,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos55.Enabled = false;
@@ -2177,10 +2401,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2196,10 +2422,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos56.Enabled = false;
@@ -2213,10 +2441,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2232,10 +2462,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos57.Enabled = false;
@@ -2249,10 +2481,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2268,10 +2502,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos58.Enabled = false;
@@ -2285,10 +2521,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2304,10 +2542,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos59.Enabled = false;
@@ -2321,10 +2561,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2340,10 +2582,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos60.Enabled = false;
@@ -2357,10 +2601,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2376,10 +2622,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos61.Enabled = false;
@@ -2393,10 +2641,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2412,10 +2662,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos62.Enabled = false;
@@ -2429,10 +2681,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2448,10 +2702,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos63.Enabled = false;
@@ -2465,10 +2721,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2484,10 +2742,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos64.Enabled = false;
@@ -2501,10 +2761,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2520,10 +2782,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos65.Enabled = false;
@@ -2537,10 +2801,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2556,10 +2822,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos66.Enabled = false;
@@ -2573,10 +2841,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2592,10 +2862,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos67.Enabled = false;
@@ -2609,10 +2881,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2628,10 +2902,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos68.Enabled = false;
@@ -2645,10 +2921,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2664,10 +2942,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos69.Enabled = false;
@@ -2681,10 +2961,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2700,10 +2982,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos70.Enabled = false;
@@ -2717,10 +3001,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2736,10 +3022,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos71.Enabled = false;
@@ -2753,10 +3041,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2772,10 +3062,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos72.Enabled = false;
@@ -2789,10 +3081,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2808,10 +3102,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos73.Enabled = false;
@@ -2825,10 +3121,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2844,10 +3142,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos74.Enabled = false;
@@ -2861,10 +3161,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2880,10 +3182,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos75.Enabled = false;
@@ -2897,10 +3201,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2916,10 +3222,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos76.Enabled = false;
@@ -2933,10 +3241,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2952,10 +3262,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos77.Enabled = false;
@@ -2969,10 +3281,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -2988,10 +3302,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos78.Enabled = false;
@@ -3005,10 +3321,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3024,10 +3342,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos79.Enabled = false;
@@ -3041,10 +3361,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3060,10 +3382,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos80.Enabled = false;
@@ -3077,10 +3401,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3096,10 +3422,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos81.Enabled = false;
@@ -3113,10 +3441,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3132,10 +3462,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos82.Enabled = false;
@@ -3149,10 +3481,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3168,10 +3502,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos83.Enabled = false;
@@ -3185,10 +3521,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3204,10 +3542,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos84.Enabled = false;
@@ -3221,10 +3561,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3240,10 +3582,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos85.Enabled = false;
@@ -3257,10 +3601,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3276,10 +3622,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos86.Enabled = false;
@@ -3293,10 +3641,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3312,10 +3662,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos87.Enabled = false;
@@ -3329,10 +3681,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3348,10 +3702,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos88.Enabled = false;
@@ -3365,10 +3721,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3384,10 +3742,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos89.Enabled = false;
@@ -3401,10 +3761,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3420,10 +3782,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos90.Enabled = false;
@@ -3437,10 +3801,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3456,10 +3822,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos91.Enabled = false;
@@ -3473,10 +3841,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3492,10 +3862,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos92.Enabled = false;
@@ -3509,10 +3881,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3528,10 +3902,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos93.Enabled = false;
@@ -3545,10 +3921,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3564,10 +3942,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos94.Enabled = false;
@@ -3581,10 +3961,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3600,10 +3982,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos95.Enabled = false;
@@ -3617,10 +4001,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3636,10 +4022,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos96.Enabled = false;
@@ -3653,10 +4041,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3672,10 +4062,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos97.Enabled = false;
@@ -3689,10 +4081,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3708,10 +4102,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 1";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos98.Enabled = false;
@@ -3725,10 +4121,12 @@ namespace Battleship
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
+				winnerDisplayLabel.Text = "Player 1";
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
+				winnerDisplayLabel.Text = "Player 2";
 			}
 
 			//Switch players, or make the enemy fire back
@@ -3744,10 +4142,12 @@ namespace Battleship
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 				else if (WinnerCheck() == 2)
 				{
 					victoriousPlayer = 2;
+					winnerDisplayLabel.Text = "Player 2";
 				}
 			}
 			pb2Pos99.Enabled = false;

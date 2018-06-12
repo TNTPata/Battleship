@@ -1673,7 +1673,7 @@
 			// 
 			// btnDebugHITALL
 			// 
-			this.btnDebugHITALL.Location = new System.Drawing.Point(87, 22);
+			this.btnDebugHITALL.Location = new System.Drawing.Point(6, 403);
 			this.btnDebugHITALL.Name = "btnDebugHITALL";
 			this.btnDebugHITALL.Size = new System.Drawing.Size(75, 23);
 			this.btnDebugHITALL.TabIndex = 0;
