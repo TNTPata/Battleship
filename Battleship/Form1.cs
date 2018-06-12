@@ -4708,6 +4708,5 @@ namespace Battleship
 			HitDetectors.HitDetectorGameboardOne(9, 9, ref pb1Pos99);
 		}
 		#endregion
-
 	}
 }

@@ -233,7 +233,7 @@
 			this.pb2Pos20 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos30 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos40 = new System.Windows.Forms.PictureBox();
-			this.label2 = new System.Windows.Forms.Label();
+			this.winnerDisplayLabel = new System.Windows.Forms.Label();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos97)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos78)).BeginInit();
@@ -1651,7 +1651,7 @@
 			// 
 			// groupBox3
 			// 
-			this.groupBox3.Controls.Add(this.label2);
+			this.groupBox3.Controls.Add(this.winnerDisplayLabel);
 			this.groupBox3.Controls.Add(this.label1);
 			this.groupBox3.Controls.Add(this.btnDebugHITALL);
 			this.groupBox3.Enabled = false;
@@ -2791,14 +2791,14 @@
 			this.pb2Pos40.TabStop = false;
 			this.pb2Pos40.Click += new System.EventHandler(this.pb2Pos40_Click);
 			// 
-			// label2
+			// winnerDisplayLabel
 			// 
-			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(84, 98);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(65, 17);
-			this.label2.TabIndex = 2;
-			this.label2.Text = "None yet";
+			this.winnerDisplayLabel.AutoSize = true;
+			this.winnerDisplayLabel.Location = new System.Drawing.Point(84, 98);
+			this.winnerDisplayLabel.Name = "winnerDisplayLabel";
+			this.winnerDisplayLabel.Size = new System.Drawing.Size(65, 17);
+			this.winnerDisplayLabel.TabIndex = 2;
+			this.winnerDisplayLabel.Text = "None yet";
 			// 
 			// Battleship
 			// 
@@ -3225,7 +3225,7 @@
 		public System.Windows.Forms.PictureBox pb2Pos34;
 		private System.Windows.Forms.Button btnDebugHITALL;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label winnerDisplayLabel;
 	}
 }
 
