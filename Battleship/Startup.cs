@@ -741,6 +741,5 @@ namespace Battleship
 			
 			
 		}
-
 	}
 }
