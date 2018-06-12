@@ -546,6 +546,7 @@
 			this.groupBox1.Controls.Add(this.pb1Pos51);
 			this.groupBox1.Controls.Add(this.pb1Pos61);
 			this.groupBox1.Controls.Add(this.pb1Pos00);
+			this.groupBox1.Enabled = false;
 			this.groupBox1.Location = new System.Drawing.Point(12, 13);
 			this.groupBox1.Name = "groupBox1";
 			this.groupBox1.Size = new System.Drawing.Size(419, 436);
@@ -1663,7 +1664,6 @@
 			this.groupBox3.Controls.Add(this.winnerDisplayLabel);
 			this.groupBox3.Controls.Add(this.label1);
 			this.groupBox3.Controls.Add(this.btnDebugHITALL);
-			this.groupBox3.Enabled = false;
 			this.groupBox3.Location = new System.Drawing.Point(437, 13);
 			this.groupBox3.Name = "groupBox3";
 			this.groupBox3.Size = new System.Drawing.Size(241, 436);
