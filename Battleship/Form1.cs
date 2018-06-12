@@ -34,119 +34,7 @@ namespace Battleship
 
 		private void Battleship_Load(object sender, EventArgs e)
 		{
-			//Sets all positions to '0', as there aren't any ships on the gameboard yet
-			ResetBoards();
-
-			//Ship placement
-			ShipPlacerOne();
-			ShipPlacerTwo();
-
-			//Enabling of enemys gameboard and statistics box
-			groupBox2.Enabled = groupBox3.Enabled = true;
-					
-			//Marks ships for player one
-			#region ShipMarker()
-			ShipMarker(ref pb1Pos00,
-				ref pb1Pos01,
-				ref pb1Pos02,
-				ref pb1Pos03,
-				ref pb1Pos04,
-				ref pb1Pos05,
-				ref pb1Pos06,
-				ref pb1Pos07,
-				ref pb1Pos08,
-				ref pb1Pos09,
-				ref pb1Pos10,
-				ref pb1Pos11,
-				ref pb1Pos12,
-				ref pb1Pos13,
-				ref pb1Pos14,
-				ref pb1Pos15,
-				ref pb1Pos16,
-				ref pb1Pos17,
-				ref pb1Pos18,
-				ref pb1Pos19,
-				ref pb1Pos20,
-				ref pb1Pos21,
-				ref pb1Pos22,
-				ref pb1Pos23,
-				ref pb1Pos24,
-				ref pb1Pos25,
-				ref pb1Pos26,
-				ref pb1Pos27,
-				ref pb1Pos28,
-				ref pb1Pos29,
-				ref pb1Pos30,
-				ref pb1Pos31,
-				ref pb1Pos32,
-				ref pb1Pos33,
-				ref pb1Pos34,
-				ref pb1Pos35,
-				ref pb1Pos36,
-				ref pb1Pos37,
-				ref pb1Pos38,
-				ref pb1Pos39,
-				ref pb1Pos40,
-				ref pb1Pos41,
-				ref pb1Pos42,
-				ref pb1Pos43,
-				ref pb1Pos44,
-				ref pb1Pos45,
-				ref pb1Pos46,
-				ref pb1Pos47,
-				ref pb1Pos48,
-				ref pb1Pos49,
-				ref pb1Pos50,
-				ref pb1Pos51,
-				ref pb1Pos52,
-				ref pb1Pos53,
-				ref pb1Pos54,
-				ref pb1Pos55,
-				ref pb1Pos56,
-				ref pb1Pos57,
-				ref pb1Pos58,
-				ref pb1Pos59,
-				ref pb1Pos60,
-				ref pb1Pos61,
-				ref pb1Pos62,
-				ref pb1Pos63,
-				ref pb1Pos64,
-				ref pb1Pos65,
-				ref pb1Pos66,
-				ref pb1Pos67,
-				ref pb1Pos68,
-				ref pb1Pos69,
-				ref pb1Pos70,
-				ref pb1Pos71,
-				ref pb1Pos72,
-				ref pb1Pos73,
-				ref pb1Pos74,
-				ref pb1Pos75,
-				ref pb1Pos76,
-				ref pb1Pos77,
-				ref pb1Pos78,
-				ref pb1Pos79,
-				ref pb1Pos80,
-				ref pb1Pos81,
-				ref pb1Pos82,
-				ref pb1Pos83,
-				ref pb1Pos84,
-				ref pb1Pos85,
-				ref pb1Pos86,
-				ref pb1Pos87,
-				ref pb1Pos88,
-				ref pb1Pos89,
-				ref pb1Pos90,
-				ref pb1Pos91,
-				ref pb1Pos92,
-				ref pb1Pos93,
-				ref pb1Pos94,
-				ref pb1Pos95,
-				ref pb1Pos96,
-				ref pb1Pos97,
-				ref pb1Pos98,
-				ref pb1Pos99);
-			#endregion
+			
 		}
 
 		//Naming rule:
@@ -6986,26 +6874,141 @@ namespace Battleship
 
 		private void rbtnDiffEasy_CheckedChanged(object sender, EventArgs e)
 		{
-			btnDebugHITALL.Enabled = false;
+			
 		}
 
 		private void rbtnDiffHard_CheckedChanged(object sender, EventArgs e)
 		{
-			btnDebugHITALL.Enabled = false;
+			
 		}
 		private void rbtnDebug_CheckedChanged(object sender, EventArgs e)
 		{
-			btnDebugHITALL.Enabled = true;
-
-			if (rbtnDebug.Checked)
-			{
-
-			}
+			
 		}
 
 		private void btnStartGame_Click(object sender, EventArgs e)
 		{
+			//Sets all positions to '0', as there aren't any ships on the gameboard yet
+			ResetBoards();
 
+			//Ship placement
+			ShipPlacerOne();
+			ShipPlacerTwo();
+
+			//Enabling of enemys gameboard and statistics box
+			groupBox2.Enabled = groupBox1.Enabled = true;
+					
+			//Marks ships for player one
+			#region ShipMarker()
+			ShipMarker(ref pb1Pos00,
+				ref pb1Pos01,
+				ref pb1Pos02,
+				ref pb1Pos03,
+				ref pb1Pos04,
+				ref pb1Pos05,
+				ref pb1Pos06,
+				ref pb1Pos07,
+				ref pb1Pos08,
+				ref pb1Pos09,
+				ref pb1Pos10,
+				ref pb1Pos11,
+				ref pb1Pos12,
+				ref pb1Pos13,
+				ref pb1Pos14,
+				ref pb1Pos15,
+				ref pb1Pos16,
+				ref pb1Pos17,
+				ref pb1Pos18,
+				ref pb1Pos19,
+				ref pb1Pos20,
+				ref pb1Pos21,
+				ref pb1Pos22,
+				ref pb1Pos23,
+				ref pb1Pos24,
+				ref pb1Pos25,
+				ref pb1Pos26,
+				ref pb1Pos27,
+				ref pb1Pos28,
+				ref pb1Pos29,
+				ref pb1Pos30,
+				ref pb1Pos31,
+				ref pb1Pos32,
+				ref pb1Pos33,
+				ref pb1Pos34,
+				ref pb1Pos35,
+				ref pb1Pos36,
+				ref pb1Pos37,
+				ref pb1Pos38,
+				ref pb1Pos39,
+				ref pb1Pos40,
+				ref pb1Pos41,
+				ref pb1Pos42,
+				ref pb1Pos43,
+				ref pb1Pos44,
+				ref pb1Pos45,
+				ref pb1Pos46,
+				ref pb1Pos47,
+				ref pb1Pos48,
+				ref pb1Pos49,
+				ref pb1Pos50,
+				ref pb1Pos51,
+				ref pb1Pos52,
+				ref pb1Pos53,
+				ref pb1Pos54,
+				ref pb1Pos55,
+				ref pb1Pos56,
+				ref pb1Pos57,
+				ref pb1Pos58,
+				ref pb1Pos59,
+				ref pb1Pos60,
+				ref pb1Pos61,
+				ref pb1Pos62,
+				ref pb1Pos63,
+				ref pb1Pos64,
+				ref pb1Pos65,
+				ref pb1Pos66,
+				ref pb1Pos67,
+				ref pb1Pos68,
+				ref pb1Pos69,
+				ref pb1Pos70,
+				ref pb1Pos71,
+				ref pb1Pos72,
+				ref pb1Pos73,
+				ref pb1Pos74,
+				ref pb1Pos75,
+				ref pb1Pos76,
+				ref pb1Pos77,
+				ref pb1Pos78,
+				ref pb1Pos79,
+				ref pb1Pos80,
+				ref pb1Pos81,
+				ref pb1Pos82,
+				ref pb1Pos83,
+				ref pb1Pos84,
+				ref pb1Pos85,
+				ref pb1Pos86,
+				ref pb1Pos87,
+				ref pb1Pos88,
+				ref pb1Pos89,
+				ref pb1Pos90,
+				ref pb1Pos91,
+				ref pb1Pos92,
+				ref pb1Pos93,
+				ref pb1Pos94,
+				ref pb1Pos95,
+				ref pb1Pos96,
+				ref pb1Pos97,
+				ref pb1Pos98,
+				ref pb1Pos99);
+			#endregion
+
+			if (rbtnDebug.Checked)
+			{
+				btnDebugHITALL.Enabled = true;
+			}
+			rbtnDebug.Enabled = false;
+			rbtnDiffEasy.Enabled = false;
+			rbtnDiffHard.Enabled = false;
 		}
 	}
 }
