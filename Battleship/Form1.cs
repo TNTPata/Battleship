@@ -4043,7 +4043,7 @@ namespace Battleship
 		#endregion
 
 		#region Debug
-		//Debug button to fire at all buttons at the same time, press again to generate new ship placements
+		//Debug button to generate new ship placements and mark them immediately
 		private void btnDebugHITALL_Click(object sender, EventArgs e)
 		{
 			//Reset all boards
@@ -4466,6 +4466,7 @@ namespace Battleship
 		#endregion
 
 		#region Statbox buttons
+		//Restarts application
 		private void buttonResetAll_Click(object sender, EventArgs e)
 		{
 			Application.Restart();
