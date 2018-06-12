@@ -4155,7 +4155,7 @@ namespace Battleship
 			ShipPlacerOne();
 			ShipPlacerTwo();
 
-			//Mark ship for player
+			//Mark ships for player
 			#region ShipMarker()
 			ShipMarker(ref pb1Pos00,
 				ref pb1Pos01,
@@ -6867,6 +6867,7 @@ namespace Battleship
 		}
 		#endregion
 
+		#region Statbox buttons
 		private void buttonResetAll_Click(object sender, EventArgs e)
 		{
 			Application.Restart();
@@ -7013,5 +7014,6 @@ namespace Battleship
 			rbtnDiffEasy.Enabled = false;
 			rbtnDiffHard.Enabled = false;
 		}
+		#endregion
 	}
 }
