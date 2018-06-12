@@ -7002,10 +7002,13 @@ namespace Battleship
 				ref pb1Pos99);
 			#endregion
 
+			//Enable debug button(s) if debug mode is selected
 			if (rbtnDebug.Checked)
 			{
 				btnDebugHITALL.Enabled = true;
 			}
+
+			//Lock difficulty selection area
 			rbtnDebug.Enabled = false;
 			rbtnDiffEasy.Enabled = false;
 			rbtnDiffHard.Enabled = false;
