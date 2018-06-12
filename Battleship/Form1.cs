@@ -6875,16 +6875,16 @@ namespace Battleship
 
 		private void rbtnDiffEasy_CheckedChanged(object sender, EventArgs e)
 		{
-			
+			btnStartGame.Enabled = true;
 		}
 
 		private void rbtnDiffHard_CheckedChanged(object sender, EventArgs e)
 		{
-			
+			btnStartGame.Enabled = true;
 		}
 		private void rbtnDebug_CheckedChanged(object sender, EventArgs e)
 		{
-			
+			btnStartGame.Enabled = true;
 		}
 
 		private void btnStartGame_Click(object sender, EventArgs e)
@@ -7004,15 +7004,119 @@ namespace Battleship
 			#endregion
 
 			//Enable debug button(s) if debug mode is selected
+			//Used for checking placements of ships for both boards, and if hitdetectors work
 			if (rbtnDebug.Checked)
 			{
 				btnDebugHITALL.Enabled = true;
+
+				//Mark ships for player two/enemy
+				HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos00);
+				HitDetectors.HitDetectorGameboardTwo(0, 1, ref pb2Pos01);
+				HitDetectors.HitDetectorGameboardTwo(0, 2, ref pb2Pos02);
+				HitDetectors.HitDetectorGameboardTwo(0, 3, ref pb2Pos03);
+				HitDetectors.HitDetectorGameboardTwo(0, 4, ref pb2Pos04);
+				HitDetectors.HitDetectorGameboardTwo(0, 5, ref pb2Pos05);
+				HitDetectors.HitDetectorGameboardTwo(0, 6, ref pb2Pos06);
+				HitDetectors.HitDetectorGameboardTwo(0, 7, ref pb2Pos07);
+				HitDetectors.HitDetectorGameboardTwo(0, 8, ref pb2Pos08);
+				HitDetectors.HitDetectorGameboardTwo(0, 9, ref pb2Pos09);
+				HitDetectors.HitDetectorGameboardTwo(1, 0, ref pb2Pos10);
+				HitDetectors.HitDetectorGameboardTwo(1, 1, ref pb2Pos11);
+				HitDetectors.HitDetectorGameboardTwo(1, 2, ref pb2Pos12);
+				HitDetectors.HitDetectorGameboardTwo(1, 3, ref pb2Pos13);
+				HitDetectors.HitDetectorGameboardTwo(1, 4, ref pb2Pos14);
+				HitDetectors.HitDetectorGameboardTwo(1, 5, ref pb2Pos15);
+				HitDetectors.HitDetectorGameboardTwo(1, 6, ref pb2Pos16);
+				HitDetectors.HitDetectorGameboardTwo(1, 7, ref pb2Pos17);
+				HitDetectors.HitDetectorGameboardTwo(1, 8, ref pb2Pos18);
+				HitDetectors.HitDetectorGameboardTwo(1, 9, ref pb2Pos19);
+				HitDetectors.HitDetectorGameboardTwo(2, 0, ref pb2Pos20);
+				HitDetectors.HitDetectorGameboardTwo(2, 1, ref pb2Pos21);
+				HitDetectors.HitDetectorGameboardTwo(2, 2, ref pb2Pos22);
+				HitDetectors.HitDetectorGameboardTwo(2, 3, ref pb2Pos23);
+				HitDetectors.HitDetectorGameboardTwo(2, 4, ref pb2Pos24);
+				HitDetectors.HitDetectorGameboardTwo(2, 5, ref pb2Pos25);
+				HitDetectors.HitDetectorGameboardTwo(2, 6, ref pb2Pos26);
+				HitDetectors.HitDetectorGameboardTwo(2, 7, ref pb2Pos27);
+				HitDetectors.HitDetectorGameboardTwo(2, 8, ref pb2Pos28);
+				HitDetectors.HitDetectorGameboardTwo(2, 9, ref pb2Pos29);
+				HitDetectors.HitDetectorGameboardTwo(3, 0, ref pb2Pos30);
+				HitDetectors.HitDetectorGameboardTwo(3, 1, ref pb2Pos31);
+				HitDetectors.HitDetectorGameboardTwo(3, 2, ref pb2Pos32);
+				HitDetectors.HitDetectorGameboardTwo(3, 3, ref pb2Pos33);
+				HitDetectors.HitDetectorGameboardTwo(3, 4, ref pb2Pos34);
+				HitDetectors.HitDetectorGameboardTwo(3, 5, ref pb2Pos35);
+				HitDetectors.HitDetectorGameboardTwo(3, 6, ref pb2Pos36);
+				HitDetectors.HitDetectorGameboardTwo(3, 7, ref pb2Pos37);
+				HitDetectors.HitDetectorGameboardTwo(3, 8, ref pb2Pos38);
+				HitDetectors.HitDetectorGameboardTwo(3, 9, ref pb2Pos39);
+				HitDetectors.HitDetectorGameboardTwo(4, 0, ref pb2Pos40);
+				HitDetectors.HitDetectorGameboardTwo(4, 1, ref pb2Pos41);
+				HitDetectors.HitDetectorGameboardTwo(4, 2, ref pb2Pos42);
+				HitDetectors.HitDetectorGameboardTwo(4, 3, ref pb2Pos43);
+				HitDetectors.HitDetectorGameboardTwo(4, 4, ref pb2Pos44);
+				HitDetectors.HitDetectorGameboardTwo(4, 5, ref pb2Pos45);
+				HitDetectors.HitDetectorGameboardTwo(4, 6, ref pb2Pos46);
+				HitDetectors.HitDetectorGameboardTwo(4, 7, ref pb2Pos47);
+				HitDetectors.HitDetectorGameboardTwo(4, 8, ref pb2Pos48);
+				HitDetectors.HitDetectorGameboardTwo(4, 9, ref pb2Pos49);
+				HitDetectors.HitDetectorGameboardTwo(5, 0, ref pb2Pos50);
+				HitDetectors.HitDetectorGameboardTwo(5, 1, ref pb2Pos51);
+				HitDetectors.HitDetectorGameboardTwo(5, 2, ref pb2Pos52);
+				HitDetectors.HitDetectorGameboardTwo(5, 3, ref pb2Pos53);
+				HitDetectors.HitDetectorGameboardTwo(5, 4, ref pb2Pos54);
+				HitDetectors.HitDetectorGameboardTwo(5, 5, ref pb2Pos55);
+				HitDetectors.HitDetectorGameboardTwo(5, 6, ref pb2Pos56);
+				HitDetectors.HitDetectorGameboardTwo(5, 7, ref pb2Pos57);
+				HitDetectors.HitDetectorGameboardTwo(5, 8, ref pb2Pos58);
+				HitDetectors.HitDetectorGameboardTwo(5, 9, ref pb2Pos59);
+				HitDetectors.HitDetectorGameboardTwo(6, 0, ref pb2Pos60);
+				HitDetectors.HitDetectorGameboardTwo(6, 1, ref pb2Pos61);
+				HitDetectors.HitDetectorGameboardTwo(6, 2, ref pb2Pos62);
+				HitDetectors.HitDetectorGameboardTwo(6, 3, ref pb2Pos63);
+				HitDetectors.HitDetectorGameboardTwo(6, 4, ref pb2Pos64);
+				HitDetectors.HitDetectorGameboardTwo(6, 5, ref pb2Pos65);
+				HitDetectors.HitDetectorGameboardTwo(6, 6, ref pb2Pos66);
+				HitDetectors.HitDetectorGameboardTwo(6, 7, ref pb2Pos67);
+				HitDetectors.HitDetectorGameboardTwo(6, 8, ref pb2Pos68);
+				HitDetectors.HitDetectorGameboardTwo(6, 9, ref pb2Pos69);
+				HitDetectors.HitDetectorGameboardTwo(7, 0, ref pb2Pos70);
+				HitDetectors.HitDetectorGameboardTwo(7, 1, ref pb2Pos71);
+				HitDetectors.HitDetectorGameboardTwo(7, 2, ref pb2Pos72);
+				HitDetectors.HitDetectorGameboardTwo(7, 3, ref pb2Pos73);
+				HitDetectors.HitDetectorGameboardTwo(7, 4, ref pb2Pos74);
+				HitDetectors.HitDetectorGameboardTwo(7, 5, ref pb2Pos75);
+				HitDetectors.HitDetectorGameboardTwo(7, 6, ref pb2Pos76);
+				HitDetectors.HitDetectorGameboardTwo(7, 7, ref pb2Pos77);
+				HitDetectors.HitDetectorGameboardTwo(7, 8, ref pb2Pos78);
+				HitDetectors.HitDetectorGameboardTwo(7, 9, ref pb2Pos79);
+				HitDetectors.HitDetectorGameboardTwo(8, 0, ref pb2Pos80);
+				HitDetectors.HitDetectorGameboardTwo(8, 1, ref pb2Pos81);
+				HitDetectors.HitDetectorGameboardTwo(8, 2, ref pb2Pos82);
+				HitDetectors.HitDetectorGameboardTwo(8, 3, ref pb2Pos83);
+				HitDetectors.HitDetectorGameboardTwo(8, 4, ref pb2Pos84);
+				HitDetectors.HitDetectorGameboardTwo(8, 5, ref pb2Pos85);
+				HitDetectors.HitDetectorGameboardTwo(8, 6, ref pb2Pos86);
+				HitDetectors.HitDetectorGameboardTwo(8, 7, ref pb2Pos87);
+				HitDetectors.HitDetectorGameboardTwo(8, 8, ref pb2Pos88);
+				HitDetectors.HitDetectorGameboardTwo(8, 9, ref pb2Pos89);
+				HitDetectors.HitDetectorGameboardTwo(9, 0, ref pb2Pos90);
+				HitDetectors.HitDetectorGameboardTwo(9, 1, ref pb2Pos91);
+				HitDetectors.HitDetectorGameboardTwo(9, 2, ref pb2Pos92);
+				HitDetectors.HitDetectorGameboardTwo(9, 3, ref pb2Pos93);
+				HitDetectors.HitDetectorGameboardTwo(9, 4, ref pb2Pos94);
+				HitDetectors.HitDetectorGameboardTwo(9, 5, ref pb2Pos95);
+				HitDetectors.HitDetectorGameboardTwo(9, 6, ref pb2Pos96);
+				HitDetectors.HitDetectorGameboardTwo(9, 7, ref pb2Pos97);
+				HitDetectors.HitDetectorGameboardTwo(9, 8, ref pb2Pos98);
+				HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos99);
 			}
 
-			//Lock difficulty selection area
+			//Lock difficulty selection area and start button
 			rbtnDebug.Enabled = false;
 			rbtnDiffEasy.Enabled = false;
 			rbtnDiffHard.Enabled = false;
+			btnStartGame.Enabled = false;
 		}
 		#endregion
 	}

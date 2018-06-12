@@ -27,6 +27,7 @@ namespace Battleship
 			//Ensures that all 100 positions are empty
 			if (gameboardOnePositionsChecked == 100)
 			{
+				
 				return 2;
 			}
 

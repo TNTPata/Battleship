@@ -2860,6 +2860,7 @@
 			// 
 			// btnStartGame
 			// 
+			this.btnStartGame.Enabled = false;
 			this.btnStartGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnStartGame.Location = new System.Drawing.Point(6, 105);
 			this.btnStartGame.Name = "btnStartGame";
