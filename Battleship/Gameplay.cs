@@ -27,7 +27,7 @@ namespace Battleship
 			//Ensures that all 100 positions are empty
 			if (gameboardOnePositionsChecked == 100)
 			{
-				return 1;
+				return 2;
 			}
 
 			int gameboardTwoPositionsChecked = 0;
@@ -45,7 +45,7 @@ namespace Battleship
 			//Ensures that all 100 positions are empty
 			if (gameboardTwoPositionsChecked == 100)
 			{
-				return 2;
+				return 1;
 			}
 
 			//Neither of the boards had 100 empty positions, noone has won yet. 
