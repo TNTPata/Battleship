@@ -9,7 +9,9 @@ namespace Battleship
 {
 	class HitDetectors
 	{
+		#region Unused code
 		//Detects hits or misses for player ones gameboard
+		//Not used
 		public static void HitDetectorGameboardOne(int x, int y, ref System.Windows.Forms.PictureBox buttonToChange)
 		{
 			//Hit
@@ -27,7 +29,7 @@ namespace Battleship
 				buttonToChange.BackColor = Color.White;
 			}
 		}
-
+		#endregion
 
 		//Detects hits or misses for player two/enemy gameboard
 		//Reference buttonToChange from PictureBox_Click event

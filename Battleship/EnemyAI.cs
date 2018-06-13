@@ -12,6 +12,7 @@ namespace Battleship
 		//List that stores tiles that have already been fired at
 		List<int> alreadyFiredAt = new List<int>();
 
+		#region Trash
 		//Temporarilly stores position of initial hit
 		int tempInitialHit = -1;
 
@@ -29,6 +30,7 @@ namespace Battleship
 
 		//Determines if a new initialHit should be made
 		bool newInitialHit = true;
+		#endregion
 
 		//Method that enemy uses for firing at player
 		public void randomEnemyFire()
@@ -57,6 +59,7 @@ namespace Battleship
 			//Checks if the tile is not empty
 			//Sets gameboard to '0' and sets button to red if tile is not empty
 			//If this switch is closed/hidden, do NOT open
+			//tempInitialHit is not used
 			switch (positionToHit)
 			{
 				case 1:
@@ -1567,6 +1570,7 @@ namespace Battleship
 			}
 		}
 
+		#region Trash
 		//Method that fires at specified tile
 		//Returns 0 if could not fire or miss, returns 1 if hit
 		public int controlledEnemyFire(int coords)
@@ -3187,5 +3191,6 @@ namespace Battleship
 
 
 		}
+		#endregion
 	}
 }
