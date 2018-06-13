@@ -3134,13 +3134,20 @@ namespace Battleship
 			switch (searchDirection)
 			{
 				case 1:
-					if (controlledEnemyFire(initialHit - 10) == 1)
+					if (nextTileToFireAt == initialHit)
 					{
-						nextTileToFireAt = initialHit - 20;
+						controlledEnemyFire(initialHit - 10);
+						nextTileToFireAt = initialHit - 10;
+						break;
+					}
+					else if (controlledEnemyFire(nextTileToFireAt) == 1)
+					{
+
 					}
 					else
 					{
 						searchDirection++;
+						break;
 					}
 					break;
 
