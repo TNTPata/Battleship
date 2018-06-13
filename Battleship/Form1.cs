@@ -22,6 +22,9 @@ namespace Battleship
 			InitializeComponent();
 		}
 
+		//Sets difficulty
+		public static char difficulty = ' ';
+
 		//i.e. singleplayer or multiplayer
 		public static int numberOfPlayers = 1;
 
@@ -4870,11 +4873,13 @@ namespace Battleship
 		private void rbtnDiffEasy_CheckedChanged(object sender, EventArgs e)
 		{
 			btnStartGame.Enabled = true;
+			difficulty = 'E';
 		}
 
 		private void rbtnDiffHard_CheckedChanged(object sender, EventArgs e)
 		{
 			btnStartGame.Enabled = true;
+			difficulty = 'H';
 		}
 		private void rbtnDebug_CheckedChanged(object sender, EventArgs e)
 		{
@@ -4997,7 +5002,7 @@ namespace Battleship
 				ref pb1Pos99);
 			#endregion
 
-			//Enable debug button(s) if debug mode is selected
+			//Enable debug button(s) if debug mode is selected, fire at all tiles and enable Hit All button
 			//Used for checking placements of ships for both boards, and if hitdetectors work
 			if (rbtnDebug.Checked)
 			{

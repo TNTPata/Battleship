@@ -1447,5 +1447,43 @@ namespace Battleship
 					//Förlåt för denna programmeringssynd.
 			}
 		}
+
+		public void SmartEnemyFire()
+		{
+			//Select random tile to fire at
+			int positionToHit = rnd.Next(0, 101);
+
+			//If proposed hit tile has already been fired at, generate a new hit tile, else break loop
+			do
+			{
+				if (alreadyFiredAt.Contains(positionToHit))
+				{
+					alreadyFiredAt.Add(positionToHit);
+					positionToHit = rnd.Next(0, 101);
+				}
+				else
+				{
+					alreadyFiredAt.Add(positionToHit);
+					break;
+				}
+
+			} while (true);
+
+
+			///Skjut på ett mål
+			///
+			///OM miss:
+			///Välj nytt mål
+			///
+			///OM träff:
+			///Minska x med 1
+			///OM träff: 
+			///Fortsätt minska x med 1
+			///OM miss:
+			///Öka x med 1
+			///Samma sak för y-värden
+
+
+		}
 	}
 }
