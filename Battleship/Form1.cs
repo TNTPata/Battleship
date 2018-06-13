@@ -67,7 +67,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -111,7 +111,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -155,7 +155,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -199,7 +199,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -243,7 +243,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -287,7 +287,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -331,7 +331,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -375,7 +375,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -419,7 +419,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -463,7 +463,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -507,7 +507,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -551,7 +551,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -595,7 +595,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -639,7 +639,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -683,7 +683,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -727,7 +727,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -771,7 +771,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -815,7 +815,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -859,7 +859,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -903,7 +903,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -947,7 +947,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -991,7 +991,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1035,7 +1035,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1079,7 +1079,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1123,7 +1123,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1167,7 +1167,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1211,7 +1211,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1255,7 +1255,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1299,7 +1299,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1343,7 +1343,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1387,7 +1387,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1431,7 +1431,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1475,7 +1475,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1519,7 +1519,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1563,7 +1563,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1607,7 +1607,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1651,7 +1651,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1695,7 +1695,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1739,7 +1739,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1781,7 +1781,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1825,7 +1825,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1869,7 +1869,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1913,7 +1913,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -1957,7 +1957,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2001,7 +2001,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2045,7 +2045,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2089,7 +2089,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2133,7 +2133,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2177,7 +2177,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2221,7 +2221,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2265,7 +2265,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2309,7 +2309,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2353,7 +2353,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2397,7 +2397,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2441,7 +2441,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2485,7 +2485,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2529,7 +2529,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2573,7 +2573,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2617,7 +2617,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2661,7 +2661,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2705,7 +2705,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2749,7 +2749,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2793,7 +2793,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2837,7 +2837,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2881,7 +2881,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2925,7 +2925,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -2969,7 +2969,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3013,7 +3013,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3057,7 +3057,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3101,7 +3101,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3145,7 +3145,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3189,7 +3189,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3233,7 +3233,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3277,7 +3277,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3321,7 +3321,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3365,7 +3365,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3409,7 +3409,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3453,7 +3453,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3497,7 +3497,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3541,7 +3541,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3585,7 +3585,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3629,7 +3629,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3673,7 +3673,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3717,7 +3717,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3761,7 +3761,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3805,7 +3805,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3849,7 +3849,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3893,7 +3893,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3937,7 +3937,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -3981,7 +3981,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4025,7 +4025,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4069,7 +4069,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4113,7 +4113,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4157,7 +4157,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4201,7 +4201,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4245,7 +4245,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4289,7 +4289,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4333,7 +4333,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4377,7 +4377,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
@@ -4421,7 +4421,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
-				EnemyFire();
+				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
 				{
