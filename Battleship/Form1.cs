@@ -5110,19 +5110,14 @@ namespace Battleship
 				HitDetectors.HitDetectorGameboardTwo(9, 8, ref pb2Pos98);
 				HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos99);
 			}
-			else if (rbtnDiffEasy.Checked)
+			else if (rbtnNormalMode.Checked)
 			{
 				//Do nothing, use default difficulty
-			}
-			else if (rbtnDiffHard.Checked)
-			{
-				//TODO; Use hard difficulty
 			}
 
 			//Lock difficulty selection area and start button
 			rbtnDebug.Enabled = false;
-			rbtnDiffEasy.Enabled = false;
-			rbtnDiffHard.Enabled = false;
+			rbtnNormalMode.Enabled = false;
 			btnStartGame.Enabled = false;
 		}
 		#endregion

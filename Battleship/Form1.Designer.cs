@@ -130,6 +130,11 @@
 			this.pb1Pos61 = new System.Windows.Forms.PictureBox();
 			this.pb1Pos00 = new System.Windows.Forms.PictureBox();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
+			this.btnStartGame = new System.Windows.Forms.Button();
+			this.rbtnDebug = new System.Windows.Forms.RadioButton();
+			this.rbtnNormalMode = new System.Windows.Forms.RadioButton();
+			this.buttonResetAll = new System.Windows.Forms.Button();
+			this.winnerDisplayLabel = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.btnDebugHITALL = new System.Windows.Forms.Button();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -233,12 +238,6 @@
 			this.pb2Pos20 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos30 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos40 = new System.Windows.Forms.PictureBox();
-			this.winnerDisplayLabel = new System.Windows.Forms.Label();
-			this.buttonResetAll = new System.Windows.Forms.Button();
-			this.rbtnDiffEasy = new System.Windows.Forms.RadioButton();
-			this.rbtnDiffHard = new System.Windows.Forms.RadioButton();
-			this.rbtnDebug = new System.Windows.Forms.RadioButton();
-			this.btnStartGame = new System.Windows.Forms.Button();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos97)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos78)).BeginInit();
@@ -1558,8 +1557,7 @@
 			// 
 			this.groupBox3.Controls.Add(this.btnStartGame);
 			this.groupBox3.Controls.Add(this.rbtnDebug);
-			this.groupBox3.Controls.Add(this.rbtnDiffHard);
-			this.groupBox3.Controls.Add(this.rbtnDiffEasy);
+			this.groupBox3.Controls.Add(this.rbtnNormalMode);
 			this.groupBox3.Controls.Add(this.buttonResetAll);
 			this.groupBox3.Controls.Add(this.winnerDisplayLabel);
 			this.groupBox3.Controls.Add(this.label1);
@@ -1571,11 +1569,67 @@
 			this.groupBox3.TabStop = false;
 			this.groupBox3.Text = "Stats and Settings";
 			// 
+			// btnStartGame
+			// 
+			this.btnStartGame.Enabled = false;
+			this.btnStartGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnStartGame.Location = new System.Drawing.Point(6, 77);
+			this.btnStartGame.Name = "btnStartGame";
+			this.btnStartGame.Size = new System.Drawing.Size(228, 62);
+			this.btnStartGame.TabIndex = 7;
+			this.btnStartGame.Text = "Start Game";
+			this.btnStartGame.UseVisualStyleBackColor = true;
+			this.btnStartGame.Click += new System.EventHandler(this.btnStartGame_Click);
+			// 
+			// rbtnDebug
+			// 
+			this.rbtnDebug.AutoSize = true;
+			this.rbtnDebug.Location = new System.Drawing.Point(7, 49);
+			this.rbtnDebug.Name = "rbtnDebug";
+			this.rbtnDebug.Size = new System.Drawing.Size(110, 21);
+			this.rbtnDebug.TabIndex = 6;
+			this.rbtnDebug.TabStop = true;
+			this.rbtnDebug.Text = "Debug Mode";
+			this.rbtnDebug.UseVisualStyleBackColor = true;
+			this.rbtnDebug.CheckedChanged += new System.EventHandler(this.rbtnDebug_CheckedChanged);
+			// 
+			// rbtnNormalMode
+			// 
+			this.rbtnNormalMode.AutoSize = true;
+			this.rbtnNormalMode.Location = new System.Drawing.Point(7, 22);
+			this.rbtnNormalMode.Name = "rbtnNormalMode";
+			this.rbtnNormalMode.Size = new System.Drawing.Size(113, 21);
+			this.rbtnNormalMode.TabIndex = 4;
+			this.rbtnNormalMode.TabStop = true;
+			this.rbtnNormalMode.Text = "Normal Mode";
+			this.rbtnNormalMode.UseVisualStyleBackColor = true;
+			this.rbtnNormalMode.CheckedChanged += new System.EventHandler(this.rbtnDiffEasy_CheckedChanged);
+			// 
+			// buttonResetAll
+			// 
+			this.buttonResetAll.Location = new System.Drawing.Point(160, 403);
+			this.buttonResetAll.Name = "buttonResetAll";
+			this.buttonResetAll.Size = new System.Drawing.Size(75, 23);
+			this.buttonResetAll.TabIndex = 3;
+			this.buttonResetAll.Text = "Reset";
+			this.buttonResetAll.UseVisualStyleBackColor = true;
+			this.buttonResetAll.Click += new System.EventHandler(this.buttonResetAll_Click);
+			// 
+			// winnerDisplayLabel
+			// 
+			this.winnerDisplayLabel.AutoSize = true;
+			this.winnerDisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.winnerDisplayLabel.Location = new System.Drawing.Point(6, 186);
+			this.winnerDisplayLabel.Name = "winnerDisplayLabel";
+			this.winnerDisplayLabel.Size = new System.Drawing.Size(99, 26);
+			this.winnerDisplayLabel.TabIndex = 2;
+			this.winnerDisplayLabel.Text = "None yet";
+			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(6, 186);
+			this.label1.Location = new System.Drawing.Point(6, 151);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(100, 29);
 			this.label1.TabIndex = 1;
@@ -2702,74 +2756,6 @@
 			this.pb2Pos40.TabStop = false;
 			this.pb2Pos40.Click += new System.EventHandler(this.pb2Pos40_Click);
 			// 
-			// winnerDisplayLabel
-			// 
-			this.winnerDisplayLabel.AutoSize = true;
-			this.winnerDisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.winnerDisplayLabel.Location = new System.Drawing.Point(6, 215);
-			this.winnerDisplayLabel.Name = "winnerDisplayLabel";
-			this.winnerDisplayLabel.Size = new System.Drawing.Size(99, 26);
-			this.winnerDisplayLabel.TabIndex = 2;
-			this.winnerDisplayLabel.Text = "None yet";
-			// 
-			// buttonResetAll
-			// 
-			this.buttonResetAll.Location = new System.Drawing.Point(160, 403);
-			this.buttonResetAll.Name = "buttonResetAll";
-			this.buttonResetAll.Size = new System.Drawing.Size(75, 23);
-			this.buttonResetAll.TabIndex = 3;
-			this.buttonResetAll.Text = "Reset";
-			this.buttonResetAll.UseVisualStyleBackColor = true;
-			this.buttonResetAll.Click += new System.EventHandler(this.buttonResetAll_Click);
-			// 
-			// rbtnDiffEasy
-			// 
-			this.rbtnDiffEasy.AutoSize = true;
-			this.rbtnDiffEasy.Location = new System.Drawing.Point(7, 22);
-			this.rbtnDiffEasy.Name = "rbtnDiffEasy";
-			this.rbtnDiffEasy.Size = new System.Drawing.Size(121, 21);
-			this.rbtnDiffEasy.TabIndex = 4;
-			this.rbtnDiffEasy.TabStop = true;
-			this.rbtnDiffEasy.Text = "Difficulty: Easy";
-			this.rbtnDiffEasy.UseVisualStyleBackColor = true;
-			this.rbtnDiffEasy.CheckedChanged += new System.EventHandler(this.rbtnDiffEasy_CheckedChanged);
-			// 
-			// rbtnDiffHard
-			// 
-			this.rbtnDiffHard.AutoSize = true;
-			this.rbtnDiffHard.Location = new System.Drawing.Point(7, 50);
-			this.rbtnDiffHard.Name = "rbtnDiffHard";
-			this.rbtnDiffHard.Size = new System.Drawing.Size(121, 21);
-			this.rbtnDiffHard.TabIndex = 5;
-			this.rbtnDiffHard.TabStop = true;
-			this.rbtnDiffHard.Text = "Difficulty: Hard";
-			this.rbtnDiffHard.UseVisualStyleBackColor = true;
-			this.rbtnDiffHard.CheckedChanged += new System.EventHandler(this.rbtnDiffHard_CheckedChanged);
-			// 
-			// rbtnDebug
-			// 
-			this.rbtnDebug.AutoSize = true;
-			this.rbtnDebug.Location = new System.Drawing.Point(7, 78);
-			this.rbtnDebug.Name = "rbtnDebug";
-			this.rbtnDebug.Size = new System.Drawing.Size(110, 21);
-			this.rbtnDebug.TabIndex = 6;
-			this.rbtnDebug.TabStop = true;
-			this.rbtnDebug.Text = "Debug Mode";
-			this.rbtnDebug.UseVisualStyleBackColor = true;
-			this.rbtnDebug.CheckedChanged += new System.EventHandler(this.rbtnDebug_CheckedChanged);
-			// 
-			// btnStartGame
-			// 
-			this.btnStartGame.Enabled = false;
-			this.btnStartGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnStartGame.Location = new System.Drawing.Point(6, 105);
-			this.btnStartGame.Name = "btnStartGame";
-			this.btnStartGame.Size = new System.Drawing.Size(228, 62);
-			this.btnStartGame.TabIndex = 7;
-			this.btnStartGame.Text = "Start Game";
-			this.btnStartGame.UseVisualStyleBackColor = true;
-			this.btnStartGame.Click += new System.EventHandler(this.btnStartGame_Click);
-			// 
 			// Battleship
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -3199,8 +3185,7 @@
 		private System.Windows.Forms.Button buttonResetAll;
 		private System.Windows.Forms.Button btnStartGame;
 		private System.Windows.Forms.RadioButton rbtnDebug;
-		private System.Windows.Forms.RadioButton rbtnDiffHard;
-		private System.Windows.Forms.RadioButton rbtnDiffEasy;
+		private System.Windows.Forms.RadioButton rbtnNormalMode;
 	}
 }
 
