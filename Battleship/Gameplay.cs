@@ -11,6 +11,7 @@ namespace Battleship
 		//Keeps track of number of moves
 		public static int numberOfMoves = 0;
 
+		//Count number of moves and write them out
 		public void MoveCounter()
 		{
 			numberOfMoves++;

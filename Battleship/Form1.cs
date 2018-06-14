@@ -41,11 +41,15 @@ namespace Battleship
 		#region PictureBox.Click events for gameboard two
 		private void pb2Pos00_Click(object sender, EventArgs e)
 		{
+			//Add one to number of moves
 			MoveCounter();
-			//Fire at chosen tile
+
+			//Fire at chosen tile, detect hit
 			HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos00);
 
-			//Check if the firing player has won
+			//Check if the firing player has made the winning move
+			//Set winnerDisplayLabel to display the winner if someone has won
+			//Disable both gameboards
 			if (WinnerCheck() == 1)
 			{
 				victoriousPlayer = 1;
@@ -67,8 +71,12 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
+				//Make the enemy fire at a random tile
 				randomEnemyFire();
+
 				//Check if enemy AI won
+				//Set winnerDisplayLabel to display the winner if someone has won
+				//Disable both gameboards
 				if (WinnerCheck() == 1)
 				{
 					victoriousPlayer = 1;
@@ -82,12 +90,16 @@ namespace Battleship
 					groupBox1.Enabled = groupBox2.Enabled = false;
 				}
 			}
+			//Disable the pressed button
 			pb2Pos00.Enabled = false;
 		}
 
 		private void pb2Pos01_Click(object sender, EventArgs e)
 		{
+			//Add one to number of moves
 			MoveCounter();
+
+			//Detect if tile is hit
 			HitDetectors.HitDetectorGameboardTwo(0, 1, ref pb2Pos01);
 
 			//Check if the firing player has won
@@ -112,6 +124,7 @@ namespace Battleship
 			}
 			else if (numberOfPlayers == 1)
 			{
+				//Make enemy fire at a random tile
 				randomEnemyFire();
 				//Check if enemy AI won
 				if (WinnerCheck() == 1)
@@ -4971,22 +4984,20 @@ namespace Battleship
 			Application.Restart();
 		}
 
+		//Normal mode radio button
 		private void rbtnDiffEasy_CheckedChanged(object sender, EventArgs e)
 		{
 			btnStartGame.Enabled = true;
 			difficulty = 'E';
 		}
 
-		private void rbtnDiffHard_CheckedChanged(object sender, EventArgs e)
-		{
-			btnStartGame.Enabled = true;
-			difficulty = 'H';
-		}
+		//Debug mode radio button
 		private void rbtnDebug_CheckedChanged(object sender, EventArgs e)
 		{
 			btnStartGame.Enabled = true;
 		}
 
+		//Start Game button
 		private void btnStartGame_Click(object sender, EventArgs e)
 		{
 			//Sets all positions to '0', as there aren't any ships on the gameboard yet
