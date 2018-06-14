@@ -238,6 +238,7 @@
 			this.pb2Pos20 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos30 = new System.Windows.Forms.PictureBox();
 			this.pb2Pos40 = new System.Windows.Forms.PictureBox();
+			this.lblMoveCounter = new System.Windows.Forms.Label();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos97)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pb1Pos78)).BeginInit();
@@ -1555,6 +1556,7 @@
 			// 
 			// groupBox3
 			// 
+			this.groupBox3.Controls.Add(this.lblMoveCounter);
 			this.groupBox3.Controls.Add(this.btnStartGame);
 			this.groupBox3.Controls.Add(this.rbtnDebug);
 			this.groupBox3.Controls.Add(this.rbtnNormalMode);
@@ -1619,7 +1621,7 @@
 			// 
 			this.winnerDisplayLabel.AutoSize = true;
 			this.winnerDisplayLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.winnerDisplayLabel.Location = new System.Drawing.Point(6, 186);
+			this.winnerDisplayLabel.Location = new System.Drawing.Point(101, 154);
 			this.winnerDisplayLabel.Name = "winnerDisplayLabel";
 			this.winnerDisplayLabel.Size = new System.Drawing.Size(99, 26);
 			this.winnerDisplayLabel.TabIndex = 2;
@@ -2756,6 +2758,16 @@
 			this.pb2Pos40.TabStop = false;
 			this.pb2Pos40.Click += new System.EventHandler(this.pb2Pos40_Click);
 			// 
+			// lblMoveCounter
+			// 
+			this.lblMoveCounter.AutoSize = true;
+			this.lblMoveCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.lblMoveCounter.Location = new System.Drawing.Point(6, 180);
+			this.lblMoveCounter.Name = "lblMoveCounter";
+			this.lblMoveCounter.Size = new System.Drawing.Size(209, 26);
+			this.lblMoveCounter.TabIndex = 8;
+			this.lblMoveCounter.Text = "Number of moves: 0";
+			// 
 			// Battleship
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -3186,6 +3198,7 @@
 		private System.Windows.Forms.Button btnStartGame;
 		private System.Windows.Forms.RadioButton rbtnDebug;
 		private System.Windows.Forms.RadioButton rbtnNormalMode;
+		private System.Windows.Forms.Label lblMoveCounter;
 	}
 }
 

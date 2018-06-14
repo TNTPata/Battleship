@@ -30,11 +30,10 @@ namespace Battleship
 
 		//Variable to check against for determining who has won
 		public static int victoriousPlayer;
-		
 
 		private void Battleship_Load(object sender, EventArgs e)
 		{
-			
+
 		}
 
 		//Naming rule:
@@ -42,6 +41,7 @@ namespace Battleship
 		#region PictureBox.Click events for gameboard two
 		private void pb2Pos00_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			//Fire at chosen tile
 			HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos00);
 
@@ -87,6 +87,7 @@ namespace Battleship
 
 		private void pb2Pos01_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 1, ref pb2Pos01);
 
 			//Check if the firing player has won
@@ -131,6 +132,7 @@ namespace Battleship
 
 		private void pb2Pos02_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 2, ref pb2Pos02);
 
 			//Check if the firing player has won
@@ -175,6 +177,7 @@ namespace Battleship
 
 		private void pb2Pos03_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 0, ref pb2Pos03);
 
 			//Check if the firing player has won
@@ -219,6 +222,7 @@ namespace Battleship
 
 		private void pb2Pos04_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 4, ref pb2Pos04);
 
 			//Check if the firing player has won
@@ -263,6 +267,7 @@ namespace Battleship
 
 		private void pb2Pos05_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 5, ref pb2Pos05);
 
 			//Check if the firing player has won
@@ -307,6 +312,7 @@ namespace Battleship
 
 		private void pb2Pos06_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 6, ref pb2Pos06);
 
 			//Check if the firing player has won
@@ -351,6 +357,7 @@ namespace Battleship
 
 		private void pb2Pos07_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 7, ref pb2Pos07);
 
 			//Check if the firing player has won
@@ -395,6 +402,7 @@ namespace Battleship
 
 		private void pb2Pos08_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 8, ref pb2Pos08);
 
 			//Check if the firing player has won
@@ -439,6 +447,7 @@ namespace Battleship
 
 		private void pb2Pos09_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(0, 9, ref pb2Pos09);
 
 			//Check if the firing player has won
@@ -483,6 +492,7 @@ namespace Battleship
 
 		private void pb2Pos10_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 0, ref pb2Pos10);
 
 			//Check if the firing player has won
@@ -527,6 +537,7 @@ namespace Battleship
 
 		private void pb2Pos11_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 1, ref pb2Pos11);
 
 			//Check if the firing player has won
@@ -571,6 +582,7 @@ namespace Battleship
 
 		private void pb2Pos12_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 2, ref pb2Pos12);
 
 			//Check if the firing player has won
@@ -615,6 +627,7 @@ namespace Battleship
 
 		private void pb2Pos13_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 3, ref pb2Pos13);
 
 			//Check if the firing player has won
@@ -659,6 +672,7 @@ namespace Battleship
 
 		private void pb2Pos14_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 5, ref pb2Pos14);
 
 			//Check if the firing player has won
@@ -703,6 +717,7 @@ namespace Battleship
 
 		private void pb2Pos15_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 5, ref pb2Pos15);
 
 			//Check if the firing player has won
@@ -747,6 +762,7 @@ namespace Battleship
 
 		private void pb2Pos16_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 6, ref pb2Pos16);
 
 			//Check if the firing player has won
@@ -791,6 +807,7 @@ namespace Battleship
 
 		private void pb2Pos17_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 7, ref pb2Pos17);
 
 			//Check if the firing player has won
@@ -835,6 +852,7 @@ namespace Battleship
 
 		private void pb2Pos18_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 8, ref pb2Pos18);
 
 			//Check if the firing player has won
@@ -879,6 +897,7 @@ namespace Battleship
 
 		private void pb2Pos19_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(1, 9, ref pb2Pos19);
 
 			//Check if the firing player has won
@@ -923,6 +942,7 @@ namespace Battleship
 
 		private void pb2Pos20_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 0, ref pb2Pos20);
 
 			//Check if the firing player has won
@@ -967,6 +987,7 @@ namespace Battleship
 
 		private void pb2Pos21_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 1, ref pb2Pos21);
 
 			//Check if the firing player has won
@@ -1011,6 +1032,7 @@ namespace Battleship
 
 		private void pb2Pos22_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 2, ref pb2Pos22);
 
 			//Check if the firing player has won
@@ -1055,6 +1077,7 @@ namespace Battleship
 
 		private void pb2Pos23_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 3, ref pb2Pos23);
 
 			//Check if the firing player has won
@@ -1099,6 +1122,7 @@ namespace Battleship
 
 		private void pb2Pos24_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 4, ref pb2Pos24);
 
 			//Check if the firing player has won
@@ -1143,6 +1167,7 @@ namespace Battleship
 
 		private void pb2Pos25_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 5, ref pb2Pos25);
 
 			//Check if the firing player has won
@@ -1187,6 +1212,7 @@ namespace Battleship
 
 		private void pb2Pos26_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 6, ref pb2Pos26);
 
 			//Check if the firing player has won
@@ -1231,6 +1257,7 @@ namespace Battleship
 
 		private void pb2Pos27_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 7, ref pb2Pos27);
 
 			//Check if the firing player has won
@@ -1275,6 +1302,7 @@ namespace Battleship
 
 		private void pb2Pos28_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 8, ref pb2Pos28);
 
 			//Check if the firing player has won
@@ -1319,6 +1347,7 @@ namespace Battleship
 
 		private void pb2Pos29_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(2, 9, ref pb2Pos29);
 
 			//Check if the firing player has won
@@ -1363,6 +1392,7 @@ namespace Battleship
 
 		private void pb2Pos30_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 0, ref pb2Pos30);
 
 			//Check if the firing player has won
@@ -1407,6 +1437,7 @@ namespace Battleship
 
 		private void pb2Pos31_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 1, ref pb2Pos31);
 
 			//Check if the firing player has won
@@ -1451,6 +1482,7 @@ namespace Battleship
 
 		private void pb2Pos32_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 2, ref pb2Pos32);
 
 			//Check if the firing player has won
@@ -1495,6 +1527,7 @@ namespace Battleship
 
 		private void pb2Pos33_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 3, ref pb2Pos33);
 
 			//Check if the firing player has won
@@ -1539,6 +1572,7 @@ namespace Battleship
 
 		private void pb2Pos34_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 4, ref pb2Pos34);
 
 			//Check if the firing player has won
@@ -1583,6 +1617,7 @@ namespace Battleship
 
 		private void pb2Pos35_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 5, ref pb2Pos35);
 
 			//Check if the firing player has won
@@ -1627,6 +1662,7 @@ namespace Battleship
 
 		private void pb2Pos36_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 6, ref pb2Pos36);
 
 			//Check if the firing player has won
@@ -1671,6 +1707,7 @@ namespace Battleship
 
 		private void pb2Pos37_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 7, ref pb2Pos37);
 
 			//Check if the firing player has won
@@ -1715,6 +1752,7 @@ namespace Battleship
 
 		private void pb2Pos38_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 8, ref pb2Pos38);
 
 			//Check if the firing player has won
@@ -1759,6 +1797,7 @@ namespace Battleship
 
 		private void pb2Pos39_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(3, 9, ref pb2Pos39);
 
 			//Check if the firing player has won
@@ -1766,11 +1805,13 @@ namespace Battleship
 			{
 				victoriousPlayer = 1;
 				winnerDisplayLabel.Text = "You";
+				groupBox1.Enabled = groupBox2.Enabled = false;
 			}
 			else if (WinnerCheck() == 2)
 			{
 				victoriousPlayer = 2;
 				winnerDisplayLabel.Text = "Enemy";
+				groupBox1.Enabled = groupBox2.Enabled = false;
 			}
 
 			//Switch players, or make the enemy fire back
@@ -1801,6 +1842,7 @@ namespace Battleship
 
 		private void pb2Pos40_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 0, ref pb2Pos40);
 
 			//Check if the firing player has won
@@ -1845,6 +1887,7 @@ namespace Battleship
 
 		private void pb2Pos41_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 1, ref pb2Pos41);
 
 			//Check if the firing player has won
@@ -1889,6 +1932,7 @@ namespace Battleship
 
 		private void pb2Pos42_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 2, ref pb2Pos42);
 
 			//Check if the firing player has won
@@ -1933,6 +1977,7 @@ namespace Battleship
 
 		private void pb2Pos43_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 3, ref pb2Pos43);
 
 			//Check if the firing player has won
@@ -1977,6 +2022,7 @@ namespace Battleship
 
 		private void pb2Pos44_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 4, ref pb2Pos44);
 
 			//Check if the firing player has won
@@ -2021,6 +2067,7 @@ namespace Battleship
 
 		private void pb2Pos45_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 5, ref pb2Pos45);
 
 			//Check if the firing player has won
@@ -2065,6 +2112,7 @@ namespace Battleship
 
 		private void pb2Pos46_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 6, ref pb2Pos46);
 
 			//Check if the firing player has won
@@ -2109,6 +2157,7 @@ namespace Battleship
 
 		private void pb2Pos47_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 7, ref pb2Pos47);
 
 			//Check if the firing player has won
@@ -2153,6 +2202,7 @@ namespace Battleship
 
 		private void pb2Pos48_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 8, ref pb2Pos48);
 
 			//Check if the firing player has won
@@ -2197,6 +2247,7 @@ namespace Battleship
 
 		private void pb2Pos49_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(4, 9, ref pb2Pos49);
 
 			//Check if the firing player has won
@@ -2241,6 +2292,7 @@ namespace Battleship
 
 		private void pb2Pos50_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 0, ref pb2Pos50);
 
 			//Check if the firing player has won
@@ -2285,6 +2337,7 @@ namespace Battleship
 
 		private void pb2Pos51_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 1, ref pb2Pos51);
 
 			//Check if the firing player has won
@@ -2329,6 +2382,7 @@ namespace Battleship
 
 		private void pb2Pos52_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 2, ref pb2Pos52);
 
 			//Check if the firing player has won
@@ -2373,6 +2427,7 @@ namespace Battleship
 
 		private void pb2Pos53_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 3, ref pb2Pos53);
 
 			//Check if the firing player has won
@@ -2417,6 +2472,7 @@ namespace Battleship
 
 		private void pb2Pos54_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 4, ref pb2Pos54);
 
 			//Check if the firing player has won
@@ -2461,6 +2517,7 @@ namespace Battleship
 
 		private void pb2Pos55_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 5, ref pb2Pos55);
 
 			//Check if the firing player has won
@@ -2505,6 +2562,7 @@ namespace Battleship
 
 		private void pb2Pos56_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 6, ref pb2Pos56);
 
 			//Check if the firing player has won
@@ -2549,6 +2607,7 @@ namespace Battleship
 
 		private void pb2Pos57_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 7, ref pb2Pos57);
 
 			//Check if the firing player has won
@@ -2593,6 +2652,7 @@ namespace Battleship
 
 		private void pb2Pos58_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 8, ref pb2Pos58);
 
 			//Check if the firing player has won
@@ -2637,6 +2697,7 @@ namespace Battleship
 
 		private void pb2Pos59_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(5, 9, ref pb2Pos59);
 
 			//Check if the firing player has won
@@ -2681,6 +2742,7 @@ namespace Battleship
 
 		private void pb2Pos60_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 0, ref pb2Pos60);
 
 			//Check if the firing player has won
@@ -2725,6 +2787,7 @@ namespace Battleship
 
 		private void pb2Pos61_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 1, ref pb2Pos61);
 
 			//Check if the firing player has won
@@ -2769,6 +2832,7 @@ namespace Battleship
 
 		private void pb2Pos62_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 2, ref pb2Pos62);
 
 			//Check if the firing player has won
@@ -2813,6 +2877,7 @@ namespace Battleship
 
 		private void pb2Pos63_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 3, ref pb2Pos63);
 
 			//Check if the firing player has won
@@ -2857,6 +2922,7 @@ namespace Battleship
 
 		private void pb2Pos64_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 4, ref pb2Pos64);
 
 			//Check if the firing player has won
@@ -2901,6 +2967,7 @@ namespace Battleship
 
 		private void pb2Pos65_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 5, ref pb2Pos65);
 
 			//Check if the firing player has won
@@ -2945,6 +3012,7 @@ namespace Battleship
 
 		private void pb2Pos66_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 6, ref pb2Pos66);
 
 			//Check if the firing player has won
@@ -2989,6 +3057,7 @@ namespace Battleship
 
 		private void pb2Pos67_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 7, ref pb2Pos67);
 
 			//Check if the firing player has won
@@ -3033,6 +3102,7 @@ namespace Battleship
 
 		private void pb2Pos68_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 8, ref pb2Pos68);
 
 			//Check if the firing player has won
@@ -3077,6 +3147,7 @@ namespace Battleship
 
 		private void pb2Pos69_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(6, 9, ref pb2Pos69);
 
 			//Check if the firing player has won
@@ -3121,6 +3192,7 @@ namespace Battleship
 
 		private void pb2Pos70_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 0, ref pb2Pos70);
 
 			//Check if the firing player has won
@@ -3165,6 +3237,7 @@ namespace Battleship
 
 		private void pb2Pos71_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 1, ref pb2Pos71);
 
 			//Check if the firing player has won
@@ -3209,6 +3282,7 @@ namespace Battleship
 
 		private void pb2Pos72_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 2, ref pb2Pos72);
 
 			//Check if the firing player has won
@@ -3253,6 +3327,7 @@ namespace Battleship
 
 		private void pb2Pos73_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 3, ref pb2Pos73);
 
 			//Check if the firing player has won
@@ -3297,6 +3372,7 @@ namespace Battleship
 
 		private void pb2Pos74_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 4, ref pb2Pos74);
 
 			//Check if the firing player has won
@@ -3341,6 +3417,7 @@ namespace Battleship
 
 		private void pb2Pos75_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 5, ref pb2Pos75);
 
 			//Check if the firing player has won
@@ -3385,6 +3462,7 @@ namespace Battleship
 
 		private void pb2Pos76_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 6, ref pb2Pos76);
 
 			//Check if the firing player has won
@@ -3429,6 +3507,7 @@ namespace Battleship
 
 		private void pb2Pos77_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 7, ref pb2Pos77);
 
 			//Check if the firing player has won
@@ -3473,6 +3552,7 @@ namespace Battleship
 
 		private void pb2Pos78_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 8, ref pb2Pos78);
 
 			//Check if the firing player has won
@@ -3517,6 +3597,7 @@ namespace Battleship
 
 		private void pb2Pos79_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(7, 9, ref pb2Pos79);
 
 			//Check if the firing player has won
@@ -3561,6 +3642,7 @@ namespace Battleship
 
 		private void pb2Pos80_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 0, ref pb2Pos80);
 
 			//Check if the firing player has won
@@ -3605,6 +3687,7 @@ namespace Battleship
 
 		private void pb2Pos81_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 1, ref pb2Pos81);
 
 			//Check if the firing player has won
@@ -3649,6 +3732,7 @@ namespace Battleship
 
 		private void pb2Pos82_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 2, ref pb2Pos82);
 
 			//Check if the firing player has won
@@ -3693,6 +3777,7 @@ namespace Battleship
 
 		private void pb2Pos83_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 3, ref pb2Pos83);
 
 			//Check if the firing player has won
@@ -3737,6 +3822,7 @@ namespace Battleship
 
 		private void pb2Pos84_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 4, ref pb2Pos84);
 
 			//Check if the firing player has won
@@ -3781,6 +3867,7 @@ namespace Battleship
 
 		private void pb2Pos85_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 5, ref pb2Pos85);
 
 			//Check if the firing player has won
@@ -3825,6 +3912,7 @@ namespace Battleship
 
 		private void pb2Pos86_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 6, ref pb2Pos86);
 
 			//Check if the firing player has won
@@ -3869,6 +3957,7 @@ namespace Battleship
 
 		private void pb2Pos87_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 7, ref pb2Pos87);
 
 			//Check if the firing player has won
@@ -3913,6 +4002,7 @@ namespace Battleship
 
 		private void pb2Pos88_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 8, ref pb2Pos88);
 
 			//Check if the firing player has won
@@ -3957,6 +4047,7 @@ namespace Battleship
 
 		private void pb2Pos89_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(8, 9, ref pb2Pos89);
 
 			//Check if the firing player has won
@@ -4001,6 +4092,7 @@ namespace Battleship
 
 		private void pb2Pos90_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 0, ref pb2Pos90);
 
 			//Check if the firing player has won
@@ -4045,6 +4137,7 @@ namespace Battleship
 
 		private void pb2Pos91_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 1, ref pb2Pos91);
 
 			//Check if the firing player has won
@@ -4089,6 +4182,7 @@ namespace Battleship
 
 		private void pb2Pos92_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 2, ref pb2Pos92);
 
 			//Check if the firing player has won
@@ -4133,6 +4227,7 @@ namespace Battleship
 
 		private void pb2Pos93_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 3, ref pb2Pos93);
 
 			//Check if the firing player has won
@@ -4177,6 +4272,7 @@ namespace Battleship
 
 		private void pb2Pos94_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 4, ref pb2Pos94);
 
 			//Check if the firing player has won
@@ -4221,6 +4317,7 @@ namespace Battleship
 
 		private void pb2Pos95_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 5, ref pb2Pos95);
 
 			//Check if the firing player has won
@@ -4265,6 +4362,7 @@ namespace Battleship
 
 		private void pb2Pos96_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 6, ref pb2Pos96);
 
 			//Check if the firing player has won
@@ -4309,6 +4407,7 @@ namespace Battleship
 
 		private void pb2Pos97_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 7, ref pb2Pos97);
 
 			//Check if the firing player has won
@@ -4353,6 +4452,7 @@ namespace Battleship
 
 		private void pb2Pos98_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos98);
 
 			//Check if the firing player has won
@@ -4397,6 +4497,7 @@ namespace Battleship
 
 		private void pb2Pos99_Click(object sender, EventArgs e)
 		{
+			MoveCounter();
 			HitDetectors.HitDetectorGameboardTwo(9, 9, ref pb2Pos99);
 
 			//Check if the firing player has won
