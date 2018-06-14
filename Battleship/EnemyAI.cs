@@ -44,7 +44,7 @@ namespace Battleship
 				if (alreadyFiredAt.Contains(positionToHit))
 				{
 					alreadyFiredAt.Add(positionToHit);
-					positionToHit = rnd.Next(0, 101);
+					positionToHit = rnd.Next(101);
 				}
 				else
 				{
