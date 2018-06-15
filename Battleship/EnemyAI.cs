@@ -62,7 +62,7 @@ namespace Battleship
 			//tempInitialHit is not used
 			switch (positionToHit)
 			{
-				case 1:
+				case 0:
 					{
 						if (playerOneGameboard[0,0] != '0')
 						{
@@ -77,7 +77,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 2:
+				case 1:
 					{
 						if (playerOneGameboard[0, 1] != '0')
 						{
@@ -92,7 +92,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 3:
+				case 2:
 					{
 						if (playerOneGameboard[0, 2] != '0')
 						{
@@ -107,7 +107,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 4:
+				case 3:
 					{
 						if (playerOneGameboard[0, 3] != '0')
 						{
@@ -122,7 +122,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 5:
+				case 4:
 					{
 						if (playerOneGameboard[0, 4] != '0')
 						{
@@ -137,7 +137,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 6:
+				case 5:
 					{
 						if (playerOneGameboard[0, 5] != '0')
 						{
@@ -152,7 +152,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 7:
+				case 6:
 					{
 						if (playerOneGameboard[0, 6] != '0')
 						{
@@ -167,7 +167,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 8:
+				case 7:
 					{
 						if (playerOneGameboard[0, 7] != '0')
 						{
@@ -182,7 +182,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 9:
+				case 8:
 					{
 						if (playerOneGameboard[0, 8] != '0')
 						{
@@ -197,7 +197,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 10:
+				case 9:
 					{
 						if (playerOneGameboard[0, 9] != '0')
 						{
@@ -212,7 +212,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 11:
+				case 10:
 					{
 						if (playerOneGameboard[1, 0] != '0')
 						{
@@ -227,7 +227,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 12:
+				case 11:
 					{
 						if (playerOneGameboard[1, 1] != '0')
 						{
@@ -242,7 +242,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 13:
+				case 12:
 					{
 						if (playerOneGameboard[1, 2] != '0')
 						{
@@ -257,7 +257,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 14:
+				case 13:
 					{
 						if (playerOneGameboard[1, 3] != '0')
 						{
@@ -272,7 +272,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 15:
+				case 14:
 					{
 						if (playerOneGameboard[1, 4] != '0')
 						{
@@ -287,7 +287,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 16:
+				case 15:
 					{
 						if (playerOneGameboard[1, 5] != '0')
 						{
@@ -302,7 +302,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 17:
+				case 16:
 					{
 						if (playerOneGameboard[1, 6] != '0')
 						{
@@ -317,7 +317,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 18:
+				case 17:
 					{
 						if (playerOneGameboard[1, 7] != '0')
 						{
@@ -332,7 +332,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 19:
+				case 18:
 					{
 						if (playerOneGameboard[1, 8] != '0')
 						{
@@ -347,7 +347,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 20:
+				case 19:
 					{
 						if (playerOneGameboard[1, 9] != '0')
 						{
@@ -362,7 +362,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 21:
+				case 20:
 					{
 						if (playerOneGameboard[2, 0] != '0')
 						{
@@ -377,7 +377,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 22:
+				case 21:
 					{
 						if (playerOneGameboard[2, 1] != '0')
 						{
@@ -392,7 +392,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 23:
+				case 22:
 					{
 						if (playerOneGameboard[2, 2] != '0')
 						{
@@ -407,7 +407,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 24:
+				case 23:
 					{
 						if (playerOneGameboard[2, 3] != '0')
 						{
@@ -422,7 +422,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 25:
+				case 24:
 					{
 						if (playerOneGameboard[2, 4] != '0')
 						{
@@ -437,7 +437,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 26:
+				case 25:
 					{
 						if (playerOneGameboard[2, 5] != '0')
 						{
@@ -452,7 +452,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 27:
+				case 26:
 					{
 						if (playerOneGameboard[2, 6] != '0')
 						{
@@ -467,7 +467,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 28:
+				case 27:
 					{
 						if (playerOneGameboard[2, 7] != '0')
 						{
@@ -482,7 +482,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 29:
+				case 28:
 					{
 						if (playerOneGameboard[2, 8] != '0')
 						{
@@ -497,7 +497,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 30:
+				case 29:
 					{
 						if (playerOneGameboard[2, 9] != '0')
 						{
@@ -512,7 +512,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 31:
+				case 30:
 					{
 						if (playerOneGameboard[3, 0] != '0')
 						{
@@ -527,7 +527,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 32:
+				case 31:
 					{
 						if (playerOneGameboard[3, 1] != '0')
 						{
@@ -542,7 +542,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 33:
+				case 32:
 					{
 						if (playerOneGameboard[3, 2] != '0')
 						{
@@ -557,7 +557,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 34:
+				case 33:
 					{
 						if (playerOneGameboard[3, 3] != '0')
 						{
@@ -572,7 +572,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 35:
+				case 34:
 					{
 						if (playerOneGameboard[3, 4] != '0')
 						{
@@ -587,7 +587,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 36:
+				case 35:
 					{
 						if (playerOneGameboard[3, 5] != '0')
 						{
@@ -602,7 +602,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 37:
+				case 36:
 					{
 						if (playerOneGameboard[3, 6] != '0')
 						{
@@ -617,7 +617,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 38:
+				case 37:
 					{
 						if (playerOneGameboard[3, 7] != '0')
 						{
@@ -632,7 +632,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 39:
+				case 38:
 					{
 						if (playerOneGameboard[3, 8] != '0')
 						{
@@ -647,7 +647,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 40:
+				case 39:
 					{
 						if (playerOneGameboard[3, 9] != '0')
 						{
@@ -662,7 +662,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 41:
+				case 40:
 					{
 						if (playerOneGameboard[4, 0] != '0')
 						{
@@ -677,7 +677,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 42:
+				case 41:
 					{
 						if (playerOneGameboard[4, 1] != '0')
 						{
@@ -692,7 +692,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 43:
+				case 42:
 					{
 						if (playerOneGameboard[4, 2] != '0')
 						{
@@ -707,7 +707,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 44:
+				case 43:
 					{
 						if (playerOneGameboard[4, 3] != '0')
 						{
@@ -722,7 +722,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 45:
+				case 44:
 					{
 						if (playerOneGameboard[4, 4] != '0')
 						{
@@ -737,7 +737,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 46:
+				case 45:
 					{
 						if (playerOneGameboard[4, 5] != '0')
 						{
@@ -752,7 +752,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 47:
+				case 46:
 					{
 						if (playerOneGameboard[4, 6] != '0')
 						{
@@ -767,7 +767,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 48:
+				case 47:
 					{
 						if (playerOneGameboard[4, 7] != '0')
 						{
@@ -782,7 +782,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 49:
+				case 48:
 					{
 						if (playerOneGameboard[4, 8] != '0')
 						{
@@ -797,7 +797,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 50:
+				case 49:
 					{
 						if (playerOneGameboard[4, 9] != '0')
 						{
@@ -812,7 +812,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 51:
+				case 50:
 					{
 						if (playerOneGameboard[5, 0] != '0')
 						{
@@ -827,7 +827,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 52:
+				case 51:
 					{
 						if (playerOneGameboard[5, 1] != '0')
 						{
@@ -842,7 +842,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 53:
+				case 52:
 					{
 						if (playerOneGameboard[5, 2] != '0')
 						{
@@ -857,7 +857,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 54:
+				case 53:
 					{
 						if (playerOneGameboard[5, 3] != '0')
 						{
@@ -872,7 +872,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 55:
+				case 54:
 					{
 						if (playerOneGameboard[5, 4] != '0')
 						{
@@ -887,7 +887,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 56:
+				case 55:
 					{
 						if (playerOneGameboard[5, 5] != '0')
 						{
@@ -902,7 +902,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 57:
+				case 56:
 					{
 						if (playerOneGameboard[5, 6] != '0')
 						{
@@ -917,7 +917,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 58:
+				case 57:
 					{
 						if (playerOneGameboard[5, 7] != '0')
 						{
@@ -932,7 +932,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 59:
+				case 58:
 					{
 						if (playerOneGameboard[5, 8] != '0')
 						{
@@ -947,7 +947,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 60:
+				case 59:
 					{
 						if (playerOneGameboard[5, 9] != '0')
 						{
@@ -962,7 +962,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 61:
+				case 60:
 					{
 						if (playerOneGameboard[6, 0] != '0')
 						{
@@ -977,7 +977,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 62:
+				case 61:
 					{
 						if (playerOneGameboard[6, 1] != '0')
 						{
@@ -992,7 +992,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 63:
+				case 62:
 					{
 						if (playerOneGameboard[6, 2] != '0')
 						{
@@ -1007,7 +1007,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 64:
+				case 63:
 					{
 						if (playerOneGameboard[6, 3] != '0')
 						{
@@ -1022,7 +1022,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 65:
+				case 64:
 					{
 						if (playerOneGameboard[6, 4] != '0')
 						{
@@ -1037,7 +1037,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 66:
+				case 65:
 					{
 						if (playerOneGameboard[6, 5] != '0')
 						{
@@ -1052,7 +1052,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 67:
+				case 66:
 					{
 						if (playerOneGameboard[6, 6] != '0')
 						{
@@ -1067,7 +1067,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 68:
+				case 67:
 					{
 						if (playerOneGameboard[6, 7] != '0')
 						{
@@ -1082,7 +1082,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 69:
+				case 68:
 					{
 						if (playerOneGameboard[6, 8] != '0')
 						{
@@ -1097,7 +1097,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 70:
+				case 69:
 					{
 						if (playerOneGameboard[6, 9] != '0')
 						{
@@ -1112,7 +1112,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 71:
+				case 70:
 					{
 						if (playerOneGameboard[7, 0] != '0')
 						{
@@ -1127,7 +1127,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 72:
+				case 71:
 					{
 						if (playerOneGameboard[7, 1] != '0')
 						{
@@ -1142,7 +1142,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 73:
+				case 72:
 					{
 						if (playerOneGameboard[7, 2] != '0')
 						{
@@ -1157,7 +1157,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 74:
+				case 73:
 					{
 						if (playerOneGameboard[7, 3] != '0')
 						{
@@ -1172,7 +1172,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 75:
+				case 74:
 					{
 						if (playerOneGameboard[7, 4] != '0')
 						{
@@ -1187,7 +1187,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 76:
+				case 75:
 					{
 						if (playerOneGameboard[7, 5] != '0')
 						{
@@ -1202,7 +1202,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 77:
+				case 76:
 					{
 						if (playerOneGameboard[7, 6] != '0')
 						{
@@ -1217,7 +1217,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 78:
+				case 77:
 					{
 						if (playerOneGameboard[7, 7] != '0')
 						{
@@ -1232,7 +1232,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 79:
+				case 78:
 					{
 						if (playerOneGameboard[7, 8] != '0')
 						{
@@ -1247,7 +1247,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 80:
+				case 79:
 					{
 						if (playerOneGameboard[7, 9] != '0')
 						{
@@ -1262,7 +1262,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 81:
+				case 80:
 					{
 						if (playerOneGameboard[8, 0] != '0')
 						{
@@ -1277,7 +1277,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 82:
+				case 81:
 					{
 						if (playerOneGameboard[8, 1] != '0')
 						{
@@ -1292,7 +1292,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 83:
+				case 82:
 					{
 						if (playerOneGameboard[8, 2] != '0')
 						{
@@ -1307,7 +1307,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 84:
+				case 83:
 					{
 						if (playerOneGameboard[8, 3] != '0')
 						{
@@ -1322,7 +1322,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 85:
+				case 84:
 					{
 						if (playerOneGameboard[8, 4] != '0')
 						{
@@ -1337,7 +1337,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 86:
+				case 85:
 					{
 						if (playerOneGameboard[8, 5] != '0')
 						{
@@ -1352,7 +1352,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 87:
+				case 86:
 					{
 						if (playerOneGameboard[8, 6] != '0')
 						{
@@ -1367,7 +1367,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 88:
+				case 87:
 					{
 						if (playerOneGameboard[8, 7] != '0')
 						{
@@ -1382,7 +1382,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 89:
+				case 88:
 					{
 						if (playerOneGameboard[8, 8] != '0')
 						{
@@ -1397,7 +1397,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 90:
+				case 89:
 					{
 						if (playerOneGameboard[8, 9] != '0')
 						{
@@ -1412,7 +1412,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 91:
+				case 90:
 					{
 						if (playerOneGameboard[9, 0] != '0')
 						{
@@ -1427,7 +1427,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 92:
+				case 91:
 					{
 						if (playerOneGameboard[9, 1] != '0')
 						{
@@ -1442,7 +1442,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 93:
+				case 92:
 					{
 						if (playerOneGameboard[9, 2] != '0')
 						{
@@ -1457,7 +1457,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 94:
+				case 93:
 					{
 						if (playerOneGameboard[9, 3] != '0')
 						{
@@ -1472,7 +1472,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 95:
+				case 94:
 					{
 						if (playerOneGameboard[9, 4] != '0')
 						{
@@ -1487,7 +1487,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 96:
+				case 95:
 					{
 						if (playerOneGameboard[9, 5] != '0')
 						{
@@ -1502,7 +1502,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 97:
+				case 96:
 					{
 						if (playerOneGameboard[9, 6] != '0')
 						{
@@ -1517,7 +1517,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 98:
+				case 97:
 					{
 						if (playerOneGameboard[9, 7] != '0')
 						{
@@ -1532,7 +1532,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 99:
+				case 98:
 					{
 						if (playerOneGameboard[9, 8] != '0')
 						{
@@ -1547,7 +1547,7 @@ namespace Battleship
 							break;
 						}
 					}
-				case 100:
+				case 99:
 					{
 						if (playerOneGameboard[9, 9] != '0')
 						{
