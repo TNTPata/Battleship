@@ -23,6 +23,7 @@ namespace Battleship
 		}
 
 		//Sets difficulty
+		//Not used
 		public static char difficulty = ' ';
 
 		//i.e. singleplayer or multiplayer
