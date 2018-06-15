@@ -39,7 +39,7 @@ namespace Battleship
 
 		//Naming rule:
 		//pb(gameboard#)Pos(X)(Y)
-		#region PictureBox.Click events for gameboard two
+		#region PictureBox_Click events for gameboard two
 		private void pb2Pos00_Click(object sender, EventArgs e)
 		{
 			//Add one to number of moves
